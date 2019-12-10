@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\m_vah\IdeaProjects\leet_code_project" />
+        <option value="C:\Users\m_vah\IdeaProjects\leet_code_project\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UOJNLcNC1fXQycanzEyOUSD7aX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BLDirectedGraphPaths">
+    <configuration name="BLCustomStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BLCustomStack" />
+      <module name="leet_code_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BLDirectedGraphPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BLDirectedGraphPaths" />
+      <module name="leet_code_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GODominoRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GODominoRotations" />
+      <module name="leet_code_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GODuplicateZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GODuplicateZeros" />
+      <module name="leet_code_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="leet_code_project" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.GODuplicateZeros" />
+      <item itemvalue="Application.GODominoRotations" />
+      <item itemvalue="Application.BLCustomStack" />
+      <item itemvalue="Application.BLDirectedGraphPaths" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BLDirectedGraphPaths" />
+        <item itemvalue="Application.BLCustomStack" />
+        <item itemvalue="Application.GODominoRotations" />
+        <item itemvalue="Application.GODuplicateZeros" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="" />
+      <created>1575221667397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575221667397</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding BL custom stack and directed graph paths solutions.">
+      <created>1575342776972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575342776972</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit the full project.">
+      <created>1575935894269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575935894269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding BL custom stack and directed graph paths solutions." />
+    <MESSAGE value="Commit the full project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit the full project." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="600" y="88" key="CommitChangelistDialog2" timestamp="1575935891421">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state x="600" y="88" key="CommitChangelistDialog2/0.0.1920.989@0.0.1920.989" timestamp="1575935891421" />
+    <state x="579" y="328" width="666" height="355" key="Github.ShareDialog" timestamp="1575227082375">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="579" y="328" width="666" height="355" key="Github.ShareDialog/0.0.1440.870@0.0.1440.870" timestamp="1575227082375" />
+    <state x="475" y="140" key="Github.UntrackedFilesDialog" timestamp="1575227107202">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="475" y="140" key="Github.UntrackedFilesDialog/0.0.1440.870@0.0.1440.870" timestamp="1575227107202" />
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.0.bottom/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.0.center" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.0.center/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.0.center/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.0.left" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.0.left/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.0.left/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.0.right" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.0.right/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.0.right/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.1.bottom" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.1.bottom/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.1.bottom/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.1.center" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.1.center/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.1.center/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.1.left" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.1.left/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.1.left/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state width="1878" height="327" key="GridCell.Tab.1.right" timestamp="1575342787126">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state width="1398" height="280" key="GridCell.Tab.1.right/0.0.1440.870@0.0.1440.870" timestamp="1575227148759" />
+    <state width="1878" height="327" key="GridCell.Tab.1.right/0.0.1920.989@0.0.1920.989" timestamp="1575342787126" />
+    <state x="553" y="227" key="Vcs.Push.Dialog.v2" timestamp="1575935897444">
+      <screen x="0" y="0" width="1920" height="989" />
+    </state>
+    <state x="553" y="227" key="Vcs.Push.Dialog.v2/0.0.1920.989@0.0.1920.989" timestamp="1575935897444" />
+    <state x="285" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1575227043983">
+      <screen x="0" y="0" width="1440" height="870" />
+    </state>
+    <state x="285" y="170" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.870@0.0.1440.870" timestamp="1575227043983" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BLCustomStack.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BLCustomStack.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
