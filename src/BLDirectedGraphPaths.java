@@ -1,9 +1,9 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class BLDirectedGraphPaths {
+
+    Map<Integer, Set<Integer>> keyConnectedToValues = new HashMap<>();
+    List<List<Integer>> paths = new LinkedList<>();
 
     /*
 Example:
@@ -19,38 +19,49 @@ There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
 
     public static void main(String[] args) {
         int[][] input = {
-                {0, 1, 1, 0},
-                {0, 0, 0, 1},
-                {0, 0, 0, 1},
-                {0, 0, 0, 0}
+                {1, 2},
+                {3},
+                {3},
+                {}
         };
-        List<List<Integer>> result = allPathsSourceTarget(input);
+        BLDirectedGraphPaths blDirectedGraphPaths = new BLDirectedGraphPaths();
+        List<List<Integer>> result = blDirectedGraphPaths.allPathsSourceTarget(input);
+        System.out.println();
     }
 
-    public static List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        int n = graph.length;
-        int finalNode = graph.length - 1;
-        Queue<List<Integer>> q = new LinkedList<>();
-        List<List<Integer>> paths = new ArrayList<>();
-        List<Integer> initList = new LinkedList<>();
-        initList.add(0);
-        q.add(initList);
-        while (!q.isEmpty()) {
-            List<Integer> currentList = q.remove();
-            int lastNode = currentList.get(currentList.size() - 1);
-            for (int j = 0; j < n; j++) {
-                if (graph[lastNode][j] == 1 && j == finalNode) {
-                    List<Integer> tempList = new LinkedList<>(currentList);
-                    tempList.add(finalNode);
-                    paths.add(tempList);
-                } else if (graph[lastNode][j] == 1) {
-                    List<Integer> tempList = new LinkedList<>(currentList);
-                    tempList.add(j);
-                    q.add(tempList);
+    public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
+        for (int i = 0; i < graph.length; i++) {
+            for (int j = 0; j < graph[i].length; j++) {
+                if (keyConnectedToValues.containsKey(i)) {
+                    Set<Integer> tempSet = keyConnectedToValues.get(i);
+                    tempSet.add(graph[i][j]);
+                } else {
+                    Set<Integer> tempSet = new HashSet<>();
+                    tempSet.add(graph[i][j]);
+                    keyConnectedToValues.put(i, tempSet);
                 }
             }
         }
+        List<Integer> currentPath = new ArrayList<>();
+        currentPath.add(0);
+        exploreNodes(currentPath, 0, graph.length - 1);
         return paths;
+    }
+
+    public void exploreNodes(List<Integer> currentPath, int currentNode, int target) {
+        if (currentNode == target) {
+            paths.add(currentPath);
+        } else {
+            Set<Integer> possibleNodes = keyConnectedToValues.get(currentNode);
+            if (possibleNodes == null || possibleNodes.isEmpty()) {
+                return;
+            }
+            for (Integer n : possibleNodes) {
+                List<Integer> tempList = new ArrayList<>(currentPath);
+                tempList.add(n);
+                exploreNodes(tempList, n, target);
+            }
+        }
     }
 
 }
