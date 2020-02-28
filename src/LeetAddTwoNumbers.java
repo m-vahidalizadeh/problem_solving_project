@@ -25,34 +25,26 @@ Explanation: 342 + 465 = 807.
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        String s1 = "";
-        String s2 = "";
-        while (l1 != null) {
-            s1 = l1.val + s1;
-            l1 = l1.next;
-        }
-        while (l2 != null) {
-            s2 = l2.val + s2;
-            l2 = l2.next;
-        }
-        java.math.BigInteger n1 = new java.math.BigInteger(s1);
-        java.math.BigInteger n2 = new java.math.BigInteger(s2);
-        String resultS = String.valueOf(n1.add(n2).toString());
-        ListNode currentNode = null;
-        ListNode root = null;
-        for (int i = resultS.length() - 1; i >= 0; i--) {
-            String tempS = String.valueOf(resultS.charAt(i));
-            if (currentNode == null) {
-                ListNode newNode = new ListNode(Integer.valueOf(tempS));
-                root = newNode;
-                currentNode = newNode;
+        ListNode resultStart = null;
+        ListNode result = null;
+        int remaining = 0;
+        while (l1 != null || l2 != null) {
+            int n = (l1 != null ? l1.val : 0) + (l2 != null ? l2.val : 0) + remaining;
+            remaining = n / 10;
+            l1 = l1 != null ? l1.next : null;
+            l2 = l2 != null ? l2.next : null;
+            if (result == null) {
+                result = new ListNode(n % 10);
+                resultStart = result;
             } else {
-                ListNode newNode = new ListNode(Integer.valueOf(tempS));
-                currentNode.next = newNode;
-                currentNode = newNode;
+                result.next = new ListNode(n % 10);
+                result = result.next;
             }
         }
-        return root;
+        if (remaining > 0) {
+            result.next = new ListNode(remaining);
+        }
+        return resultStart;
     }
 
 }
