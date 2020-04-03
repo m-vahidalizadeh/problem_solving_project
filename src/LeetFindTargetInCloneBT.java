@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 public class LeetFindTargetInCloneBT {
 
     private boolean isFound;

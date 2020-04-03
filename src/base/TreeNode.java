@@ -1,14 +1,16 @@
+package base;
+
 public class TreeNode {
 
-    Integer val;
-    TreeNode left;
-    TreeNode right;
+    public Integer val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode(Integer x) {
+    public TreeNode(Integer x) {
         val = x;
     }
 
-    TreeNode(TreeNode treeNode) {
+    public TreeNode(TreeNode treeNode) {
         if (treeNode != null) {
             this.val = treeNode.val;
             this.left = new TreeNode(treeNode.left);

@@ -1,24 +1,26 @@
+import base.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class FBCompleteTree {
 
     /*
-    public class TreeNode {
+    public class base.TreeNode {
 
         Integer val;
-        TreeNode left;
-        TreeNode right;
+        base.TreeNode left;
+        base.TreeNode right;
 
-        TreeNode(Integer x) {
+        base.TreeNode(Integer x) {
             val = x;
         }
 
-        TreeNode(TreeNode treeNode) {
+        base.TreeNode(base.TreeNode treeNode) {
             if (treeNode != null) {
                 this.val = treeNode.val;
-                this.left = new TreeNode(treeNode.left);
-                this.right = new TreeNode(treeNode.right);
+                this.left = new base.TreeNode(treeNode.left);
+                this.right = new base.TreeNode(treeNode.right);
             }
         }
 

@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -5,11 +7,11 @@ import java.util.Map;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class base.TreeNode {
  * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
+ * base.TreeNode left;
+ * base.TreeNode right;
+ * base.TreeNode(int x) { val = x; }
  * }
  */
 public class FBBTVerticalTraverse {

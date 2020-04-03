@@ -1,12 +1,14 @@
+import base.TreeNode;
+
 import java.util.*;
 
 /**
  * Definition for a binary tree node.
- * public class TreeNode {
+ * public class base.TreeNode {
  * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
+ * base.TreeNode left;
+ * base.TreeNode right;
+ * base.TreeNode(int x) { val = x; }
  * }
  */
 
@@ -26,17 +28,17 @@ We return the node with value 2, colored in yellow in the diagram.
 The nodes colored in blue are the deepest nodes of the tree.
 The input "[3, 5, 1, 6, 2, 0, 8, null, null, 7, 4]" is a serialization of the given tree.
 The output "[2, 7, 4]" is a serialization of the subtree rooted at the node with value 2.
-Both the input and output have TreeNode type.
+Both the input and output have base.TreeNode type.
          */
-//        TreeNode node3 = new TreeNode(3);
-//        TreeNode node5 = new TreeNode(5);
-//        TreeNode node1 = new TreeNode(1);
-//        TreeNode node6 = new TreeNode(6);
-//        TreeNode node2 = new TreeNode(2);
-//        TreeNode node0 = new TreeNode(0);
-//        TreeNode node8 = new TreeNode(8);
-//        TreeNode node7 = new TreeNode(7);
-//        TreeNode node4 = new TreeNode(4);
+//        base.TreeNode node3 = new base.TreeNode(3);
+//        base.TreeNode node5 = new base.TreeNode(5);
+//        base.TreeNode node1 = new base.TreeNode(1);
+//        base.TreeNode node6 = new base.TreeNode(6);
+//        base.TreeNode node2 = new base.TreeNode(2);
+//        base.TreeNode node0 = new base.TreeNode(0);
+//        base.TreeNode node8 = new base.TreeNode(8);
+//        base.TreeNode node7 = new base.TreeNode(7);
+//        base.TreeNode node4 = new base.TreeNode(4);
 //        node3.left = node5;
 //        node3.right = node1;
 //        node1.right = node8;

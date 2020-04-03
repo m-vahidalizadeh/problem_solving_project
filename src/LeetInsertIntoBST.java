@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 public class LeetInsertIntoBST {
 
     boolean found = false;

@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 import java.util.Stack;
 
 public class BLFlattenBinaryTree {

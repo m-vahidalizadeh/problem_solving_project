@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 /**
  * Given the root of a binary search tree with distinct values, modify it so that every node has a new value equal to the sum of the values of the original tree that are greater than or equal to node.val.
  * <p>
@@ -16,36 +18,36 @@ public class BinarySearchTreeToGreaterSumTree {
 
     public static void main(String[] args) {
         /*
-public class TreeNode {
+public class base.TreeNode {
 
     Integer val;
-    TreeNode left;
-    TreeNode right;
+    base.TreeNode left;
+    base.TreeNode right;
 
-    TreeNode(Integer x) {
+    base.TreeNode(Integer x) {
         val = x;
     }
 
-    TreeNode(TreeNode treeNode) {
+    base.TreeNode(base.TreeNode treeNode) {
         if (treeNode != null) {
             this.val = treeNode.val;
-            this.left = new TreeNode(treeNode.left);
-            this.right = new TreeNode(treeNode.right);
+            this.left = new base.TreeNode(treeNode.left);
+            this.right = new base.TreeNode(treeNode.right);
         }
     }
 
 }
  */
         // Example 1
-//        TreeNode node0 = new TreeNode(0);
-//        TreeNode node1 = new TreeNode(1);
-//        TreeNode node2 = new TreeNode(2);
-//        TreeNode node3 = new TreeNode(3);
-//        TreeNode node4 = new TreeNode(4);
-//        TreeNode node5 = new TreeNode(5);
-//        TreeNode node6 = new TreeNode(6);
-//        TreeNode node7 = new TreeNode(7);
-//        TreeNode node8 = new TreeNode(8);
+//        base.TreeNode node0 = new base.TreeNode(0);
+//        base.TreeNode node1 = new base.TreeNode(1);
+//        base.TreeNode node2 = new base.TreeNode(2);
+//        base.TreeNode node3 = new base.TreeNode(3);
+//        base.TreeNode node4 = new base.TreeNode(4);
+//        base.TreeNode node5 = new base.TreeNode(5);
+//        base.TreeNode node6 = new base.TreeNode(6);
+//        base.TreeNode node7 = new base.TreeNode(7);
+//        base.TreeNode node8 = new base.TreeNode(8);
 //        node4.left = node1;
 //        node4.right = node6;
 //        node1.left = node0;
@@ -55,10 +57,10 @@ public class TreeNode {
 //        node6.left = node5;
 //        node7.right = node8;
         // Example 2
-//        TreeNode node1=new TreeNode(1);
-//        TreeNode node2=new TreeNode(2);
-//        TreeNode node3=new TreeNode(3);
-//        TreeNode node4=new TreeNode(4);
+//        base.TreeNode node1=new base.TreeNode(1);
+//        base.TreeNode node2=new base.TreeNode(2);
+//        base.TreeNode node3=new base.TreeNode(3);
+//        base.TreeNode node4=new base.TreeNode(4);
 //        node3.left=node2;
 //        node3.right=node4;
 //        node2.left=node1;

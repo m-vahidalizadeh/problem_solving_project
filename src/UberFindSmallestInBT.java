@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 import java.util.PriorityQueue;
 
 public class UberFindSmallestInBT {
