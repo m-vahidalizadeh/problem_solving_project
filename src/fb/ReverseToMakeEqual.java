@@ -83,7 +83,6 @@ public class ReverseToMakeEqual {
         String expected_2 = "No";
         String output_2 = areTheyEqual(array_a_2, array_b_2);
         check(expected_2, output_2);
-        // Add your own test cases here
     }
 
     public static void main(String[] args) {

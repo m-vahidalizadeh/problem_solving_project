@@ -116,8 +116,6 @@ public class MinimumLenghtSubstring {
         int expected_2 = -1;
         int output_2 = minLengthSubstring(s_2, t_2);
         check(expected_2, output_2);
-
-        // Add your own test cases here
     }
 
     public static void main(String[] args) throws IOException {

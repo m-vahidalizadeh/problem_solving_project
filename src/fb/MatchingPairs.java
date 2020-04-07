@@ -121,8 +121,6 @@ public class MatchingPairs {
         int expected_2 = 2;
         int output_2 = matchingPairs(s_2, t_2);
         check(expected_2, output_2);
-
-        // Add your own test cases here
     }
 
     public static void main(String[] args) {

@@ -104,8 +104,6 @@ public class ContiguousSubarrays {
         int[] expected_2 = {1, 2, 6, 1, 3, 1};
         int[] output_2 = countSubarrays(test_2);
         check(expected_2, output_2);
-
-        // Add your own test cases here
     }
 
     public static void main(String[] args) {
