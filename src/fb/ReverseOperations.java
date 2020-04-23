@@ -13,12 +13,12 @@ import java.util.Stack;
  * The goal of this question is: given a resulting list, determine the original order of the elements.
  * Implementation detail:
  * You must use the following definition for elements in the linked list:
- * class Node {
+ * class base.Node {
  * int data;
- * Node next;
+ * base.Node next;
  * }
  * Signature
- * Node reverse(Node head)
+ * base.Node reverse(base.Node head)
  * Constraints
  * 1 <= N <= 1000, where N is the size of the list
  * 1 <= Li <= 10^9, where Li is the ith element of the list

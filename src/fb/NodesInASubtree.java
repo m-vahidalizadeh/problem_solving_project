@@ -8,7 +8,7 @@ import java.util.*;
  * You are given a tree that contains N nodes, each containing one lowercase letter of string s.
  * You are required to answer Q queries of type [u, c], where u is an integer and c is a lowercase letter. The query result is the number of nodes in the subtree of node u containing c.
  * Signature
- * int[] countOfNodes(Node root, ArrayList<Query> queries, String s)
+ * int[] countOfNodes(base.Node root, ArrayList<Query> queries, String s)
  * Input
  * A pointer to the root node, an array list containing Q queries of type [u, c], and a string s
  * Constraints
@@ -16,7 +16,7 @@ import java.util.*;
  * u is an integer between 1 and N
  * s is of the length of N, containing only lowercase letters
  * c is a lowercase letter contained in string s
- * Node 1 is the root of the tree
+ * base.Node 1 is the root of the tree
  * Output
  * An integer array containing the response to each query
  * Example
@@ -27,11 +27,11 @@ import java.util.*;
  * RootNode = 1
  * query = [[1, 'a']]
  * output = [2]
- * Both Node 1 and Node 3 contain 'a', so the number of nodes within the subtree of Node 1 containing 'a' is 2.
+ * Both base.Node 1 and base.Node 3 contain 'a', so the number of nodes within the subtree of base.Node 1 containing 'a' is 2.
  */
 public class NodesInASubtree {
 
-    // Tree Node
+    // Tree base.Node
     class Node {
         public int val;
         public List<Node> children;

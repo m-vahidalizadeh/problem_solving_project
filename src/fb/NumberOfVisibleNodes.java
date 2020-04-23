@@ -6,7 +6,7 @@ import java.io.*;
  * Number of Visible Nodes
  * There is a binary tree with N nodes. You are viewing the tree from its left side and can see only the leftmost nodes at each level. Return the number of visible nodes.
  * Signature
- * int visibleNodes(Node root) {
+ * int visibleNodes(base.Node root) {
  * Input
  * The root node of a tree, where the number of nodes is between 1 and 1000, and the value of each node is between 0 and 10,000,000,000
  * Output
