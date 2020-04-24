@@ -2,8 +2,8 @@ package base;
 
 public class Pair {
 
-    Integer x;
-    Integer y;
+    public Integer x;
+    public Integer y;
 
     public Pair(Integer x, Integer y) {
         this.x = x;
