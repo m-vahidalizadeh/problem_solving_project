@@ -1,5 +1,7 @@
 package leetcode.medium;
 
+import leetcode.base.Utils;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,33 +43,45 @@ import java.util.Map;
 public class QueriesOnAPermutationWithKey {
 
     public int[] processQueries(int[] queries, int m) {
-        Map<Integer, Integer> locations = new HashMap<>();
-        // Initialization
-        int[] result = new int[m];
-        for (int i = 0; i < m; i++) {
-            result[i] = i;
-            locations.put(i, i);
-        }
+        HashMap<Integer, Integer> positions = getInitialPositionsMap(m);
         int n = queries.length;
-        for (int i = 0; i < n; i++) {
-            // Process the current query
-            int currentQuery = queries[i];
-            int currentLocation = locations.get(currentQuery);
-            // Indexes 0 to currentLocation-1 should be shifted to right 1 location. Current query should be moved to 0.
-            for (int j = currentLocation - 1; j >= 0; j--) {
-                locations.put(result[j], j + 1);
-                result[j + 1] = result[j];
-            }
-            result[0] = currentQuery;
-            locations.put(currentQuery, 0);
+        int[] result = new int[n];
+        int index = 0;
+        for (int currentQuery : queries) {
+            int currentPosition = positions.get(currentQuery);
+            result[index++] = currentPosition;
+            updatePositionsMap(positions, currentQuery, currentPosition);
         }
         return result;
     }
 
+    private void updatePositionsMap(HashMap<Integer, Integer> positions, int currentQuery, int currentPosition) {
+        positions.put(currentQuery, 0);
+        for (Map.Entry<Integer, Integer> e : positions.entrySet()) {
+            if (e.getKey() != currentQuery && e.getValue() < currentPosition)
+                positions.put(e.getKey(), e.getValue() + 1);
+        }
+    }
+
+    private HashMap<Integer, Integer> getInitialPositionsMap(int m) {
+        HashMap<Integer, Integer> positions = new HashMap<>();
+        for (int i = 0; i < m; i++) {
+            positions.put(i + 1, i);
+        }
+        return positions;
+    }
+
     public static void main(String[] args) {
         QueriesOnAPermutationWithKey queriesOnAPermutationWithKey = new QueriesOnAPermutationWithKey();
-        int[] input1 = {4, 1, 2, 2};
-        int[] input2 = {7, 5, 5, 8, 3};
+        int[] input1 = {3, 1, 2, 1};
+        int[] result1 = queriesOnAPermutationWithKey.processQueries(input1, 5);
+        Utils.printArray(result1);
+        int[] input2 = {4, 1, 2, 2};
+        int[] result2 = queriesOnAPermutationWithKey.processQueries(input2, 4);
+        Utils.printArray(result2);
+        int[] input3 = {7, 5, 5, 8, 3};
+        int[] result3 = queriesOnAPermutationWithKey.processQueries(input3, 8);
+        Utils.printArray(result3);
     }
 
 }
