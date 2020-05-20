@@ -1,4 +1,4 @@
-package leetcode.fb;
+package leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -25,7 +25,7 @@ import static leetcode.base.Utils.printArray;
  * 0 <= A[i].start, A[i].end, B[i].start, B[i].end < 10^9
  * NOTE: input types have been changed on April 15, 2019. Please reset to default code definition to get new method signature.
  */
-public class IntervalsIntersections {
+public class IntervalListIntersections {
 
     class Interval {
         int start;
@@ -107,7 +107,7 @@ public class IntervalsIntersections {
     }
 
     public static void main(String[] args) {
-        IntervalsIntersections i = new IntervalsIntersections();
+        IntervalListIntersections i = new IntervalListIntersections();
 //        int[][] A = {{0, 2}, {5, 10}, {13, 23}, {24, 25}};
 //        int[][] B = {{1, 5}, {8, 12}, {15, 24}, {25, 26}};
 //        printArray(i.intervalIntersection(A, B));
