@@ -20,7 +20,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/ConstructBTFromPreAndPostTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hackerrank/FlippingBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hackerrank/FlippingBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBDefangedIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBDefangedIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBEInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBEInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBEMyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBEMyHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBQuadruplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBQuadruplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/adobe/ADBThreadSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/adobe/ADBThreadSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNBTLevelTraversalLTR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNBTLevelTraversalLTR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNFloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNFloodFill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNIdenticalPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNIdenticalPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNInsufficientNodesBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNInsufficientNodesBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNLongestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/amazon/AMZNTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/AMZNTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/apple/AAPLBinaryTargetFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/apple/AAPLBinaryTargetFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/apple/AAPLMajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/apple/AAPLMajorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLBTCousins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLBTCousins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLCustomStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLCustomStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLDirectedGraphPaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLDirectedGraphPaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLFlattenBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLFlattenBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLKMostFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLKMostFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLMaxProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLMaxProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLMaxStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLMaxStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLPathsFrom0ToNMinusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLPathsFrom0ToNMinusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLRemoveValFromLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLRemoveValFromLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/bloomberg/BLSortedCircularArraySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/BLSortedCircularArraySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBBTVerticalTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBBTVerticalTraverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBBulbsToggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBBulbsToggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBCheckCompletenessOfBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBCheckCompletenessOfBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBCompleteTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBCompleteTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBFindDeepestSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBFindDeepestSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBFindIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBFindIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBIntAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBIntAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBLongestArithmaticSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBLongestArithmaticSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBMoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBMoveZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBSubarraySumK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBSubarraySumK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/facebook/FBSumRectInMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FBSumRectInMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/BalancedSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/BalancedSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/CanPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/CanPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/ChangeInAForeignCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ChangeInAForeignCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/ContiguousSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ContiguousSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/CountingTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/CountingTriangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/CustomDivide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/CustomDivide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/FindAllAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FindAllAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/FindAnagrams2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FindAnagrams2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/LCADeepestLeaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/LCADeepestLeaves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/LargestTripleProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/LargestTripleProducts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/MatchingPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MatchingPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/MedianStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MedianStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/MinimizingPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MinimizingPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/MinimumLenghtSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MinimumLenghtSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/Monotonic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/Monotonic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/NodesInASubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NodesInASubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/NumberOfVisibleNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NumberOfVisibleNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/OneBillionUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/OneBillionUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/PairSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/PairSums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/QueueRemoval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/QueueRemoval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/RevenueMilestones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RevenueMilestones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/ReverseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ReverseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/ReverseToMakeEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ReverseToMakeEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/SeatingArrangements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/SeatingArrangements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/fb/SlowSums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/SlowSums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GODeleteNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GODeleteNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GODominoRotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GODominoRotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GODuplicateZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GODuplicateZeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOFindBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOFindBadVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOGLStrobogrammatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOGLStrobogrammatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOGuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOGuessNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOMissingRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOMissingRanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOMountainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLBTCountNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLBTCountNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLBackSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLBackSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLConfusingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLConfusingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLHowManySubsequences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLHowManySubsequences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLLongestLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLLongestLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLMIddleGreaterEqual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLMIddleGreaterEqual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/google/GOOGLPhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GOOGLPhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSCompareVersions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSCompareVersions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSExcelTitleToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSExcelTitleToNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSFindWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSFindWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSFindingAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSFindingAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSLowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSLowestCommonAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSMoveCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSMoveCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSReverseWordsNoSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSReverseWordsNoSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/microsoft/MSSwapLinkedListPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MSSwapLinkedListPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/uber/UBERIndexEqualsValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/UBERIndexEqualsValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/uber/UberFindSmallestInBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/UberFindSmallestInBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/uber/UberFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/UberFraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/uber/UberOrganizeTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/UberOrganizeTickets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +148,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hackerrank" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode.companies.facebook" />
+      <recent name="leetcode.companies" />
       <recent name="leetcode.medium" />
       <recent name="mixed" />
       <recent name="base" />
-      <recent name="uber" />
-      <recent name="microsoft" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hackerrank" />
@@ -74,7 +168,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FlipEquivalentBTTest.testFlipEquiv">
+  <component name="RunManager" selected="Application.ConstructBTFromPreAndPostTraversal">
     <configuration name="CheckIfStringCanBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.medium.CheckIfStringCanBreak" />
       <module name="problem_solving_project" />
@@ -88,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlipEquivalentBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.FlipEquivalentBT" />
+    <configuration name="ConstructBTFromPreAndPostTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.ConstructBTFromPreAndPostTraversal" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfCornerRectangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.NumberOfCornerRectangles" />
+    <configuration name="FlipEquivalentBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.FlipEquivalentBT" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -145,18 +239,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CheckIfStringCanBreak" />
-      <item itemvalue="Application.NumberOfCornerRectangles" />
-      <item itemvalue="Application.RegionsCutBySlashes" />
       <item itemvalue="Application.FlipEquivalentBT" />
+      <item itemvalue="Application.RegionsCutBySlashes" />
       <item itemvalue="JUnit.FlipEquivalentBTTest.testFlipEquiv" />
+      <item itemvalue="Application.ConstructBTFromPreAndPostTraversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructBTFromPreAndPostTraversal" />
         <item itemvalue="JUnit.FlipEquivalentBTTest.testFlipEquiv" />
         <item itemvalue="Application.FlipEquivalentBT" />
         <item itemvalue="Application.RegionsCutBySlashes" />
         <item itemvalue="Application.CheckIfStringCanBreak" />
-        <item itemvalue="Application.NumberOfCornerRectangles" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +264,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Commit some new solutions.">
-      <created>1585499919268</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1585499919268</updated>
     </task>
     <task id="LOCAL-00028" summary="Commit some new solutions.">
       <created>1585583579618</created>
@@ -514,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590345972482</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Changing some of the settings.">
+      <created>1590352167206</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1590352167207</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +631,8 @@
     <MESSAGE value="Adding solution for String beating problem." />
     <MESSAGE value="Adding solution of regions cut by slashes." />
     <MESSAGE value="Adding solution of flip equivalent binary trees problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of flip equivalent binary trees problem." />
+    <MESSAGE value="Changing some of the settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing some of the settings." />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="185" key="#Plugins" timestamp="1587154735611">
@@ -549,9 +644,10 @@
     </state>
     <state x="709" y="254" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589281144388" />
     <state x="709" y="254" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1585741624475" />
-    <state x="2471" y="333" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588857384115">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state x="634" y="324" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590415878317">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
+    <state x="634" y="324" key="#com.intellij.ide.util.PackageChooserDialog/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590415878317" />
     <state x="634" y="325" key="#com.intellij.ide.util.PackageChooserDialog/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1587559636719" />
     <state x="2471" y="333" key="#com.intellij.ide.util.PackageChooserDialog/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857384115" />
     <state x="634" y="326" key="#com.intellij.ide.util.PackageChooserDialog/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1587644266282" />
@@ -561,27 +657,36 @@
       <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="648" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586573295343" />
-    <state x="2501" y="439" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588857385607">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state x="696" y="458" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590415832105">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
+    <state x="696" y="458" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590415832105" />
+    <state x="662" y="428" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590415880998">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="662" y="428" width="460" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590415880998" />
     <state x="662" y="429" width="467" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1587559639280" />
     <state x="2501" y="439" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857385607" />
     <state x="662" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1587644267927" />
     <state x="662" y="430" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1586169869668" />
     <state x="662" y="431" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586686589253" />
+    <state x="666" y="425" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1590415841551">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="666" y="425" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590415841551" />
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586101262887">
       <screen x="0" y="23" width="1792" height="1034" />
     </state>
     <state x="295" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1585677098635" />
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1586101262887" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1590345972344">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1590352167072">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="560" y="114" key="CommitChangelistDialog2/0.23.1792.1033@0.23.1792.1033" timestamp="1582131091309" />
     <state x="560" y="114" key="CommitChangelistDialog2/0.23.1792.1034@0.23.1792.1034" timestamp="1582207158113" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204831775" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387901960" />
-    <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590244317137" />
+    <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352167072" />
     <state x="2392" y="116" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857411352" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345972344" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156002704" />
@@ -596,15 +701,16 @@
     <state width="529" height="484" key="DebuggerActiveHint/1792.23.1920.1057/0.23.1792.1033@1792.23.1920.1057" timestamp="1586298421063" />
     <state width="493" height="472" key="DebuggerActiveHint/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1584645967915" />
     <state width="494" height="475" key="DebuggerActiveHint/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586555620129" />
-    <state width="1750" height="233" key="GridCell.Tab.0.bottom" timestamp="1590345910741">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state width="1750" height="262" key="GridCell.Tab.0.bottom" timestamp="1590432831720">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="233" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1589461400297" />
     <state width="1748" height="215" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591363" />
     <state width="1748" height="196" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1582293232970" />
-    <state width="1750" height="233" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204282305" />
+    <state width="1750" height="262" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831720" />
+    <state width="1750" height="377" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327035" />
     <state width="1750" height="233" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283355958" />
-    <state width="1750" height="233" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590245089167" />
+    <state width="1750" height="233" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352262843" />
     <state width="1878" height="234" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857265960" />
     <state width="1750" height="233" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345910741" />
     <state width="1878" height="258" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1033@1792.23.1920.1057" timestamp="1586300538663" />
@@ -612,15 +718,16 @@
     <state width="1750" height="340" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146865" />
     <state width="1750" height="253" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853038" />
     <state width="1878" height="188" key="GridCell.Tab.0.bottom/1792.23.1920.991/0.23.1792.1097@0.23.1792.1097" timestamp="1586344915032" />
-    <state width="1750" height="233" key="GridCell.Tab.0.center" timestamp="1590345910740">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state width="1750" height="262" key="GridCell.Tab.0.center" timestamp="1590432831720">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="233" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1589461400296" />
     <state width="1748" height="215" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591362" />
     <state width="1748" height="196" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1582293232969" />
-    <state width="1750" height="233" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204282304" />
+    <state width="1750" height="262" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831720" />
+    <state width="1750" height="377" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327034" />
     <state width="1750" height="233" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283355958" />
-    <state width="1750" height="233" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590245089166" />
+    <state width="1750" height="233" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352262843" />
     <state width="1878" height="234" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857265959" />
     <state width="1750" height="233" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345910740" />
     <state width="1878" height="258" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1033@1792.23.1920.1057" timestamp="1586300538662" />
@@ -628,15 +735,16 @@
     <state width="1750" height="340" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146864" />
     <state width="1750" height="253" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853038" />
     <state width="1878" height="188" key="GridCell.Tab.0.center/1792.23.1920.991/0.23.1792.1097@0.23.1792.1097" timestamp="1586344915031" />
-    <state width="1750" height="233" key="GridCell.Tab.0.left" timestamp="1590345910740">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state width="1750" height="262" key="GridCell.Tab.0.left" timestamp="1590432831719">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="233" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1589461400296" />
     <state width="1748" height="215" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591362" />
     <state width="1748" height="196" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1582293232969" />
-    <state width="1750" height="233" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204282304" />
+    <state width="1750" height="262" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831719" />
+    <state width="1750" height="377" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327034" />
     <state width="1750" height="233" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283355957" />
-    <state width="1750" height="233" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590245089166" />
+    <state width="1750" height="233" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352262842" />
     <state width="1878" height="234" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857265959" />
     <state width="1750" height="233" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345910740" />
     <state width="1878" height="258" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1033@1792.23.1920.1057" timestamp="1586300538662" />
@@ -644,15 +752,16 @@
     <state width="1750" height="340" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146864" />
     <state width="1750" height="253" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853037" />
     <state width="1878" height="188" key="GridCell.Tab.0.left/1792.23.1920.991/0.23.1792.1097@0.23.1792.1097" timestamp="1586344915030" />
-    <state width="1750" height="233" key="GridCell.Tab.0.right" timestamp="1590345910740">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state width="1750" height="262" key="GridCell.Tab.0.right" timestamp="1590432831720">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1750" height="233" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1589461400297" />
     <state width="1748" height="215" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591363" />
     <state width="1748" height="196" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1582293232969" />
-    <state width="1750" height="233" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204282305" />
+    <state width="1750" height="262" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831720" />
+    <state width="1750" height="377" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327035" />
     <state width="1750" height="233" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283355958" />
-    <state width="1750" height="233" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590245089166" />
+    <state width="1750" height="233" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352262843" />
     <state width="1878" height="234" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857265960" />
     <state width="1750" height="233" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345910740" />
     <state width="1878" height="258" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1033@1792.23.1920.1057" timestamp="1586300538663" />
@@ -660,12 +769,13 @@
     <state width="1750" height="340" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146864" />
     <state width="1750" height="253" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853038" />
     <state width="1878" height="188" key="GridCell.Tab.0.right/1792.23.1920.991/0.23.1792.1097@0.23.1792.1097" timestamp="1586344915031" />
-    <state width="1750" height="377" key="GridCell.Tab.1.bottom" timestamp="1590156013768">
-      <screen x="0" y="23" width="1792" height="1034" />
+    <state width="1750" height="262" key="GridCell.Tab.1.bottom" timestamp="1590432831721">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1748" height="215" key="GridCell.Tab.1.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591503" />
     <state width="1750" height="216" key="GridCell.Tab.1.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1582206775966" />
-    <state width="1750" height="253" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1586492590646" />
+    <state width="1750" height="262" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831721" />
+    <state width="1750" height="377" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327131" />
     <state width="1750" height="230" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283193077" />
     <state width="1750" height="351" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589587278452" />
     <state width="1878" height="204" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857161497" />
@@ -674,12 +784,13 @@
     <state width="1750" height="377" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156013768" />
     <state width="1750" height="340" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146866" />
     <state width="1750" height="253" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853039" />
-    <state width="1750" height="377" key="GridCell.Tab.1.center" timestamp="1590156013768">
-      <screen x="0" y="23" width="1792" height="1034" />
+    <state width="1750" height="262" key="GridCell.Tab.1.center" timestamp="1590432831721">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1748" height="215" key="GridCell.Tab.1.center/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591503" />
     <state width="1750" height="216" key="GridCell.Tab.1.center/0.23.1792.1034@0.23.1792.1034" timestamp="1582206775966" />
-    <state width="1750" height="253" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1586492590645" />
+    <state width="1750" height="262" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831721" />
+    <state width="1750" height="377" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327131" />
     <state width="1750" height="230" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283193076" />
     <state width="1750" height="351" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589587278452" />
     <state width="1878" height="204" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857161496" />
@@ -688,12 +799,13 @@
     <state width="1750" height="377" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156013768" />
     <state width="1750" height="340" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146865" />
     <state width="1750" height="253" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853038" />
-    <state width="1750" height="377" key="GridCell.Tab.1.left" timestamp="1590156013768">
-      <screen x="0" y="23" width="1792" height="1034" />
+    <state width="1750" height="262" key="GridCell.Tab.1.left" timestamp="1590432831720">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1748" height="215" key="GridCell.Tab.1.left/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591502" />
     <state width="1750" height="216" key="GridCell.Tab.1.left/0.23.1792.1034@0.23.1792.1034" timestamp="1582206775966" />
-    <state width="1750" height="253" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1586492590645" />
+    <state width="1750" height="262" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831720" />
+    <state width="1750" height="377" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327130" />
     <state width="1750" height="230" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283193076" />
     <state width="1750" height="351" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589587278451" />
     <state width="1878" height="204" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857161496" />
@@ -702,12 +814,13 @@
     <state width="1750" height="377" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156013768" />
     <state width="1750" height="340" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586790146865" />
     <state width="1750" height="253" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1586433853038" />
-    <state width="1750" height="377" key="GridCell.Tab.1.right" timestamp="1590156013768">
-      <screen x="0" y="23" width="1792" height="1034" />
+    <state width="1750" height="262" key="GridCell.Tab.1.right" timestamp="1590432831721">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state width="1748" height="215" key="GridCell.Tab.1.right/0.23.1792.1033@0.23.1792.1033" timestamp="1582639591503" />
     <state width="1750" height="216" key="GridCell.Tab.1.right/0.23.1792.1034@0.23.1792.1034" timestamp="1582206775966" />
-    <state width="1750" height="253" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1586492590646" />
+    <state width="1750" height="262" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590432831721" />
+    <state width="1750" height="377" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421327131" />
     <state width="1750" height="230" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589283193076" />
     <state width="1750" height="351" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589587278452" />
     <state width="1878" height="204" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857161496" />
@@ -724,24 +837,24 @@
       <screen x="0" y="23" width="1792" height="1030" />
     </state>
     <state x="607" y="261" key="MultipleFileMergeDialog/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1583469531193" />
-    <state x="397" y="177" key="SettingsEditor" timestamp="1590347464170">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state x="397" y="176" key="SettingsEditor" timestamp="1590417315198">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="397" y="176" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1585858044929" />
+    <state x="397" y="176" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590417315198" />
     <state x="397" y="177" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590347464170" />
     <state x="397" y="177" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1036@0.23.1792.1036" timestamp="1586783707108" />
     <state x="626" y="276" width="540" height="524" key="StructurePopup" timestamp="1589640737724">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="626" y="276" width="540" height="524" key="StructurePopup/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589640737724" />
-    <state x="516" y="259" key="Vcs.Push.Dialog.v2" timestamp="1590345973953">
-      <screen x="0" y="23" width="1792" height="1033" />
+    <state x="516" y="259" key="Vcs.Push.Dialog.v2" timestamp="1590352168546">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/0.23.1792.1033@0.23.1792.1033" timestamp="1582131093486" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/0.23.1792.1034@0.23.1792.1034" timestamp="1582207160574" />
     <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1589204833105" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387903629" />
-    <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590244319201" />
+    <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352168546" />
     <state x="2345" y="265" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857413507" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345973953" />
     <state x="516" y="260" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156004496" />
@@ -756,15 +869,20 @@
     <state x="355" y="225" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1792.1034@0.23.1792.1034" timestamp="1582203421099" />
     <state x="355" y="224" width="953" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1581967440805" />
     <state x="2172" y="229" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1585077540690" />
-    <state x="634" y="299" key="extract.method.dialog" timestamp="1590154547125">
-      <screen x="0" y="23" width="1792" height="1034" />
+    <state x="634" y="297" key="extract.method.dialog" timestamp="1590421216308">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
+    <state x="634" y="297" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421216308" />
     <state x="634" y="298" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589280543051" />
     <state x="634" y="298" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589556316026" />
     <state x="2471" y="305" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588768621866" />
     <state x="634" y="299" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1589997194996" />
     <state x="634" y="299" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590154547125" />
     <state x="634" y="316" key="extract.method.dialog/1792.23.1920.991/0.23.1792.1097@0.23.1792.1097" timestamp="1586344837283" />
+    <state x="594" y="125" width="604" height="822" key="find.popup" timestamp="1590427414746">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="594" y="125" width="604" height="822" key="find.popup/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590427414746" />
     <state x="540" y="334" key="git4idea.merge.GitPullDialog" timestamp="1588169447484">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
@@ -829,6 +947,11 @@
           <line>67</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/medium/ConstructBTFromPreAndPostTraversal.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -838,12 +961,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="a.substring(0,1)" language="JAVA" />
-        <watch expression="a.substring(2,a.length()-1)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leet_code_project$MSCompareVersions.ic" NAME="MSCompareVersions Coverage Results" MODIFIED="1575941791673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

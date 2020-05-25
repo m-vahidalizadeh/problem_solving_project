@@ -26,7 +26,7 @@ public class FlippingBits {
 
     public static void main(String[] args) throws IOException {
         try (BufferedWriter bufferedWriter =
-                     new BufferedWriter(new FileWriter(new File("iofiles/leetcode.fb.out")));
+                     new BufferedWriter(new FileWriter(new File("iofiles/leetcode.companies.fb.out")));
              Scanner scanner = new Scanner(System.in)) {
             int q = scanner.nextInt();
             scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
