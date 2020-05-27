@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MinimumCostTreeFromLeafValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/leetcode/medium/MinimumCostTreeFromLeafValuesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumCostTreeFromLeafValues">
+  <component name="RunManager" selected="JUnit.MinimumCostTreeFromLeafValuesTest">
     <configuration name="ConstructBTFromPreAndPostTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.medium.ConstructBTFromPreAndPostTraversal" />
       <module name="problem_solving_project" />
@@ -118,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlipEquivalentBTTest.testFlipEquiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinimumCostTreeFromLeafValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -127,9 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode.medium" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.FlipEquivalentBTTest" />
-      <option name="METHOD_NAME" value="testFlipEquiv" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MinimumCostTreeFromLeafValuesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,17 +151,17 @@
     <list>
       <item itemvalue="Application.ConstructBTFromPreAndPostTraversal" />
       <item itemvalue="Application.PseudoPalindromicPathsInABT" />
-      <item itemvalue="JUnit.FlipEquivalentBTTest.testFlipEquiv" />
       <item itemvalue="JUnit.PseudoPalindromicPathsInABTTest.testPseudoPalindromicPaths" />
       <item itemvalue="Application.MinimumCostTreeFromLeafValues" />
+      <item itemvalue="JUnit.MinimumCostTreeFromLeafValuesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinimumCostTreeFromLeafValuesTest" />
         <item itemvalue="Application.MinimumCostTreeFromLeafValues" />
         <item itemvalue="JUnit.PseudoPalindromicPathsInABTTest.testPseudoPalindromicPaths" />
         <item itemvalue="Application.PseudoPalindromicPathsInABT" />
         <item itemvalue="Application.ConstructBTFromPreAndPostTraversal" />
-        <item itemvalue="JUnit.FlipEquivalentBTTest.testFlipEquiv" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Commit some new solutions.">
-      <created>1585744767373</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1585744767373</updated>
     </task>
     <task id="LOCAL-00031" summary="Commit some new solutions.">
       <created>1585871768283</created>
@@ -521,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590535371009</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Adding the solution for minimum cost BT from leaf values.">
+      <created>1590607102937</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1590607102937</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +545,8 @@
     <MESSAGE value="Changing some of the settings." />
     <MESSAGE value="Adding solution of building a BT from pre and post traversals." />
     <MESSAGE value="Adding solution of pseudo palindromic paths in BT." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of pseudo palindromic paths in BT." />
+    <MESSAGE value="Adding the solution for minimum cost BT from leaf values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution for minimum cost BT from leaf values." />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="185" key="#Plugins" timestamp="1587154735611">
@@ -594,13 +593,13 @@
     </state>
     <state x="295" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1585677098635" />
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1586101262887" />
-    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1590535370849">
+    <state x="560" y="114" key="CommitChangelistDialog2" timestamp="1590607102764">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="560" y="114" key="CommitChangelistDialog2/0.23.1792.1033@0.23.1792.1033" timestamp="1582131091309" />
     <state x="560" y="114" key="CommitChangelistDialog2/0.23.1792.1034@0.23.1792.1034" timestamp="1582207158113" />
     <state x="156" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590433551037" />
-    <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590535370849" />
+    <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590607102764" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387901960" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352167072" />
     <state x="2392" y="116" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857411352" />
@@ -763,13 +762,13 @@
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="626" y="276" width="540" height="524" key="StructurePopup/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589640737724" />
-    <state x="516" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590535372489">
+    <state x="516" y="258" key="Vcs.Push.Dialog.v2" timestamp="1590607105231">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/0.23.1792.1033@0.23.1792.1033" timestamp="1582131093486" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/0.23.1792.1034@0.23.1792.1034" timestamp="1582207160574" />
     <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1590433552725" />
-    <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590535372489" />
+    <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590607105231" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387903629" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1590352168546" />
     <state x="2345" y="265" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857413507" />
