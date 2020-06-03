@@ -1,5 +1,7 @@
 package leetcode.base;
 
+import java.util.List;
+
 public class Utils {
 
     private Utils() {
@@ -81,6 +83,16 @@ public class Utils {
         printArray(binaryNumber);
         binaryNumber = getBinaryRepresentation(33);
         printArray(binaryNumber);
+    }
+
+    /**
+     * This method prints a list.
+     *
+     * @param list The list to be printed
+     */
+    public static void printList(List list) {
+        list.stream().forEachOrdered(l -> System.out.print(l + " "));
+        System.out.println();
     }
 
 }
