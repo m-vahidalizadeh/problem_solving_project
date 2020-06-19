@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/DeepCopyOfGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/IslandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/LLReorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/WarmerTemp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Commit some new solutions.">
-      <created>1588169801396</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1588169801397</updated>
     </task>
     <task id="LOCAL-00055" summary="Commit some new solutions.">
       <created>1588521882827</created>
@@ -517,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592519022071</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Adding some solutions.">
+      <created>1592533276417</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1592533276417</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,9 +554,9 @@
     <MESSAGE value="Adding solution of synonymous sentences." />
     <MESSAGE value="Addong some solutions." />
     <MESSAGE value="Adding the solution of sub-rectangle queries." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of clone BT with random pointer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of clone BT with random pointer." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="185" key="#Plugins" timestamp="1587154735611">
@@ -612,11 +610,11 @@
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592324363279" />
     <state x="295" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1585677098635" />
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1586101262887" />
-    <state x="594" y="96" key="CommitChangelistDialog2" timestamp="1592519021799">
+    <state x="594" y="96" key="CommitChangelistDialog2" timestamp="1592533276221">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1591668391564" />
-    <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592519021799" />
+    <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592533276221" />
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1026@1792.23.1920.1057" timestamp="1591972967819" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1592219735261" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387901960" />
@@ -795,11 +793,11 @@
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="626" y="276" width="540" height="524" key="StructurePopup/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589640737724" />
-    <state x="516" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592519023490">
+    <state x="516" y="258" key="Vcs.Push.Dialog.v2" timestamp="1592533278148">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1591668394553" />
-    <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592519023490" />
+    <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592533278148" />
     <state x="2345" y="265" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1026@1792.23.1920.1057" timestamp="1591972969696" />
     <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1592219737061" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589387903629" />
