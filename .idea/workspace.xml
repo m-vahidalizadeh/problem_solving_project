@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding solution of:&#10;Search suggestions system">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/BTInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/RangeSumOfSortedSubarraySums.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/StoneGame2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,10 +147,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.PathsToCityZero" />
+      <item itemvalue="Application.RangeSumOfSortedSubarraySums" />
       <item itemvalue="Application.RemoveNthNodeFromLL" />
       <item itemvalue="Application.RotateMatrix90Clockwise" />
       <item itemvalue="Application.SearchSuggestionsSystem" />
-      <item itemvalue="Application.RangeSumOfSortedSubarraySums" />
     </list>
     <recent_temporary>
       <list>
@@ -173,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Adding solution of flip equivalent binary trees problem.">
-      <created>1590345972482</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1590345972482</updated>
     </task>
     <task id="LOCAL-00076" summary="Changing some of the settings.">
       <created>1590352167206</created>
@@ -517,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594435853804</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Adding solutions of:&#10;BT inorder&#10;Range sum of sorted sub-array sums">
+      <created>1594601185009</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1594601185009</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of synonymous sentences." />
     <MESSAGE value="Addong some solutions." />
     <MESSAGE value="Adding the solution of sub-rectangle queries." />
     <MESSAGE value="Adding solution of clone BT with random pointer." />
@@ -558,7 +556,8 @@
     <MESSAGE value="Adding solution of:&#10;Design underground system" />
     <MESSAGE value="Adding solution of:&#10;Finding the root of n-ary tree" />
     <MESSAGE value="Adding solution of:&#10;Search suggestions system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of:&#10;Search suggestions system" />
+    <MESSAGE value="Adding solutions of:&#10;BT inorder&#10;Range sum of sorted sub-array sums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solutions of:&#10;BT inorder&#10;Range sum of sorted sub-array sums" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="185" key="#Plugins" timestamp="1587154735611">
@@ -613,13 +612,13 @@
     </state>
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592324363279" />
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1586101262887" />
-    <state x="594" y="96" key="CommitChangelistDialog2" timestamp="1594587635587">
+    <state x="594" y="96" key="CommitChangelistDialog2" timestamp="1594601184797">
       <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1594228095655" />
     <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1594435853609" />
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1020@1792.23.1920.1057" timestamp="1594317251199" />
-    <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1022@0.23.1792.1022" timestamp="1594587635587" />
+    <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1022@0.23.1792.1022" timestamp="1594601184797" />
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1022@1792.23.1920.1057" timestamp="1593725835071" />
     <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1593962792301" />
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1024@1792.23.1920.1057" timestamp="1594067187729" />
@@ -835,13 +834,13 @@
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="626" y="276" width="540" height="524" key="StructurePopup/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589640737724" />
-    <state x="516" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594435855674">
-      <screen x="0" y="23" width="1792" height="1020" />
+    <state x="516" y="257" key="Vcs.Push.Dialog.v2" timestamp="1594601186545">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state x="2345" y="266" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1594228097522" />
     <state x="516" y="257" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1594435855674" />
     <state x="2345" y="266" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1020@1792.23.1920.1057" timestamp="1594317253188" />
-    <state x="516" y="257" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1022@0.23.1792.1022" timestamp="1593807784867" />
+    <state x="516" y="257" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1022@0.23.1792.1022" timestamp="1594601186545" />
     <state x="2345" y="266" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1022@1792.23.1920.1057" timestamp="1593725836464" />
     <state x="516" y="258" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1593962794180" />
     <state x="2345" y="266" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1024@1792.23.1920.1057" timestamp="1594067190055" />
