@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MinCostToConnectSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MinRemoveToMakeValidParantheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
@@ -80,9 +80,9 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MinFlipsToMakeAOrBEqualsCTest.testMinFlips">
-    <configuration name="MinFlipsToMakeAOrBEqualsC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MinFlipsToMakeAOrBEqualsC" />
+  <component name="RunManager" selected="Application.MinRemoveToMakeValidParantheses">
+    <configuration name="MinRemoveToMakeValidParantheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MinRemoveToMakeValidParantheses" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -150,19 +150,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinFlipsToMakeAOrBEqualsC" />
       <item itemvalue="Application.ModifyArray" />
       <item itemvalue="Application.NestedListWeightSumII" />
       <item itemvalue="Application.RangeSumOfSortedSubarraySums" />
       <item itemvalue="JUnit.MinFlipsToMakeAOrBEqualsCTest.testMinFlips" />
+      <item itemvalue="Application.MinRemoveToMakeValidParantheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinRemoveToMakeValidParantheses" />
         <item itemvalue="JUnit.MinFlipsToMakeAOrBEqualsCTest.testMinFlips" />
-        <item itemvalue="Application.MinFlipsToMakeAOrBEqualsC" />
+        <item itemvalue="Application.RangeSumOfSortedSubarraySums" />
         <item itemvalue="Application.NestedListWeightSumII" />
         <item itemvalue="Application.ModifyArray" />
-        <item itemvalue="Application.RangeSumOfSortedSubarraySums" />
       </list>
     </recent_temporary>
   </component>
@@ -177,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00082" summary="Adding solution for roads and libraries.">
-      <created>1590720719170</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1590720719170</updated>
     </task>
     <task id="LOCAL-00083" summary="Adding some mock interview code solutions.">
       <created>1590896438537</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595896992148</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Adding solution of:&#10;Min cost to connect sticks">
+      <created>1595990182075</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1595990182075</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -537,7 +537,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the solution of web crawler problem." />
     <MESSAGE value="Adding solutions of:&#10;Circular permutation binary representation&#10;Cone N-Ary tree&#10;Number of subs with k elements avg &gt;= threshold&#10;Traverse N-Ary tree" />
     <MESSAGE value="Adding solutions of rooms and keys problem." />
     <MESSAGE value="Adding solution of:&#10;delete zero sum sub trees&#10;sliding window&#10;calculate square root&#10;binary tree next pointer" />
@@ -562,13 +561,15 @@
     <MESSAGE value="Adding solution of:&#10;Updating array" />
     <MESSAGE value="Adding solution of:&#10;Nested list weight sum II" />
     <MESSAGE value="Adding solution of:&#10;Min flips to make a or b equals c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of:&#10;Min flips to make a or b equals c" />
+    <MESSAGE value="Adding solution of:&#10;Min cost to connect sticks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of:&#10;Min cost to connect sticks" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="367" key="#Notifications" timestamp="1595989467757">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="641" y="391" key="#Notifications" timestamp="1595990405147">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="641" y="367" key="#Notifications/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1595989467757" />
+    <state x="641" y="391" key="#Notifications/1792.23.1920.982/0.23.1792.1097@0.23.1792.1097" timestamp="1595990405147" />
     <state x="360" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590720564737">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -607,8 +608,8 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="445" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592324363279" />
-    <state x="594" y="96" key="CommitChangelistDialog2" timestamp="1595896991839">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state x="594" y="101" key="CommitChangelistDialog2" timestamp="1595990181851">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="2428" y="98" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1594228095655" />
     <state x="594" y="96" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1594435853609" />
@@ -626,6 +627,7 @@
     <state x="2392" y="116" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857411352" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345972344" />
     <state x="560" y="114" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156002704" />
+    <state x="594" y="101" key="CommitChangelistDialog2/1792.23.1920.982/0.23.1792.1097@0.23.1792.1097" timestamp="1595990181851" />
     <state width="494" height="471" key="DebuggerActiveHint" timestamp="1591930095846">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -786,19 +788,20 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="607" y="244" key="RollbackChangesDialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1591449842446" />
-    <state x="397" y="175" key="SettingsEditor" timestamp="1592224868355">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="397" y="186" key="SettingsEditor" timestamp="1595990436127">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="397" y="175" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1590707553001" />
     <state x="397" y="175" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1592224868355" />
     <state x="397" y="176" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590417315198" />
     <state x="397" y="177" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590347464170" />
+    <state x="397" y="186" key="SettingsEditor/1792.23.1920.982/0.23.1792.1097@0.23.1792.1097" timestamp="1595990436127" />
     <state x="626" y="276" width="540" height="524" key="StructurePopup" timestamp="1589640737724">
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="626" y="276" width="540" height="524" key="StructurePopup/1792.23.1920.1057/0.23.1792.1031@0.23.1792.1031" timestamp="1589640737724" />
-    <state x="516" y="258" key="Vcs.Push.Dialog.v2" timestamp="1595896993576">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state x="516" y="275" key="Vcs.Push.Dialog.v2" timestamp="1595990183805">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="2345" y="266" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1017@1792.23.1920.1057" timestamp="1594228097522" />
     <state x="516" y="257" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1594435855674" />
@@ -816,16 +819,17 @@
     <state x="2345" y="265" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1031@1792.23.1920.1057" timestamp="1588857413507" />
     <state x="516" y="259" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345973953" />
     <state x="516" y="260" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1034@0.23.1792.1034" timestamp="1590156004496" />
+    <state x="516" y="275" key="Vcs.Push.Dialog.v2/1792.23.1920.982/0.23.1792.1097@0.23.1792.1097" timestamp="1595990183805" />
     <state x="593" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590345637976">
       <screen x="0" y="23" width="1792" height="1033" />
     </state>
     <state x="593" y="436" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1792.23.1920.1057/0.23.1792.1033@0.23.1792.1033" timestamp="1590345637976" />
-    <state x="2490" y="395" key="extract.method.dialog" timestamp="1593692007829">
-      <screen x="1792" y="23" width="1920" height="1057" />
+    <state x="634" y="296" key="extract.method.dialog" timestamp="1596072248808">
+      <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="651" y="382" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1020@0.23.1792.1020" timestamp="1593477347529" />
     <state x="651" y="383" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1024@0.23.1792.1024" timestamp="1592690392282" />
-    <state x="634" y="296" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1591748303610" />
+    <state x="634" y="296" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1026@0.23.1792.1026" timestamp="1596072248808" />
     <state x="2490" y="395" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1026@1792.23.1920.1057" timestamp="1593692007829" />
     <state x="634" y="297" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1028@0.23.1792.1028" timestamp="1590421216308" />
     <state x="634" y="298" key="extract.method.dialog/1792.23.1920.1057/0.23.1792.1030@0.23.1792.1030" timestamp="1589280543051" />
