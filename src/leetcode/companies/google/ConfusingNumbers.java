@@ -1,11 +1,11 @@
 package leetcode.companies.google;
 
-public class GOOGLConfusingNumbers {
+public class ConfusingNumbers {
 
     public static void main(String[] args) {
         int N = 8101;
-        GOOGLConfusingNumbers googlConfusingNumbers = new GOOGLConfusingNumbers();
-        System.out.println(googlConfusingNumbers.confusingNumber(N));
+        ConfusingNumbers confusingNumbers = new ConfusingNumbers();
+        System.out.println(confusingNumbers.confusingNumber(N));
     }
 
     public boolean confusingNumber(int N) {

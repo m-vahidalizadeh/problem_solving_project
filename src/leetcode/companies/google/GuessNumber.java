@@ -1,6 +1,6 @@
 package leetcode.companies.google;
 
-public class GOGuessNumber {
+public class GuessNumber {
 
     static int paid = 0;
     static int target = -2;

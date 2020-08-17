@@ -3,7 +3,7 @@ package leetcode.companies.google;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GOFindBadVersion {
+public class FindBadVersion {
 
     static Map<Long, Boolean> visibilityMap = new HashMap<>();
 

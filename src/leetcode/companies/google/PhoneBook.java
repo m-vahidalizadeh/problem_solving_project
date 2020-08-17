@@ -3,7 +3,7 @@ package leetcode.companies.google;
 import java.util.HashSet;
 import java.util.Set;
 
-public class GOOGLPhoneBook {
+public class PhoneBook {
 
     Set<Integer> availableEntries = new HashSet<>();
 
@@ -32,7 +32,7 @@ directory.release(2);
 // Number 2 is available again, return true.
 directory.check(2);
          */
-        GOOGLPhoneBook directory = new GOOGLPhoneBook(3);
+        PhoneBook directory = new PhoneBook(3);
 // It can return any available phone number. Here we assume it returns 0.
         System.out.println(directory.get());
 // Assume it returns 1.
@@ -54,7 +54,7 @@ directory.check(2);
      *
      * @param maxNumbers - The maximum numbers that can be stored in the phone directory.
      */
-    public GOOGLPhoneBook(int maxNumbers) {
+    public PhoneBook(int maxNumbers) {
         for (int i = 0; i < maxNumbers; i++) {
             availableEntries.add(i);
         }

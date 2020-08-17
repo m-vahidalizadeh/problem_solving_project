@@ -2,7 +2,7 @@ package leetcode.companies.google;
 
 import java.util.Stack;
 
-public class GOOGLBackSpace {
+public class BackSpace {
 
     public static void main(String[] args) {
 /*
@@ -26,12 +26,12 @@ Input: S = "a#c", T = "b"
 Output: false
 Explanation: S becomes "c" while T becomes "b".
  */
-        GOOGLBackSpace googlBackSpace = new GOOGLBackSpace();
-        System.out.println(googlBackSpace.backspaceCompare("ab#c", "ad#c"));
-        System.out.println(googlBackSpace.backspaceCompare("ab##", "c#d#"));
-        System.out.println(googlBackSpace.backspaceCompare("a##c", "#a#c"));
-        System.out.println(googlBackSpace.backspaceCompare("a#c", "b"));
-        System.out.println(googlBackSpace.backspaceCompare("y#fo##f", "y#f#o##f"));
+        BackSpace backSpace = new BackSpace();
+        System.out.println(backSpace.backspaceCompare("ab#c", "ad#c"));
+        System.out.println(backSpace.backspaceCompare("ab##", "c#d#"));
+        System.out.println(backSpace.backspaceCompare("a##c", "#a#c"));
+        System.out.println(backSpace.backspaceCompare("a#c", "b"));
+        System.out.println(backSpace.backspaceCompare("y#fo##f", "y#f#o##f"));
     }
 
     public boolean backspaceCompare(String S, String T) {

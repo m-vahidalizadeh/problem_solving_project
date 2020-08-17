@@ -1,6 +1,6 @@
 package leetcode.companies.google;
 
-public class GOMountainArray {
+public class MountainArray {
 
     public static void main(String[] args) {
         int[] input = new int[]{

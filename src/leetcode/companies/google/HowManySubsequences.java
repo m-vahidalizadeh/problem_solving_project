@@ -1,10 +1,10 @@
 package leetcode.companies.google;
 
-public class GOOGLHowManySubsequences {
+public class HowManySubsequences {
 
     public static void main(String[] args) {
-        GOOGLHowManySubsequences googlHowManySubsequences = new GOOGLHowManySubsequences();
-        System.out.println(googlHowManySubsequences.shortestWay("xyz", "xzyxz"));
+        HowManySubsequences howManySubsequences = new HowManySubsequences();
+        System.out.println(howManySubsequences.shortestWay("xyz", "xzyxz"));
     }
 
     public int shortestWay(String source, String target) {

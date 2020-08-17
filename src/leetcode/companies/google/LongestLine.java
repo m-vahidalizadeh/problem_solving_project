@@ -1,6 +1,6 @@
 package leetcode.companies.google;
 
-public class GOOGLLongestLine {
+public class LongestLine {
 
     public static void main(String[] args) {
 /*
@@ -22,8 +22,8 @@ Output: 3
                 {1, 1, 1, 1, 1, 0, 0, 1, 1, 1},
                 {0, 1, 0, 1, 1, 0, 1, 1, 1, 1},
                 {1, 1, 1, 0, 1, 0, 1, 1, 1, 1}};
-        GOOGLLongestLine googlLongestLine = new GOOGLLongestLine();
-        System.out.println(googlLongestLine.longestLine(M));
+        LongestLine longestLine = new LongestLine();
+        System.out.println(longestLine.longestLine(M));
     }
 
     public int longestLine(int[][] M) {

@@ -5,7 +5,7 @@ import leetcode.base.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GODeleteNodes {
+public class DeleteNodes {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

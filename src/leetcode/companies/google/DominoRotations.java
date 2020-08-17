@@ -2,7 +2,7 @@ package leetcode.companies.google;
 
 import java.util.*;
 
-public class GODominoRotations {
+public class DominoRotations {
 
     public static void main(String[] args) {
         int[] A = new int[]{2, 1, 2, 4, 2, 2};

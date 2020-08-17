@@ -1,6 +1,6 @@
 package leetcode.companies.google;
 
-public class GOGLStrobogrammatic {
+public class Strobogrammatic {
 
     public static void main(String[] args) {
         /*
@@ -16,10 +16,10 @@ Example 3:
 Input:  "962"
 Output: false
          */
-        GOGLStrobogrammatic goglStrobogrammatic = new GOGLStrobogrammatic();
-        System.out.println(goglStrobogrammatic.isStrobogrammatic("69"));
-        System.out.println(goglStrobogrammatic.isStrobogrammatic("88"));
-        System.out.println(goglStrobogrammatic.isStrobogrammatic("962"));
+        Strobogrammatic strobogrammatic = new Strobogrammatic();
+        System.out.println(strobogrammatic.isStrobogrammatic("69"));
+        System.out.println(strobogrammatic.isStrobogrammatic("88"));
+        System.out.println(strobogrammatic.isStrobogrammatic("962"));
     }
 
     public boolean isStrobogrammatic(String num) {

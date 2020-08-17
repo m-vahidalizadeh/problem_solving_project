@@ -1,16 +1,16 @@
 package leetcode.companies.google;
 
-public class GOOGLMIddleGreaterEqual {
+public class MiddleGreaterEqual {
 
     public static void main(String[] args) {
         /*
 Input: nums = [3,5,2,1,6,4]
 Output: One possible answer is [3,5,1,6,2,4]
          */
-        GOOGLMIddleGreaterEqual googlmIddleGreaterEqual = new GOOGLMIddleGreaterEqual();
+        MiddleGreaterEqual middleGreaterEqual = new MiddleGreaterEqual();
 //        int[] nums = new int[]{3, 5, 2, 1, 6, 4};
         int[] nums = new int[]{2, 1};
-        googlmIddleGreaterEqual.wiggleSort(nums);
+        middleGreaterEqual.wiggleSort(nums);
         for (int n : nums) {
             System.out.print(n + " ");
         }

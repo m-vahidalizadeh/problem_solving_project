@@ -2,7 +2,7 @@ package leetcode.companies.google;
 
 import leetcode.base.TreeNode;
 
-public class GOOGLBTCountNodes {
+public class BTCountNodes {
 
     private int counter = 0;
 
@@ -29,8 +29,8 @@ Output: 6
         node2.left = node4;
         node2.right = node5;
         node3.left = node6;
-        GOOGLBTCountNodes googlbtCountNodes = new GOOGLBTCountNodes();
-        System.out.println(googlbtCountNodes.countNodes(node1));
+        BTCountNodes BTCountNodes = new BTCountNodes();
+        System.out.println(BTCountNodes.countNodes(node1));
     }
 
     public int countNodes(TreeNode root) {

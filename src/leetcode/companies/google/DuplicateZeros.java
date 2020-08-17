@@ -2,7 +2,7 @@ package leetcode.companies.google;
 
 import java.util.Arrays;
 
-public class GODuplicateZeros {
+public class DuplicateZeros {
 
     public static void main(String[] args) {
         int[] input = new int[]{1, 0, 2, 3, 0, 4, 5, 0};

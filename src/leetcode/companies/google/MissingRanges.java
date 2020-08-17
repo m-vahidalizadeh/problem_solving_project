@@ -3,7 +3,7 @@ package leetcode.companies.google;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GOMissingRanges {
+public class MissingRanges {
 
     public static void main(String[] args) {
         /*
