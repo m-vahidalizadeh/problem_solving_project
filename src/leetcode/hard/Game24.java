@@ -40,7 +40,7 @@ public class Game24 {
                 for (int a = 0; a < n; a++) {
                     if (a != i && a != j) d2[index++] = d[a];
                 }
-                for (double num : compute(d[i], d[j])) {
+                for (double num : getPossibleResults(d[i], d[j])) {
                     d2[nMinusTwo] = num;
                     if (rec(d2)) return true;
                 }
@@ -49,7 +49,7 @@ public class Game24 {
         return false;
     }
 
-    private double[] compute(double a, double b) {
+    private double[] getPossibleResults(double a, double b) {
         return new double[]{a + b, a - b, b - a, a * b, a / b, b / a};
     }
 
