@@ -1,5 +1,7 @@
 package leetcode.medium;
 
+import java.util.*;
+
 /**
  * 1612. Check If Two Expression Trees are Equivalent
  * A binary expression tree is a kind of binary tree used to represent arithmetic expressions. Each node of a binary expression tree has either zero or two children. Leaf nodes (nodes with 0 children) correspond to operands (variables), and internal nodes (nodes with two children) correspond to the operators. In this problem, we only consider the '+' operator (i.e. addition).
@@ -54,15 +56,27 @@ public class CheckIfTwoBETAreEquivalent {
     }
 
     public boolean checkEquivalence(Node root1, Node root2) {
-        return getSum(root1) == getSum(root2);
+        Map<Character, Integer> freq1 = getFreq(root1);
+        Map<Character, Integer> freq2 = getFreq(root2);
+        for (Map.Entry<Character, Integer> e : freq1.entrySet()) {
+            if (!freq2.containsKey(e.getKey()) || !e.getValue().equals(freq2.get(e.getKey()))) return false;
+        }
+        return true;
     }
 
-    private int getSum(Node node) {
-        if (node == null) return 0;
-        Node l = node.left;
-        Node r = node.right;
-        if (l == null && r == null) return node.val;
-        return getSum(l) + getSum(r);
+    private Map<Character, Integer> getFreq(Node root) {
+        Map<Character, Integer> freq = new HashMap<>();
+        Deque<Node> stack = new ArrayDeque<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node curr = stack.poll();
+            if (curr.val == '+') {
+                stack.push(curr.left);
+                stack.push(curr.right);
+            } else freq.put(curr.val, freq.getOrDefault(curr.val, 0) + 1);
+        }
+        return freq;
     }
+
 
 }
