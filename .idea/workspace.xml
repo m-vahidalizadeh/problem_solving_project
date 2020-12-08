@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/PostfixExpressionTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/RemoveVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MoveToStamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MergeInBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/BraceExpansionII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/FlipBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,9 +86,9 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoveToStamp">
-    <configuration name="CheckIfStringIsTransformable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.CheckIfStringIsTransformable" />
+  <component name="RunManager" selected="Application.MinInitialEnergyToFinishTasks">
+    <configuration name="MaxSumOfThreeSubs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxSumOfThreeSubs" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumOfThreeSubs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxSumOfThreeSubs" />
+    <configuration name="MinInitialEnergyToFinishTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinInitialEnergyToFinishTasks" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -155,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckIfStringIsTransformable" />
       <item itemvalue="Application.MaxSumOfThreeSubs" />
       <item itemvalue="Application.MinRemoveMountainArray" />
       <item itemvalue="Application.PostfixExpressionTree" />
       <item itemvalue="Application.MoveToStamp" />
+      <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
         <item itemvalue="Application.MoveToStamp" />
         <item itemvalue="Application.PostfixExpressionTree" />
         <item itemvalue="Application.MinRemoveMountainArray" />
         <item itemvalue="Application.MaxSumOfThreeSubs" />
-        <item itemvalue="Application.CheckIfStringIsTransformable" />
       </list>
     </recent_temporary>
   </component>
@@ -182,20 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00165" summary="Adding some solutions.">
-      <created>1600053120845</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1600053120846</updated>
-    </task>
-    <task id="LOCAL-00166" summary="Adding some solutions.">
-      <created>1600145038921</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1600145038921</updated>
     </task>
     <task id="LOCAL-00167" summary="Adding some solutions.">
       <created>1600570119850</created>
@@ -526,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607056352817</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="Adding some solutions.">
+      <created>1607217834434</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1607217834434</updated>
+    </task>
+    <task id="LOCAL-00215" summary="Adding some solutions.">
+      <created>1607287436800</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1607287436800</updated>
+    </task>
+    <option name="localTasksCounter" value="216" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -731,12 +729,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="stamp.charAt(0)" language="JAVA" />
-        <watch expression="stamp.charAt(i)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
