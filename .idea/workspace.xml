@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/DiagonalSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/DieSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/WateringVillage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/ConstructQuadTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/NumTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/ParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinFallingPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WateringVillage">
+  <component name="RunManager" selected="Application.MinFallingPathSum">
     <configuration name="DieSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.DieSimulator" />
       <module name="problem_solving_project" />
@@ -115,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinInitialEnergyToFinishTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinInitialEnergyToFinishTasks" />
+    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinFallingPathSum" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveToStamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MoveToStamp" />
+    <configuration name="NumTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.NumTeams" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MoveToStamp" />
-      <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
       <item itemvalue="Application.MakingALargeIsland" />
       <item itemvalue="Application.DieSimulator" />
       <item itemvalue="Application.WateringVillage" />
+      <item itemvalue="Application.NumTeams" />
+      <item itemvalue="Application.MinFallingPathSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinFallingPathSum" />
+        <item itemvalue="Application.NumTeams" />
         <item itemvalue="Application.WateringVillage" />
         <item itemvalue="Application.DieSimulator" />
         <item itemvalue="Application.MakingALargeIsland" />
-        <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
-        <item itemvalue="Application.MoveToStamp" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00170" summary="Adding some solutions.">
-      <created>1600803459943</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1600803459943</updated>
     </task>
     <task id="LOCAL-00171" summary="Adding some solutions.">
       <created>1601005025000</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607565405547</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Adding som solutions.">
+      <created>1607826278531</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1607826278531</updated>
+    </task>
+    <option name="localTasksCounter" value="220" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -542,7 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of:&#10;Most visited pattern" />
     <MESSAGE value="Adding solution of:&#10;Find the Minimum Number of Fibonacci Numbers Whose Sum Is K" />
     <MESSAGE value="Adding solutions of:&#10;Reorder Data in Log Files&#10;Sum of Nodes with Even-Valued Grandparent" />
     <MESSAGE value="Adding solutions of:&#10;Unique email addresses&#10;Sparse matrix multiplication" />
@@ -567,7 +565,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps" />
     <MESSAGE value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
+    <MESSAGE value="Adding som solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding som solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,6 +720,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/hard/CheckIfStringIsTransformable.java</url>
           <line>50</line>
           <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/MinFallingPathSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="265" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
