@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MakingALargeIsland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/FindBottomLeftValBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/DiagonalSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/DieSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/WateringVillage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/ConstructQuadTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +88,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MakingALargeIsland">
+  <component name="RunManager" selected="Application.WateringVillage">
+    <configuration name="DieSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.DieSimulator" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MakingALargeIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MakingALargeIsland" />
       <module name="problem_solving_project" />
@@ -113,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinRemoveMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinRemoveMountainArray" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MoveToStamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MoveToStamp" />
       <module name="problem_solving_project" />
@@ -139,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostfixExpressionTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.PostfixExpressionTree" />
+    <configuration name="WateringVillage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.WateringVillage" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.random.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinRemoveMountainArray" />
-      <item itemvalue="Application.PostfixExpressionTree" />
       <item itemvalue="Application.MoveToStamp" />
       <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
       <item itemvalue="Application.MakingALargeIsland" />
+      <item itemvalue="Application.DieSimulator" />
+      <item itemvalue="Application.WateringVillage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WateringVillage" />
+        <item itemvalue="Application.DieSimulator" />
         <item itemvalue="Application.MakingALargeIsland" />
         <item itemvalue="Application.MinInitialEnergyToFinishTasks" />
         <item itemvalue="Application.MoveToStamp" />
-        <item itemvalue="Application.PostfixExpressionTree" />
-        <item itemvalue="Application.MinRemoveMountainArray" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00169" summary="Adding some solutions.">
-      <created>1600730917191</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1600730917191</updated>
     </task>
     <task id="LOCAL-00170" summary="Adding some solutions.">
       <created>1600803459943</created>
@@ -524,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607476561449</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree">
+      <created>1607565405547</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1607565405547</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of:&#10;Maximum average subtree" />
     <MESSAGE value="Adding solution of:&#10;Most visited pattern" />
     <MESSAGE value="Adding solution of:&#10;Find the Minimum Number of Fibonacci Numbers Whose Sum Is K" />
     <MESSAGE value="Adding solutions of:&#10;Reorder Data in Log Files&#10;Sum of Nodes with Even-Valued Grandparent" />
@@ -565,7 +566,8 @@
     <MESSAGE value="Adding solutions of:&#10;- Check if a string is transformable to another&#10;- Min swaps to make strings equal" />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps" />
+    <MESSAGE value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
