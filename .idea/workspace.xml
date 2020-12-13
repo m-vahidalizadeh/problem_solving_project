@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/NumTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/random/ParkingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinFallingPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MinPartitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinFallingPathSum">
+  <component name="RunManager" selected="Application.MinPartitions">
     <configuration name="DieSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.DieSimulator" />
       <module name="problem_solving_project" />
@@ -101,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakingALargeIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MakingALargeIsland" />
+    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinFallingPathSum" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinFallingPathSum" />
+    <configuration name="MinPartitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MinPartitions" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MakingALargeIsland" />
       <item itemvalue="Application.DieSimulator" />
       <item itemvalue="Application.WateringVillage" />
       <item itemvalue="Application.NumTeams" />
       <item itemvalue="Application.MinFallingPathSum" />
+      <item itemvalue="Application.MinPartitions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinPartitions" />
         <item itemvalue="Application.MinFallingPathSum" />
         <item itemvalue="Application.NumTeams" />
         <item itemvalue="Application.WateringVillage" />
         <item itemvalue="Application.DieSimulator" />
-        <item itemvalue="Application.MakingALargeIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Adding some solutions.">
-      <created>1601005025000</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1601005025000</updated>
     </task>
     <task id="LOCAL-00172" summary="Adding some solutions.">
       <created>1601258912693</created>
@@ -525,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607826278531</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Adding som solutions.">
+      <created>1607881701780</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1607881701781</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -723,7 +721,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/hard/MinFallingPathSum.java</url>
-          <line>31</line>
+          <line>53</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
       </breakpoints>
@@ -735,6 +733,11 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Integer.toBinaryString(maxAdd)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
