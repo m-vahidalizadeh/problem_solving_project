@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MinPartitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MoveSubOfNryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/SubtreeWithAllDeepest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00172" summary="Adding some solutions.">
-      <created>1601258912693</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1601258912693</updated>
     </task>
     <task id="LOCAL-00173" summary="Adding some solutions.">
       <created>1601339593927</created>
@@ -523,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607881701781</updated>
     </task>
-    <option name="localTasksCounter" value="221" />
+    <task id="LOCAL-00221" summary="Adding som solutions.">
+      <created>1607883802426</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1607883802426</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
