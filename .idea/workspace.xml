@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StickersToSpellWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/LargestInEachRowBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxStudentsTakingExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/AirplaneSeatAssignmentProbability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StickersToSpellWord">
+  <component name="RunManager" selected="Application.MaxStudentsTakingExam">
+    <configuration name="MaxStudentsTakingExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxStudentsTakingExam" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinFallingPathSum" />
       <module name="problem_solving_project" />
@@ -139,33 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WateringVillage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.WateringVillage" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.WateringVillage" />
       <item itemvalue="Application.NumTeams" />
       <item itemvalue="Application.MinFallingPathSum" />
       <item itemvalue="Application.MinPartitions" />
       <item itemvalue="Application.StickersToSpellWord" />
+      <item itemvalue="Application.MaxStudentsTakingExam" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxStudentsTakingExam" />
         <item itemvalue="Application.StickersToSpellWord" />
         <item itemvalue="Application.MinPartitions" />
         <item itemvalue="Application.MinFallingPathSum" />
         <item itemvalue="Application.NumTeams" />
-        <item itemvalue="Application.WateringVillage" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00175" summary="Adding some solutions.">
-      <created>1601436893829</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
-      <option name="project" value="LOCAL" />
-      <updated>1601436893829</updated>
     </task>
     <task id="LOCAL-00176" summary="Adding some solutions.">
       <created>1601436954308</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608086530223</updated>
     </task>
-    <option name="localTasksCounter" value="224" />
+    <task id="LOCAL-00224" summary="Adding som solutions.">
+      <created>1608173982481</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1608173982482</updated>
+    </task>
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
