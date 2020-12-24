@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindDistanceLimitPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/SimplifiedFractions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/TrapRainWaterII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxEvents">
+  <component name="RunManager" selected="Application.TrapRainWaterII">
     <configuration name="MaxEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.MaxEvents" />
       <module name="problem_solving_project" />
@@ -102,19 +101,6 @@
     </configuration>
     <configuration name="MaxStudentsTakingExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxStudentsTakingExam" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinFallingPathSum" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -152,20 +138,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrapRainWaterII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.TrapRainWaterII" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MinFallingPathSum" />
       <item itemvalue="Application.MinPartitions" />
       <item itemvalue="Application.StickersToSpellWord" />
       <item itemvalue="Application.MaxStudentsTakingExam" />
       <item itemvalue="Application.MaxEvents" />
+      <item itemvalue="Application.TrapRainWaterII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrapRainWaterII" />
         <item itemvalue="Application.MaxEvents" />
         <item itemvalue="Application.MaxStudentsTakingExam" />
         <item itemvalue="Application.StickersToSpellWord" />
         <item itemvalue="Application.MinPartitions" />
-        <item itemvalue="Application.MinFallingPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00179" summary="Adding some solutions.">
-      <created>1601946797124</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1601946797125</updated>
     </task>
     <task id="LOCAL-00180" summary="Adding some solutions.">
       <created>1602028155044</created>
@@ -524,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608603494042</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="Adding som solutions.">
+      <created>1608684850774</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1608684850774</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,6 +568,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/TrapRainWaterII.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
