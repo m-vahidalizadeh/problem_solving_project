@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountPalindromicSubs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PaintHouseII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestSuperString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/AnalogClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/ClosedIsland.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/TopologicalSortByGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaxBinaryString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00184" summary="Adding some solutions.">
-      <created>1602450049135</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1602450049136</updated>
     </task>
     <task id="LOCAL-00185" summary="Adding some solutions.">
       <created>1602549551905</created>
@@ -527,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609100033365</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="Adding some solutions.">
+      <created>1609647816636</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1609647816637</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,11 +561,11 @@
     <MESSAGE value="Adding solutions of:&#10;- Sparse vector&#10;- Tribonacci&#10;- Summary ranges&#10;- Typer with two fingers&#10;- Construct k palindrome strings&#10;- Smallest string after operations" />
     <MESSAGE value="Adding solutions of:&#10;- Max distance between gas stations&#10;- Minimum function calls" />
     <MESSAGE value="Adding solutions of:&#10;- Check if a string is transformable to another&#10;- Min swaps to make strings equal" />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps" />
     <MESSAGE value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
     <MESSAGE value="Adding som solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding som solutions." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
