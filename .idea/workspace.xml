@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/TopologicalSortByGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaxBinaryString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinOperationsToMakeASub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumWaysAfterSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountPalindromicSubs">
+  <component name="RunManager" selected="Application.MinOperationsToMakeASub">
     <configuration name="CountPalindromicSubs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.CountPalindromicSubs" />
       <module name="problem_solving_project" />
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.random.MaxEvents" />
+    <configuration name="MinOperationsToMakeASub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinOperationsToMakeASub" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.random.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxEvents" />
       <item itemvalue="Application.TrapRainWaterII" />
       <item itemvalue="Application.LargestNumber" />
       <item itemvalue="Application.FindLongestSubString" />
       <item itemvalue="Application.CountPalindromicSubs" />
+      <item itemvalue="Application.MinOperationsToMakeASub" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinOperationsToMakeASub" />
         <item itemvalue="Application.CountPalindromicSubs" />
         <item itemvalue="Application.FindLongestSubString" />
         <item itemvalue="Application.LargestNumber" />
         <item itemvalue="Application.TrapRainWaterII" />
-        <item itemvalue="Application.MaxEvents" />
       </list>
     </recent_temporary>
   </component>
@@ -180,13 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00185" summary="Adding some solutions.">
-      <created>1602549551905</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1602549551905</updated>
     </task>
     <task id="LOCAL-00186" summary="Adding some solutions.">
       <created>1602640702733</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609647816637</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="Adding some solutions.">
+      <created>1609725136902</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1609725136902</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
