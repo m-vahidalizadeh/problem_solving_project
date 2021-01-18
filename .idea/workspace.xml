@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RemoveBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTimeRequired.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Adding some solutions.">
-      <created>1602727658800</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1602727658800</updated>
     </task>
     <task id="LOCAL-00188" summary="Adding some solutions.">
       <created>1602813308073</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609897539537</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="Adding solution of remove colored boxes.">
+      <created>1609985091983</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1609985091984</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of:&#10;Find the Minimum Number of Fibonacci Numbers Whose Sum Is K" />
     <MESSAGE value="Adding solutions of:&#10;Reorder Data in Log Files&#10;Sum of Nodes with Even-Valued Grandparent" />
     <MESSAGE value="Adding solutions of:&#10;Unique email addresses&#10;Sparse matrix multiplication" />
     <MESSAGE value="Adding solutions of:&#10;Odd even jump&#10;Validate stack sequences" />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
     <MESSAGE value="Adding som solutions." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of remove colored boxes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of remove colored boxes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
