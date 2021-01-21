@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding solution of remove invalid pars.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumBussesToDest.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ConcatenatedWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinOperationsToMakeASub">
+  <component name="RunManager" selected="Application.ConcatenatedWords">
+    <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ConcatenatedWords" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountPalindromicSubs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.CountPalindromicSubs" />
       <module name="problem_solving_project" />
@@ -138,33 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrapRainWaterII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.TrapRainWaterII" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.CountPalindromicSubs" />
       <item itemvalue="Application.FindLongestSubString" />
       <item itemvalue="Application.LargestNumber" />
       <item itemvalue="Application.MinOperationsToMakeASub" />
-      <item itemvalue="Application.TrapRainWaterII" />
+      <item itemvalue="Application.ConcatenatedWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcatenatedWords" />
         <item itemvalue="Application.MinOperationsToMakeASub" />
         <item itemvalue="Application.CountPalindromicSubs" />
         <item itemvalue="Application.FindLongestSubString" />
         <item itemvalue="Application.LargestNumber" />
-        <item itemvalue="Application.TrapRainWaterII" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Adding some solutions.">
-      <created>1603071220803</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1603071220804</updated>
     </task>
     <task id="LOCAL-00191" summary="Adding some solutions.">
       <created>1603161396632</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611002514248</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Adding solution of number of busses to destination.">
+      <created>1611111546915</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1611111546915</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solutions of:&#10;Odd even jump&#10;Validate stack sequences" />
     <MESSAGE value="Adding solutions of:&#10;License key formatting&#10;Bulb switcher IV" />
     <MESSAGE value="Adding solutions of:&#10;Fruit baskets &#10;Diameter of N-Ary tree" />
     <MESSAGE value="Adding the solution of:&#10;Number of islands" />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of remove colored boxes." />
     <MESSAGE value="Adding solution of assigning tasks to workers." />
     <MESSAGE value="Adding solution of remove invalid pars." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of remove invalid pars." />
+    <MESSAGE value="Adding solution of number of busses to destination." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of busses to destination." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
