@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CalculateIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/KthSmallestInstructions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,11 +152,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ConcatenatedWords" />
       <item itemvalue="Application.CountPalindromicSubs" />
       <item itemvalue="Application.FindLongestSubString" />
       <item itemvalue="Application.LargestNumber" />
       <item itemvalue="Application.MinOperationsToMakeASub" />
-      <item itemvalue="Application.ConcatenatedWords" />
     </list>
     <recent_temporary>
       <list>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Adding some solutions.">
-      <created>1603331791688</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1603331791688</updated>
     </task>
     <task id="LOCAL-00193" summary="Adding some solutions.">
       <created>1603413405161</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611196033744</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="Adding solution of Calculator III.">
+      <created>1611279622510</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1611279622510</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solutions of:&#10;Fruit baskets &#10;Diameter of N-Ary tree" />
     <MESSAGE value="Adding the solution of:&#10;Number of islands" />
     <MESSAGE value="Adding solutions of:&#10;crack safe&#10;diameter of a binary tree" />
     <MESSAGE value="Adding solution of cleaning robot." />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of remove invalid pars." />
     <MESSAGE value="Adding solution of number of busses to destination." />
     <MESSAGE value="Adding solution of concatenated words." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of concatenated words." />
+    <MESSAGE value="Adding solution of Calculator III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of Calculator III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
