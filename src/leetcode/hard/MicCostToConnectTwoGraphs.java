@@ -1,0 +1,89 @@
+package leetcode.hard;
+
+import java.util.*;
+
+/**
+ * 1595. Minimum Cost to Connect Two Groups of Points
+ * You are given two groups of points where the first group has size1 points, the second group has size2 points, and size1 >= size2.
+ *
+ * The cost of the connection between any two points are given in an size1 x size2 matrix where cost[i][j] is the cost of connecting point i of the first group and point j of the second group. The groups are connected if each point in both groups is connected to one or more points in the opposite group. In other words, each point in the first group must be connected to at least one point in the second group, and each point in the second group must be connected to at least one point in the first group.
+ *
+ * Return the minimum cost it takes to connect the two groups.
+ *
+ * Example 1:
+ *
+ * Input: cost = [[15, 96], [36, 2]]
+ * Output: 17
+ * Explanation: The optimal way of connecting the groups is:
+ * 1--A
+ * 2--B
+ * This results in a total cost of 17.
+ * Example 2:
+ *
+ * Input: cost = [[1, 3, 5], [4, 1, 1], [1, 5, 3]]
+ * Output: 4
+ * Explanation: The optimal way of connecting the groups is:
+ * 1--A
+ * 2--B
+ * 2--C
+ * 3--A
+ * This results in a total cost of 4.
+ * Note that there are multiple points connected to point 2 in the first group and point A in the second group. This does not matter as there is no limit to the number of points that can be connected. We only care about the minimum total cost.
+ * Example 3:
+ *
+ * Input: cost = [[2, 5, 1], [3, 4, 7], [8, 1, 2], [6, 2, 4], [3, 8, 8]]
+ * Output: 10
+ *
+ * Constraints:
+ *
+ * size1 == cost.length
+ * size2 == cost[i].length
+ * 1 <= size1, size2 <= 12
+ * size1 >= size2
+ * 0 <= cost[i][j] <= 100
+ */
+public class MicCostToConnectTwoGraphs {
+
+    int n;
+    int m;
+    int[] minArr;
+    Map<String, Integer> cache;
+    List<List<Integer>> cost;
+
+    public int connectTwoGroups(List<List<Integer>> cost) {
+        n = cost.size();
+        m = cost.get(0).size();
+        this.cost = cost;
+        minArr = new int[m];
+        for (int j = 0; j < m; j++) {
+            int min = Integer.MAX_VALUE;
+            for (int i = 0; i < n; i++) {
+                min = Math.min(min, cost.get(i).get(j));
+            }
+            minArr[j] = min;
+        }
+        cache = new HashMap<>();
+        return rec(0, 0);
+    }
+
+    private int rec(int i, int mask) {
+        String key = i + "-" + mask;
+        if (cache.containsKey(key)) return cache.get(key);
+        if (i == n) {
+            int res = 0;
+            for (int j = 0; j < m; j++) {
+                if ((mask & (1 << j)) == 0) res += minArr[j];
+            }
+            cache.put(key, res);
+            return res;
+        } else {
+            int res = Integer.MAX_VALUE;
+            for (int j = 0; j < m; j++) {
+                res = Math.min(res, rec(i + 1, (mask | (1 << j))) + cost.get(i).get(j));
+            }
+            cache.put(key, res);
+            return res;
+        }
+    }
+
+}
