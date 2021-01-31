@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MazeIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReachableNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShortestDistance">
+  <component name="RunManager" selected="Application.ReachableNodes">
     <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.ConcatenatedWords" />
       <module name="problem_solving_project" />
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinOperationsToMakeASub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinOperationsToMakeASub" />
+    <configuration name="PrisonAfterNDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.PrisonAfterNDays" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrisonAfterNDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.PrisonAfterNDays" />
+    <configuration name="ReachableNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ReachableNodes" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.amazon.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,17 +154,17 @@
     <list>
       <item itemvalue="Application.ConcatenatedWords" />
       <item itemvalue="Application.MicCostToConnectTwoGraphs" />
-      <item itemvalue="Application.MinOperationsToMakeASub" />
       <item itemvalue="Application.PrisonAfterNDays" />
       <item itemvalue="Application.ShortestDistance" />
+      <item itemvalue="Application.ReachableNodes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReachableNodes" />
         <item itemvalue="Application.ShortestDistance" />
         <item itemvalue="Application.MicCostToConnectTwoGraphs" />
         <item itemvalue="Application.PrisonAfterNDays" />
         <item itemvalue="Application.ConcatenatedWords" />
-        <item itemvalue="Application.MinOperationsToMakeASub" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00199" summary="Adding some solutions.">
-      <created>1604265626524</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1604265626524</updated>
     </task>
     <task id="LOCAL-00200" summary="Adding some solutions.">
       <created>1604415151102</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611886791133</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="Adding solution of maze III.">
+      <created>1611979668183</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1611979668184</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of:&#10;Generate parentheses&#10;Letter combination of a phone number" />
     <MESSAGE value="Adding solution of:&#10;Find first and last position of elements in a sorted array&#10;Median of two sorted arrays" />
     <MESSAGE value="Adding solution of:&#10;Count of smaller numbers after self&#10;Insert interval&#10;Valid anagram" />
     <MESSAGE value="Adding solutions of:&#10;- min number of flips to convert binary matrix to zero matrix&#10;- Find lowest common ancestor of two nodes in BT" />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of shortest path with blocks." />
     <MESSAGE value="Adding solution of connecting two groups." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of maze III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of maze III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,7 +578,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="rec(empty[0], empty[1], building[0], building[1])" language="JAVA" />
+        <watch expression="graph.get(0)" language="JAVA" />
+        <watch expression="maxMoves-distance" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
