@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReachableNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DetectCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,9 +85,9 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReachableNodes">
-    <configuration name="ConcatenatedWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ConcatenatedWords" />
+  <component name="RunManager" selected="Application.DetectCycle">
+    <configuration name="DetectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.DetectCycle" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcatenatedWords" />
       <item itemvalue="Application.MicCostToConnectTwoGraphs" />
       <item itemvalue="Application.PrisonAfterNDays" />
       <item itemvalue="Application.ShortestDistance" />
       <item itemvalue="Application.ReachableNodes" />
+      <item itemvalue="Application.DetectCycle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectCycle" />
         <item itemvalue="Application.ReachableNodes" />
         <item itemvalue="Application.ShortestDistance" />
         <item itemvalue="Application.MicCostToConnectTwoGraphs" />
         <item itemvalue="Application.PrisonAfterNDays" />
-        <item itemvalue="Application.ConcatenatedWords" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00200" summary="Adding some solutions.">
-      <created>1604415151102</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1604415151102</updated>
     </task>
     <task id="LOCAL-00201" summary="Adding some solutions.">
       <created>1604930137377</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611979668184</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Adding solution of reachable nodes.">
+      <created>1612059226761</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1612059226761</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of:&#10;Find first and last position of elements in a sorted array&#10;Median of two sorted arrays" />
     <MESSAGE value="Adding solution of:&#10;Count of smaller numbers after self&#10;Insert interval&#10;Valid anagram" />
     <MESSAGE value="Adding solutions of:&#10;- min number of flips to convert binary matrix to zero matrix&#10;- Find lowest common ancestor of two nodes in BT" />
     <MESSAGE value="Adding solutions of:&#10;- Cherry pickup II&#10;- Count vowel strings" />
@@ -564,10 +563,18 @@
     <MESSAGE value="Adding solution of connecting two groups." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of maze III." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of maze III." />
+    <MESSAGE value="Adding solution of reachable nodes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of reachable nodes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/DetectCycle.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
           <selected-grouping-rules>
@@ -578,8 +585,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="graph.get(0)" language="JAVA" />
-        <watch expression="maxMoves-distance" language="JAVA" />
+        <watch expression="dfs(i, j, grid[i][j], i, j)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
