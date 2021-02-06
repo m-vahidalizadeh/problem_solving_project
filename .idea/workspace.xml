@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/IntersectionSizeTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/ClosestToOrigins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/LongestPalindromic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DetectCycle">
+  <component name="RunManager" selected="Application.ClosestToOrigins">
+    <configuration name="ClosestToOrigins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.ClosestToOrigins" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.DetectCycle" />
       <module name="problem_solving_project" />
@@ -99,21 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MicCostToConnectTwoGraphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MicCostToConnectTwoGraphs" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrisonAfterNDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.PrisonAfterNDays" />
+    <configuration name="LongestPalindromic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.LongestPalindromic" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MicCostToConnectTwoGraphs" />
-      <item itemvalue="Application.PrisonAfterNDays" />
       <item itemvalue="Application.ShortestDistance" />
       <item itemvalue="Application.ReachableNodes" />
       <item itemvalue="Application.DetectCycle" />
+      <item itemvalue="Application.LongestPalindromic" />
+      <item itemvalue="Application.ClosestToOrigins" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosestToOrigins" />
+        <item itemvalue="Application.LongestPalindromic" />
         <item itemvalue="Application.DetectCycle" />
         <item itemvalue="Application.ReachableNodes" />
         <item itemvalue="Application.ShortestDistance" />
-        <item itemvalue="Application.MicCostToConnectTwoGraphs" />
-        <item itemvalue="Application.PrisonAfterNDays" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00205" summary="Adding some solutions.">
-      <created>1605577762343</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1605577762343</updated>
     </task>
     <task id="LOCAL-00206" summary="Adding solutions of:&#10;- min number of flips to convert binary matrix to zero matrix&#10;- Find lowest common ancestor of two nodes in BT">
       <created>1605660483593</created>
@@ -523,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612413755892</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="Adding solution of intersection with size two.">
+      <created>1612491923631</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1612491923632</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solutions of:&#10;- Build array to find max in k cost&#10;- Correct the binary tree" />
     <MESSAGE value="Adding solutions of:&#10;- Collect gold&#10;- Finding increasing subs&#10;- Count sub trees with max distance&#10;- Count subs with one char difference" />
     <MESSAGE value="Adding solutions of:&#10;- Sparse vector&#10;- Tribonacci&#10;- Summary ranges&#10;- Typer with two fingers&#10;- Construct k palindrome strings&#10;- Smallest string after operations" />
     <MESSAGE value="Adding solutions of:&#10;- Max distance between gas stations&#10;- Minimum function calls" />
@@ -564,7 +565,8 @@
     <MESSAGE value="Adding solution of detect cycles in 2D grid." />
     <MESSAGE value="Adding solution of recover BST." />
     <MESSAGE value="Adding solution of kth smallest fraction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of kth smallest fraction." />
+    <MESSAGE value="Adding solution of intersection with size two." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of intersection with size two." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,11 +585,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dfs(i, j, grid[i][j], i, j)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
