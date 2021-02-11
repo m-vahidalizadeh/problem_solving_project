@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SmallestRotationWithHighestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindMinInRotatedArrayII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00208" summary="Adding solutions of:&#10;- Build array to find max in k cost&#10;- Correct the binary tree">
-      <created>1605841697259</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1605841697260</updated>
     </task>
     <task id="LOCAL-00209" summary="Adding solutions of:&#10;- Collect gold&#10;- Finding increasing subs&#10;- Count sub trees with max distance&#10;- Count subs with one char difference">
       <created>1605996016883</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612656177371</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="Adding solution of smallest rotation with highest score.">
+      <created>1612924199911</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1612924199912</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solutions of:&#10;- Max distance between gas stations&#10;- Minimum function calls" />
     <MESSAGE value="Adding solutions of:&#10;- Check if a string is transformable to another&#10;- Min swaps to make strings equal" />
     <MESSAGE value="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps" />
     <MESSAGE value="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree" />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of intersection with size two." />
     <MESSAGE value="Adding solution of:&#10;- Closest to origin&#10;- Longest palindromic" />
     <MESSAGE value="Adding solution of equal rational numbers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of equal rational numbers." />
+    <MESSAGE value="Adding solution of smallest rotation with highest score." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of smallest rotation with highest score." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
