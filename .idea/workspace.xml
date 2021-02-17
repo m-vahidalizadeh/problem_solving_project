@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LongestHappyPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MakeArrStrictlyIncreasing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JumpGameIV">
+  <component name="RunManager" selected="Application.MakeArrStrictlyIncreasing">
     <configuration name="ClosestToOrigins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.ClosestToOrigins" />
       <module name="problem_solving_project" />
@@ -138,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachableNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ReachableNodes" />
+    <configuration name="MakeArrStrictlyIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MakeArrStrictlyIncreasing" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -152,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReachableNodes" />
       <item itemvalue="Application.DetectCycle" />
       <item itemvalue="Application.LongestPalindromic" />
       <item itemvalue="Application.ClosestToOrigins" />
       <item itemvalue="Application.JumpGameIV" />
+      <item itemvalue="Application.MakeArrStrictlyIncreasing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakeArrStrictlyIncreasing" />
         <item itemvalue="Application.JumpGameIV" />
         <item itemvalue="Application.ClosestToOrigins" />
         <item itemvalue="Application.LongestPalindromic" />
         <item itemvalue="Application.DetectCycle" />
-        <item itemvalue="Application.ReachableNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00214" summary="Adding some solutions.">
-      <created>1607217834434</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1607217834434</updated>
     </task>
     <task id="LOCAL-00215" summary="Adding some solutions.">
       <created>1607287436800</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613329041481</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <task id="LOCAL-00263" summary="Adding solution of longest happy prefix.">
+      <created>1613432184161</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1613432184161</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of assigning tasks to workers." />
     <MESSAGE value="Adding solution of remove invalid pars." />
     <MESSAGE value="Adding solution of number of busses to destination." />
     <MESSAGE value="Adding solution of concatenated words." />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of jump game IV." />
     <MESSAGE value="Adding solution of shortest path to all keys." />
     <MESSAGE value="Adding solution of Minimize malware spread." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of Minimize malware spread." />
+    <MESSAGE value="Adding solution of longest happy prefix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of longest happy prefix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,6 +573,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/hard/DetectCycle.java</url>
           <line>53</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/MakeArrStrictlyIncreasing.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
