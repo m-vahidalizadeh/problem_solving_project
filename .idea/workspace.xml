@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MakeArrStrictlyIncreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DistinctSubsII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00215" summary="Adding some solutions.">
-      <created>1607287436800</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1607287436800</updated>
     </task>
     <task id="LOCAL-00216" summary="Adding some solutions.">
       <created>1607392066882</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613432184161</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="Adding solution of make array strictly increasing.">
+      <created>1613521728369</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1613521728369</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of remove invalid pars." />
     <MESSAGE value="Adding solution of number of busses to destination." />
     <MESSAGE value="Adding solution of concatenated words." />
     <MESSAGE value="Adding solution of Calculator III." />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of shortest path to all keys." />
     <MESSAGE value="Adding solution of Minimize malware spread." />
     <MESSAGE value="Adding solution of longest happy prefix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of longest happy prefix." />
+    <MESSAGE value="Adding solution of make array strictly increasing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of make array strictly increasing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -576,7 +576,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/hard/MakeArrStrictlyIncreasing.java</url>
-          <line>28</line>
+          <line>57</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
