@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DistinctSubsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxVacationDays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00216" summary="Adding some solutions.">
-      <created>1607392066882</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1607392066883</updated>
     </task>
     <task id="LOCAL-00217" summary="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps">
       <created>1607476561449</created>
@@ -523,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613521728369</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="Adding solution of distinct subs II.">
+      <created>1613607061058</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1613607061058</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of number of busses to destination." />
     <MESSAGE value="Adding solution of concatenated words." />
     <MESSAGE value="Adding solution of Calculator III." />
     <MESSAGE value="Adding solution of Kth smallest instructions." />
@@ -564,7 +563,8 @@
     <MESSAGE value="Adding solution of Minimize malware spread." />
     <MESSAGE value="Adding solution of longest happy prefix." />
     <MESSAGE value="Adding solution of make array strictly increasing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of make array strictly increasing." />
+    <MESSAGE value="Adding solution of distinct subs II." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of distinct subs II." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
