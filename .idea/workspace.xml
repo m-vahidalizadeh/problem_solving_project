@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxVacationDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/ExpTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/ParkingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/RemoveLeaves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +87,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MakeArrStrictlyIncreasing">
+  <component name="RunManager" selected="Application.ExpTree">
     <configuration name="ClosestToOrigins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.ClosestToOrigins" />
       <module name="problem_solving_project" />
@@ -99,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.DetectCycle" />
+    <configuration name="ExpTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.ExpTree" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +154,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DetectCycle" />
       <item itemvalue="Application.LongestPalindromic" />
       <item itemvalue="Application.ClosestToOrigins" />
       <item itemvalue="Application.JumpGameIV" />
       <item itemvalue="Application.MakeArrStrictlyIncreasing" />
+      <item itemvalue="Application.ExpTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExpTree" />
         <item itemvalue="Application.MakeArrStrictlyIncreasing" />
         <item itemvalue="Application.JumpGameIV" />
         <item itemvalue="Application.ClosestToOrigins" />
         <item itemvalue="Application.LongestPalindromic" />
-        <item itemvalue="Application.DetectCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -179,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00217" summary="Adding solutions of:&#10;- find triple elements with and equal zero&#10;- Can reach value 0 with jumps">
-      <created>1607476561449</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1607476561449</updated>
     </task>
     <task id="LOCAL-00218" summary="Adding solutions of:&#10;- Making a large island&#10;- Find bottom left value of a binary tree">
       <created>1607565405547</created>
@@ -523,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613607061058</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="Adding solution of max vacation days.">
+      <created>1613702596272</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1613702596272</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -539,7 +541,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of concatenated words." />
     <MESSAGE value="Adding solution of Calculator III." />
     <MESSAGE value="Adding solution of Kth smallest instructions." />
     <MESSAGE value="Adding solution of move box to the target." />
@@ -564,7 +565,8 @@
     <MESSAGE value="Adding solution of longest happy prefix." />
     <MESSAGE value="Adding solution of make array strictly increasing." />
     <MESSAGE value="Adding solution of distinct subs II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of distinct subs II." />
+    <MESSAGE value="Adding solution of max vacation days." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max vacation days." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
