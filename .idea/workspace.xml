@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindNumOfDigitsInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MalwareSpreadII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,10 +168,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstUnique" />
-        <item itemvalue="Application.ExpTree" />
         <item itemvalue="Application.MakeArrStrictlyIncreasing" />
         <item itemvalue="Application.JumpGameIV" />
+        <item itemvalue="Application.FirstUnique" />
+        <item itemvalue="Application.ExpTree" />
         <item itemvalue="Application.ClosestToOrigins" />
       </list>
     </recent_temporary>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00222" summary="Adding som solutions.">
-      <created>1607997821448</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1607997821449</updated>
     </task>
     <task id="LOCAL-00223" summary="Adding som solutions.">
       <created>1608086530223</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614135588983</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="Adding solution of finding the number of digits in range.">
+      <created>1614213909990</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1614213909990</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of move box to the target." />
     <MESSAGE value="Adding some sulutions." />
     <MESSAGE value="Adding solution of shortest path with blocks." />
     <MESSAGE value="Adding solution of connecting two groups." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of IPO." />
     <MESSAGE value="Adding solution of strange printer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of strange printer." />
+    <MESSAGE value="Adding solution of finding the number of digits in range." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of finding the number of digits in range." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
