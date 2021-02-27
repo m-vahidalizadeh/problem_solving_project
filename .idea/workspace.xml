@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/TrimBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SimilarStringGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,26 +93,13 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers">
+  <component name="RunManager" selected="Application.SimilarStringGroups">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.AddTwoNumbers" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.microsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.ExpTree" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,20 +146,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimilarStringGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.SimilarStringGroups" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ExpTree" />
       <item itemvalue="Application.FirstUnique" />
       <item itemvalue="Application.JumpGameIV" />
       <item itemvalue="Application.MakeArrStrictlyIncreasing" />
       <item itemvalue="Application.AddTwoNumbers" />
+      <item itemvalue="Application.SimilarStringGroups" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimilarStringGroups" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.MakeArrStrictlyIncreasing" />
         <item itemvalue="Application.JumpGameIV" />
         <item itemvalue="Application.FirstUnique" />
-        <item itemvalue="Application.ExpTree" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00225" summary="Adding som solutions.">
-      <created>1608259484812</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1608259484813</updated>
     </task>
     <task id="LOCAL-00226" summary="Adding som solutions.">
       <created>1608509820355</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614401919374</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="Adding some solutions.">
+      <created>1614461445046</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1614461445046</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,13 +566,13 @@
     <MESSAGE value="Adding solution of make array strictly increasing." />
     <MESSAGE value="Adding solution of distinct subs II." />
     <MESSAGE value="Adding solution of max vacation days." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of IPO." />
     <MESSAGE value="Adding solution of strange printer." />
     <MESSAGE value="Adding solution of finding the number of digits in range." />
     <MESSAGE value="Adding solution of malware spread II." />
     <MESSAGE value="Adding solution of cat and mouse II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of cat and mouse II." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
