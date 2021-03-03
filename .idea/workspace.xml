@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MyCalendarThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CodecNry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00228" summary="Adding som solutions.">
-      <created>1608684850774</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1608684850774</updated>
     </task>
     <task id="LOCAL-00229" summary="Adding som solutions.">
       <created>1608784697367</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614537106068</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Adding solution of my calendar III.">
+      <created>1614645041607</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1614645041607</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of reachable nodes." />
     <MESSAGE value="Adding solution of detect cycles in 2D grid." />
     <MESSAGE value="Adding solution of recover BST." />
     <MESSAGE value="Adding solution of kth smallest fraction." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of similar string groups." />
     <MESSAGE value="Adding solution of count ways to distribute candies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of count ways to distribute candies." />
+    <MESSAGE value="Adding solution of my calendar III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of my calendar III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
