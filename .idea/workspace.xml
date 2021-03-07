@@ -23,10 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/DeleteNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MaxBT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MinTotalDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/Painting3N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/ConvertRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/FindLCA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/FindMedian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/TransformationSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,26 +96,13 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinTotalDistance">
+  <component name="RunManager" selected="Application.TransformationSequence">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.AddTwoNumbers" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.microsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JumpGameIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.JumpGameIV" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,20 +149,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransformationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.TransformationSequence" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AddTwoNumbers" />
-      <item itemvalue="Application.JumpGameIV" />
       <item itemvalue="Application.MakeArrStrictlyIncreasing" />
       <item itemvalue="Application.SimilarStringGroups" />
       <item itemvalue="Application.MinTotalDistance" />
+      <item itemvalue="Application.TransformationSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransformationSequence" />
         <item itemvalue="Application.MinTotalDistance" />
         <item itemvalue="Application.SimilarStringGroups" />
         <item itemvalue="Application.AddTwoNumbers" />
         <item itemvalue="Application.MakeArrStrictlyIncreasing" />
-        <item itemvalue="Application.JumpGameIV" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00233" summary="Adding some solutions.">
-      <created>1609647816636</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1609647816637</updated>
     </task>
     <task id="LOCAL-00234" summary="Adding some solutions.">
       <created>1609725136902</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615001207624</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="Adding some solutions.">
+      <created>1615079405347</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079405347</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,7 +567,6 @@
     <MESSAGE value="Adding solution of finding the number of digits in range." />
     <MESSAGE value="Adding solution of malware spread II." />
     <MESSAGE value="Adding solution of cat and mouse II." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of similar string groups." />
     <MESSAGE value="Adding solution of count ways to distribute candies." />
     <MESSAGE value="Adding solution of my calendar III." />
@@ -575,7 +574,8 @@
     <MESSAGE value="Adding solution of palindrome partitioning III." />
     <MESSAGE value="Adding solution of sliding puzzle." />
     <MESSAGE value="Adding solution of distributing the balls into two buckets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of distributing the balls into two buckets." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -589,6 +589,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/hard/MakeArrStrictlyIncreasing.java</url>
           <line>57</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/amazon/TransformationSequence.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
