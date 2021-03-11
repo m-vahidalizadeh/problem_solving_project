@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindKthSmallestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinNumOfIncsOnSubToFormTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00236" summary="Adding solution of remove colored boxes.">
-      <created>1609985091983</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1609985091984</updated>
     </task>
     <task id="LOCAL-00237" summary="Adding solution of assigning tasks to workers.">
       <created>1610932708854</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615249292321</updated>
     </task>
-    <option name="localTasksCounter" value="285" />
+    <task id="LOCAL-00285" summary="Adding solution of finding kth smallest sum.">
+      <created>1615335298391</created>
+      <option name="number" value="00285" />
+      <option name="presentableId" value="LOCAL-00285" />
+      <option name="project" value="LOCAL" />
+      <updated>1615335298391</updated>
+    </task>
+    <option name="localTasksCounter" value="286" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of equal rational numbers." />
     <MESSAGE value="Adding solution of smallest rotation with highest score." />
     <MESSAGE value="Adding solution of find min in rotated sorted array II." />
     <MESSAGE value="Adding solution of freedom trail." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of distributing the balls into two buckets." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of N-Queens II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of N-Queens II." />
+    <MESSAGE value="Adding solution of finding kth smallest sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of finding kth smallest sum." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
