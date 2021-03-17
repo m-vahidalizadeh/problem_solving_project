@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LongestChunkedPalindromeDecomposition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/JumpGameV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00241" summary="Adding solution of Calculator III.">
-      <created>1611279622510</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1611279622510</updated>
     </task>
     <task id="LOCAL-00242" summary="Adding solution of Kth smallest instructions.">
       <created>1611366791689</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615759812080</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="Adding solution of longest chunked palindrome decomposition.">
+      <created>1615853646836</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1615853646836</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of shortest path to all keys." />
     <MESSAGE value="Adding solution of Minimize malware spread." />
     <MESSAGE value="Adding solution of longest happy prefix." />
     <MESSAGE value="Adding solution of make array strictly increasing." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of max garden beauty." />
     <MESSAGE value="Adding solution of min insertion to make palindrome." />
     <MESSAGE value="Adding solution of find candies in boxes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of find candies in boxes." />
+    <MESSAGE value="Adding solution of longest chunked palindrome decomposition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of longest chunked palindrome decomposition." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
