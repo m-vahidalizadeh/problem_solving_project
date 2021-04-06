@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DivideArrayIntoIncreasingSubs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DistanceLimitedPathsExist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00247" summary="Adding some solutions.">
-      <created>1611886791133</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1611886791133</updated>
     </task>
     <task id="LOCAL-00248" summary="Adding solution of maze III.">
       <created>1611979668183</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617451930239</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="Adding solution of divide array into increasing subs.">
+      <created>1617547774083</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1617547774083</updated>
+    </task>
+    <option name="localTasksCounter" value="297" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of IPO." />
     <MESSAGE value="Adding solution of strange printer." />
     <MESSAGE value="Adding solution of finding the number of digits in range." />
     <MESSAGE value="Adding solution of malware spread II." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of stone game IV." />
     <MESSAGE value="Adding solution of skip list." />
     <MESSAGE value="Adding solution of special binary string." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of special binary string." />
+    <MESSAGE value="Adding solution of divide array into increasing subs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of divide array into increasing subs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
