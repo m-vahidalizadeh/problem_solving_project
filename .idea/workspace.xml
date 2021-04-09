@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StoneGameIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinOneBitOperationsToMakeIntegersZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00250" summary="Adding solution of detect cycles in 2D grid.">
-      <created>1612150367739</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1612150367739</updated>
     </task>
     <task id="LOCAL-00251" summary="Adding solution of recover BST.">
       <created>1612227348229</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617711898314</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="Adding solution of stone game III.">
+      <created>1617800242195</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1617800242196</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of malware spread II." />
     <MESSAGE value="Adding solution of cat and mouse II." />
     <MESSAGE value="Adding solution of similar string groups." />
     <MESSAGE value="Adding solution of count ways to distribute candies." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of divide array into increasing subs." />
     <MESSAGE value="Adding solution of checking existence of edge length limited paths II." />
     <MESSAGE value="Adding solution of max num of ones in a square." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max num of ones in a square." />
+    <MESSAGE value="Adding solution of stone game III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of stone game III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
