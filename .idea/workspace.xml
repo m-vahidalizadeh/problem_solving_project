@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinOneBitOperationsToMakeIntegersZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NumOfArithmeticSlices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RobotCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/StrictlyIncreasingSubs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,20 +95,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransformationSequence">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.AddTwoNumbers" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.microsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumOfArithmeticSlices">
     <configuration name="MakeArrStrictlyIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MakeArrStrictlyIncreasing" />
       <module name="problem_solving_project" />
@@ -126,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumOfArithmeticSlices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.NumOfArithmeticSlices" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddTwoNumbers" />
       <item itemvalue="Application.MakeArrStrictlyIncreasing" />
       <item itemvalue="Application.MinTotalDistance" />
       <item itemvalue="Application.SimilarStringGroups" />
       <item itemvalue="Application.TransformationSequence" />
+      <item itemvalue="Application.NumOfArithmeticSlices" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumOfArithmeticSlices" />
         <item itemvalue="Application.TransformationSequence" />
         <item itemvalue="Application.SimilarStringGroups" />
         <item itemvalue="Application.MinTotalDistance" />
         <item itemvalue="Application.MakeArrStrictlyIncreasing" />
-        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00251" summary="Adding solution of recover BST.">
-      <created>1612227348229</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1612227348229</updated>
     </task>
     <task id="LOCAL-00252" summary="Adding solution of recover BST.">
       <created>1612227570229</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617800242196</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="Adding solution of min one bit operations to make integers zero.">
+      <created>1617937466049</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1617937466049</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of cat and mouse II." />
     <MESSAGE value="Adding solution of similar string groups." />
     <MESSAGE value="Adding solution of count ways to distribute candies." />
     <MESSAGE value="Adding solution of my calendar III." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of checking existence of edge length limited paths II." />
     <MESSAGE value="Adding solution of max num of ones in a square." />
     <MESSAGE value="Adding solution of stone game III." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of stone game III." />
+    <MESSAGE value="Adding solution of min one bit operations to make integers zero." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min one bit operations to make integers zero." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
