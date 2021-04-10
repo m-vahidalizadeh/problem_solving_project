@@ -78,19 +78,19 @@ public class RobotCleaner {
 
     public void cleanRoom(Robot robot) {
         directions = new int[][]{{-1, 0}, {0, 1}, {1, 0}, {0, -1}}; // up, right, down, left-clockwise
-        visited = new HashSet<>();
-        dfs(robot, 0, 0, 0);
+        visited = new HashSet<>(); // DFS visited DS
+        dfs(robot, 0, 0, 0); // Start from row 0 col 0 direction 0
     }
 
     private void dfs(Robot robot, int row, int col, int dir) {
-        robot.clean();
-        visited.add(new Pair<>(row, col));
-        for (int i = 0; i < 4; i++) {
-            int newDir = (dir + i) % 4;
-            int newI = row + directions[newDir][0];
-            int newJ = col + directions[newDir][1];
-            if (!visited.contains(new Pair<>(newI, newJ)) && robot.move()) {
-                dfs(robot, newI, newJ, newDir);
+        robot.clean(); // Clean the current cell
+        visited.add(new Pair<>(row, col)); // Mark the current cell visited
+        for (int i = 0; i < 4; i++) { // Explore 4 different directions
+            int newDir = (dir + i) % 4; // Next direction 0,1,2,3
+            int newI = row + directions[newDir][0]; // New cell row
+            int newJ = col + directions[newDir][1]; // New cell column
+            if (!visited.contains(new Pair<>(newI, newJ)) && robot.move()) { // If cell not visited and not blocked
+                dfs(robot, newI, newJ, newDir); // Explore the new cell
                 // Go back
                 robot.turnRight();
                 robot.turnRight();
@@ -99,7 +99,7 @@ public class RobotCleaner {
                 robot.turnRight();
                 robot.turnRight();
             }
-            robot.turnRight();
+            robot.turnRight(); // Explore the next direction-total 4 directions
         }
     }
 
