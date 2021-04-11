@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/LCA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RemoveSubsWithNoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/SameString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/SwimInWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/UniqueSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/companies/facebook/RobotCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RobotCleaner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,9 +166,9 @@
     <list>
       <item itemvalue="Application.MakeArrStrictlyIncreasing" />
       <item itemvalue="Application.MinTotalDistance" />
+      <item itemvalue="Application.NumOfArithmeticSlices" />
       <item itemvalue="Application.SimilarStringGroups" />
       <item itemvalue="Application.TransformationSequence" />
-      <item itemvalue="Application.NumOfArithmeticSlices" />
     </list>
     <recent_temporary>
       <list>
@@ -187,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00253" summary="Adding solution of kth smallest fraction.">
-      <created>1612413755891</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1612413755892</updated>
     </task>
     <task id="LOCAL-00254" summary="Adding solution of intersection with size two.">
       <created>1612491923631</created>
@@ -531,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618081504049</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="Adding some solutions.">
+      <created>1618082188181</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1618082188181</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
