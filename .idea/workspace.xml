@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PoorPigs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MaxProfitKTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MaxProfitTwoTransactions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,13 +95,26 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberToWords">
-    <configuration name="MinTotalDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.MinTotalDistance" />
+  <component name="RunManager" selected="Application.MaxProfitKTransactions">
+    <configuration name="MaxProfitKTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MaxProfitKTransactions" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.microsoft.*" />
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfitTwoTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MaxProfitTwoTransactions" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimilarStringGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.SimilarStringGroups" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TransformationSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.amazon.TransformationSequence" />
       <module name="problem_solving_project" />
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinTotalDistance" />
       <item itemvalue="Application.NumOfArithmeticSlices" />
-      <item itemvalue="Application.SimilarStringGroups" />
       <item itemvalue="Application.TransformationSequence" />
       <item itemvalue="Application.NumberToWords" />
+      <item itemvalue="Application.MaxProfitTwoTransactions" />
+      <item itemvalue="Application.MaxProfitKTransactions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfitKTransactions" />
+        <item itemvalue="Application.MaxProfitTwoTransactions" />
         <item itemvalue="Application.NumberToWords" />
         <item itemvalue="Application.NumOfArithmeticSlices" />
         <item itemvalue="Application.TransformationSequence" />
-        <item itemvalue="Application.SimilarStringGroups" />
-        <item itemvalue="Application.MinTotalDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00266" summary="Adding solution of max vacation days.">
-      <created>1613702596272</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1613702596272</updated>
     </task>
     <task id="LOCAL-00267" summary="Adding some solutions.">
       <created>1613842573974</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619136654951</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="Adding solution of poor pigs.">
+      <created>1619183070337</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1619183070338</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of max garden beauty." />
     <MESSAGE value="Adding solution of min insertion to make palindrome." />
     <MESSAGE value="Adding solution of find candies in boxes." />
     <MESSAGE value="Adding solution of longest chunked palindrome decomposition." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of couples holding hands." />
     <MESSAGE value="Adding solution of most similar path in a graph." />
     <MESSAGE value="Adding solution of smallest range." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of smallest range." />
+    <MESSAGE value="Adding solution of poor pigs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of poor pigs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,6 +593,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/amazon/TransformationSequence.java</url>
           <line>66</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/MaxProfitTwoTransactions.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/MaxProfitKTransactions.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
