@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/BasicCalculatorIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00270" summary="Adding solution of strange printer.">
-      <created>1614135588982</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1614135588983</updated>
     </task>
     <task id="LOCAL-00271" summary="Adding solution of finding the number of digits in range.">
       <created>1614213909990</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619448031058</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="Adding the solution of basic calculator IV.">
+      <created>1619536616751</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1619536616752</updated>
+    </task>
+    <option name="localTasksCounter" value="320" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of find candies in boxes." />
     <MESSAGE value="Adding solution of longest chunked palindrome decomposition." />
     <MESSAGE value="Adding solution of jump game V." />
     <MESSAGE value="Adding solution of parsing boolean expression." />
@@ -572,7 +572,8 @@
     <MESSAGE value="Adding solution of poor pigs." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding the solution of XOR sum problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of XOR sum problem." />
+    <MESSAGE value="Adding the solution of basic calculator IV." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of basic calculator IV." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
