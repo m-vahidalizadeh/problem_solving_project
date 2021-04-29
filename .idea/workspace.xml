@@ -23,9 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/Read4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumPermDI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/Remove9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +94,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Codec">
+  <component name="RunManager" selected="Application.OneEditDistance">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.AddBinary" />
       <module name="problem_solving_project" />
@@ -148,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberToWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.NumberToWords" />
+    <configuration name="OneEditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.OneEditDistance" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -162,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NumberToWords" />
       <item itemvalue="Application.MaxProfitTwoTransactions" />
       <item itemvalue="Application.MaxProfitKTransactions" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.Codec" />
+      <item itemvalue="Application.OneEditDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OneEditDistance" />
         <item itemvalue="Application.Codec" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.MaxProfitKTransactions" />
         <item itemvalue="Application.MaxProfitTwoTransactions" />
-        <item itemvalue="Application.NumberToWords" />
       </list>
     </recent_temporary>
   </component>
@@ -628,6 +627,21 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/Codec.java</url>
           <line>91</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
