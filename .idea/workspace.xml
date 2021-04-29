@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/Read4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumPermDI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00271" summary="Adding solution of finding the number of digits in range.">
-      <created>1614213909990</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1614213909990</updated>
     </task>
     <task id="LOCAL-00272" summary="Adding solution of malware spread II.">
       <created>1614304246989</created>
@@ -532,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619536616752</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="Adding some solutions.">
+      <created>1619575694457</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1619575694457</updated>
+    </task>
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,10 +571,10 @@
     <MESSAGE value="Adding solution of most similar path in a graph." />
     <MESSAGE value="Adding solution of smallest range." />
     <MESSAGE value="Adding solution of poor pigs." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding the solution of XOR sum problem." />
     <MESSAGE value="Adding the solution of basic calculator IV." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of basic calculator IV." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
