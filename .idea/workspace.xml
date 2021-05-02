@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/Remove9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MinAddToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NumOfSimilarGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -94,7 +95,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneEditDistance">
+  <component name="RunManager" selected="Application.NumOfSimilarGroups">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.AddBinary" />
       <module name="problem_solving_project" />
@@ -134,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfitTwoTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MaxProfitTwoTransactions" />
+    <configuration name="NumOfSimilarGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.NumOfSimilarGroups" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -161,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxProfitTwoTransactions" />
       <item itemvalue="Application.MaxProfitKTransactions" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.Codec" />
       <item itemvalue="Application.OneEditDistance" />
+      <item itemvalue="Application.NumOfSimilarGroups" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumOfSimilarGroups" />
         <item itemvalue="Application.OneEditDistance" />
         <item itemvalue="Application.Codec" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.MaxProfitKTransactions" />
-        <item itemvalue="Application.MaxProfitTwoTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00272" summary="Adding solution of malware spread II.">
-      <created>1614304246989</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1614304246990</updated>
     </task>
     <task id="LOCAL-00273" summary="Adding solution of cat and mouse II.">
       <created>1614401919374</created>
@@ -532,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619575694457</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="Adding some solutions">
+      <created>1619922144601</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1619922144601</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of longest chunked palindrome decomposition." />
     <MESSAGE value="Adding solution of jump game V." />
     <MESSAGE value="Adding solution of parsing boolean expression." />
     <MESSAGE value="Adding solution of stone game IV." />
@@ -573,7 +573,8 @@
     <MESSAGE value="Adding the solution of XOR sum problem." />
     <MESSAGE value="Adding the solution of basic calculator IV." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding some solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,18 +631,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
-          <line>29</line>
+          <line>48</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
-          <line>22</line>
+          <line>47</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/OneEditDistance.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -652,6 +648,11 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="groups" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
