@@ -23,9 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MinAddToMakeValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NumOfSimilarGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/AlienDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/BTPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/CanBeEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/FlattenBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/MinRemoveToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/NumOfWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RightSideViewBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestPathLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +102,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumOfSimilarGroups">
+  <component name="RunManager" selected="Application.CanBeEqual">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.AddBinary" />
       <module name="problem_solving_project" />
@@ -109,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.Codec" />
+    <configuration name="CanBeEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.CanBeEqual" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfitKTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MaxProfitKTransactions" />
+    <configuration name="Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.Codec" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -162,19 +169,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxProfitKTransactions" />
       <item itemvalue="Application.AddBinary" />
       <item itemvalue="Application.Codec" />
       <item itemvalue="Application.OneEditDistance" />
       <item itemvalue="Application.NumOfSimilarGroups" />
+      <item itemvalue="Application.CanBeEqual" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanBeEqual" />
         <item itemvalue="Application.NumOfSimilarGroups" />
         <item itemvalue="Application.OneEditDistance" />
         <item itemvalue="Application.Codec" />
         <item itemvalue="Application.AddBinary" />
-        <item itemvalue="Application.MaxProfitKTransactions" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +196,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00273" summary="Adding solution of cat and mouse II.">
-      <created>1614401919374</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1614401919374</updated>
     </task>
     <task id="LOCAL-00274" summary="Adding some solutions.">
       <created>1614461445046</created>
@@ -533,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619922144601</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="Adding some solutions">
+      <created>1619969702666</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1619969702667</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -650,7 +657,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="groups" language="JAVA" />
+        <watch expression="(j&gt;=n?&quot;&quot;:curr.substring(j + 1, n))" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
