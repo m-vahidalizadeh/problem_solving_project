@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RegularExpressionMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/RemoveInvalidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/facebook/SubSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NoCrossHandshakes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CuttingApplePizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00276" summary="Adding solution of count ways to distribute candies.">
-      <created>1614537106067</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1614537106068</updated>
     </task>
     <task id="LOCAL-00277" summary="Adding solution of my calendar III.">
       <created>1614645041607</created>
@@ -534,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620226781043</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="Adding some solutions.">
+      <created>1620403814468</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1620403814469</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,9 +570,9 @@
     <MESSAGE value="Adding solution of poor pigs." />
     <MESSAGE value="Adding the solution of XOR sum problem." />
     <MESSAGE value="Adding the solution of basic calculator IV." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding some solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions" />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
