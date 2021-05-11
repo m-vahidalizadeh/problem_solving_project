@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/AllocateMailboxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00278" summary="Adding serialize deserialize n-ary tree.">
-      <created>1614739406834</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1614739406835</updated>
     </task>
     <task id="LOCAL-00279" summary="Adding solution of palindrome partitioning III.">
       <created>1614819043272</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620496013268</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <task id="LOCAL-00327" summary="Adding solution of bursting balloons.">
+      <created>1620568851467</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1620568851467</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of parsing boolean expression." />
     <MESSAGE value="Adding solution of stone game IV." />
     <MESSAGE value="Adding solution of skip list." />
     <MESSAGE value="Adding solution of special binary string." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions" />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of cutting the apple pizza." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of cutting the apple pizza." />
+    <MESSAGE value="Adding solution of bursting balloons." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of bursting balloons." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
