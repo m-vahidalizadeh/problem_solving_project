@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/OrderlyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestCommonSupersequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00281" summary="Adding solution of distributing the balls into two buckets.">
-      <created>1615001207623</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1615001207624</updated>
     </task>
     <task id="LOCAL-00282" summary="Adding some solutions.">
       <created>1615079405347</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620782838947</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="Adding solution of orderly queue.">
+      <created>1620823757339</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1620823757339</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of special binary string." />
     <MESSAGE value="Adding solution of divide array into increasing subs." />
     <MESSAGE value="Adding solution of checking existence of edge length limited paths II." />
     <MESSAGE value="Adding solution of max num of ones in a square." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of bursting balloons." />
     <MESSAGE value="Adding solution of allocate mailboxes." />
     <MESSAGE value="Adding solution of divide chocolate." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of divide chocolate." />
+    <MESSAGE value="Adding solution of orderly queue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of orderly queue." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
