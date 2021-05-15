@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestCommonSupersequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestKValsBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00282" summary="Adding some solutions.">
-      <created>1615079405347</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1615079405347</updated>
     </task>
     <task id="LOCAL-00283" summary="Adding some solutions.">
       <created>1615138157314</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620823757339</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="Adding solution of shortest common super sequence.">
+      <created>1620960040663</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1620960040664</updated>
+    </task>
+    <option name="localTasksCounter" value="332" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of divide array into increasing subs." />
     <MESSAGE value="Adding solution of checking existence of edge length limited paths II." />
     <MESSAGE value="Adding solution of max num of ones in a square." />
     <MESSAGE value="Adding solution of stone game III." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of allocate mailboxes." />
     <MESSAGE value="Adding solution of divide chocolate." />
     <MESSAGE value="Adding solution of orderly queue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of orderly queue." />
+    <MESSAGE value="Adding solution of shortest common super sequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of shortest common super sequence." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
