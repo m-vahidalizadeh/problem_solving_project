@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestKValsBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FillingRect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +93,9 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DivideIntegers">
-    <configuration name="CanBeEqual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.CanBeEqual" />
+  <component name="RunManager" selected="Application.FillingRect">
+    <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
+    <configuration name="FillingRect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FillingRect" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CanBeEqual" />
       <item itemvalue="Application.IsBipartite" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SubSets" />
       <item itemvalue="Application.DivideIntegers" />
+      <item itemvalue="Application.FillingRect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FillingRect" />
         <item itemvalue="Application.DivideIntegers" />
         <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.KthSmallest" />
         <item itemvalue="Application.IsBipartite" />
-        <item itemvalue="Application.CanBeEqual" />
       </list>
     </recent_temporary>
   </component>
