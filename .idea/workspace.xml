@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CutStick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SmallestRectEnclosingBlackPixels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,11 +160,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DivideIntegers" />
+      <item itemvalue="Application.FillingRect" />
       <item itemvalue="Application.IsBipartite" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SubSets" />
-      <item itemvalue="Application.DivideIntegers" />
-      <item itemvalue="Application.FillingRect" />
     </list>
     <recent_temporary>
       <list>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00284" summary="Adding solution of N-Queens II.">
-      <created>1615249292320</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1615249292321</updated>
     </task>
     <task id="LOCAL-00285" summary="Adding solution of finding kth smallest sum.">
       <created>1615335298391</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621177949957</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="Adding solution of min cost to cut a stick.">
+      <created>1621300262750</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1621300262750</updated>
+    </task>
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of max num of ones in a square." />
     <MESSAGE value="Adding solution of stone game III." />
     <MESSAGE value="Adding solution of min one bit operations to make integers zero." />
     <MESSAGE value="Adding solution of min cost to make at least one valid path." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of orderly queue." />
     <MESSAGE value="Adding solution of shortest common super sequence." />
     <MESSAGE value="Adding solution of filling the rect with min squares." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of filling the rect with min squares." />
+    <MESSAGE value="Adding solution of min cost to cut a stick." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min cost to cut a stick." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
