@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SmallestRectEnclosingBlackPixels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RearrangeSticksKVisible.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00285" summary="Adding solution of finding kth smallest sum.">
-      <created>1615335298391</created>
-      <option name="number" value="00285" />
-      <option name="presentableId" value="LOCAL-00285" />
-      <option name="project" value="LOCAL" />
-      <updated>1615335298391</updated>
     </task>
     <task id="LOCAL-00286" summary="Adding solution of min incs to form target.">
       <created>1615421331595</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621300262750</updated>
     </task>
-    <option name="localTasksCounter" value="334" />
+    <task id="LOCAL-00334" summary="Adding solution of smallest rectangle enclosing black pixels.">
+      <created>1621378511886</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1621378511886</updated>
+    </task>
+    <option name="localTasksCounter" value="335" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of stone game III." />
     <MESSAGE value="Adding solution of min one bit operations to make integers zero." />
     <MESSAGE value="Adding solution of min cost to make at least one valid path." />
     <MESSAGE value="Adding solution of count all possible routes." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of shortest common super sequence." />
     <MESSAGE value="Adding solution of filling the rect with min squares." />
     <MESSAGE value="Adding solution of min cost to cut a stick." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min cost to cut a stick." />
+    <MESSAGE value="Adding solution of smallest rectangle enclosing black pixels." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of smallest rectangle enclosing black pixels." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
