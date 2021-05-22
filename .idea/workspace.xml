@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CriticalAndPCriticalInMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CriticalConnections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00287" summary="Adding solution of max garden beauty.">
-      <created>1615509124588</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1615509124589</updated>
     </task>
     <task id="LOCAL-00288" summary="Adding solution of min insertion to make palindrome.">
       <created>1615654337258</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621429249209</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="Adding solution of critical and pseudo critical in MST.">
+      <created>1621475528629</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1621475528630</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of min cost to make at least one valid path." />
     <MESSAGE value="Adding solution of count all possible routes." />
     <MESSAGE value="Adding solution of schedule jobs." />
     <MESSAGE value="Adding solution of word abbreviation." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of min cost to cut a stick." />
     <MESSAGE value="Adding solution of smallest rectangle enclosing black pixels." />
     <MESSAGE value="Adding solution of rearrange sticks with k visible." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of rearrange sticks with k visible." />
+    <MESSAGE value="Adding solution of critical and pseudo critical in MST." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of critical and pseudo critical in MST." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
