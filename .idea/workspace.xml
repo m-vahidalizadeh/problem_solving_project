@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/xorGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ValidPalindromeIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00291" summary="Adding solution of jump game V.">
-      <created>1615942643850</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1615942643851</updated>
     </task>
     <task id="LOCAL-00292" summary="Adding solution of parsing boolean expression.">
       <created>1616023868121</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621861425185</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="Adding solution of XOR game.">
+      <created>1621992537819</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1621992537819</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of check if it is a good array." />
     <MESSAGE value="Adding adding some solutions." />
     <MESSAGE value="Adding solution of pickup delivery." />
     <MESSAGE value="Adding solution of couples holding hands." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of critical connections." />
     <MESSAGE value="Adding solution of N-Queens." />
     <MESSAGE value="Adding solution of counting atoms." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of counting atoms." />
+    <MESSAGE value="Adding solution of XOR game." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of XOR game." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
