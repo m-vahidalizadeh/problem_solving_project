@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountOfAtoms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/xorGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FillingRect">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
       <module name="problem_solving_project" />
@@ -113,19 +113,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsBipartite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.IsBipartite" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,20 +146,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.Test" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DivideIntegers" />
       <item itemvalue="Application.FillingRect" />
-      <item itemvalue="Application.IsBipartite" />
       <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SubSets" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.FillingRect" />
         <item itemvalue="Application.DivideIntegers" />
         <item itemvalue="Application.SubSets" />
         <item itemvalue="Application.KthSmallest" />
-        <item itemvalue="Application.IsBipartite" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00290" summary="Adding solution of longest chunked palindrome decomposition.">
-      <created>1615853646836</created>
-      <option name="number" value="00290" />
-      <option name="presentableId" value="LOCAL-00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1615853646836</updated>
     </task>
     <task id="LOCAL-00291" summary="Adding solution of jump game V.">
       <created>1615942643850</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621740099968</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <task id="LOCAL-00339" summary="Adding solution of counting atoms.">
+      <created>1621861425185</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1621861425185</updated>
+    </task>
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of word abbreviation." />
     <MESSAGE value="Adding solution of check if it is a good array." />
     <MESSAGE value="Adding adding some solutions." />
     <MESSAGE value="Adding solution of pickup delivery." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of critical and pseudo critical in MST." />
     <MESSAGE value="Adding solution of critical connections." />
     <MESSAGE value="Adding solution of N-Queens." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of N-Queens." />
+    <MESSAGE value="Adding solution of counting atoms." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of counting atoms." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
