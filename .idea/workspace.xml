@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ValidPalindromeIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfDays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.NumOfDays">
     <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
       <module name="problem_solving_project" />
@@ -120,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.KthSmallest" />
+    <configuration name="NumOfDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.NumOfDays" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,17 +162,17 @@
     <list>
       <item itemvalue="Application.DivideIntegers" />
       <item itemvalue="Application.FillingRect" />
-      <item itemvalue="Application.KthSmallest" />
       <item itemvalue="Application.SubSets" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.NumOfDays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumOfDays" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FillingRect" />
         <item itemvalue="Application.DivideIntegers" />
         <item itemvalue="Application.SubSets" />
-        <item itemvalue="Application.KthSmallest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00292" summary="Adding solution of parsing boolean expression.">
-      <created>1616023868121</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1616023868121</updated>
     </task>
     <task id="LOCAL-00293" summary="Adding solution of stone game IV.">
       <created>1617322059536</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621992537819</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="Adding solution of valid palindrome III.">
+      <created>1622034075088</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1622034075088</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding adding some solutions." />
     <MESSAGE value="Adding solution of pickup delivery." />
     <MESSAGE value="Adding solution of couples holding hands." />
     <MESSAGE value="Adding solution of most similar path in a graph." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of N-Queens." />
     <MESSAGE value="Adding solution of counting atoms." />
     <MESSAGE value="Adding solution of XOR game." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of XOR game." />
+    <MESSAGE value="Adding solution of valid palindrome III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of valid palindrome III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,12 +666,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Math.abs(dividend)" language="JAVA" />
-        <watch expression="dividend&lt;0?dividend*-1:dividend" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
