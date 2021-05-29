@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxChunksToMakeSortedII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfWaysReorderBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00293" summary="Adding solution of stone game IV.">
-      <created>1617322059536</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1617322059537</updated>
     </task>
     <task id="LOCAL-00294" summary="Adding solution of skip list.">
       <created>1617368430360</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622034075088</updated>
     </task>
-    <option name="localTasksCounter" value="342" />
+    <task id="LOCAL-00342" summary="Adding solution of number of days.">
+      <created>1622079410305</created>
+      <option name="number" value="00342" />
+      <option name="presentableId" value="LOCAL-00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1622079410305</updated>
+    </task>
+    <option name="localTasksCounter" value="343" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of pickup delivery." />
     <MESSAGE value="Adding solution of couples holding hands." />
     <MESSAGE value="Adding solution of most similar path in a graph." />
     <MESSAGE value="Adding solution of smallest range." />
@@ -572,7 +572,8 @@
     <MESSAGE value="Adding solution of counting atoms." />
     <MESSAGE value="Adding solution of XOR game." />
     <MESSAGE value="Adding solution of valid palindrome III." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of valid palindrome III." />
+    <MESSAGE value="Adding solution of number of days." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of days." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
