@@ -23,8 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxChunksToMakeSortedII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfWaysReorderBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/FruitIntoBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IntersectionArraysII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/JumpsOddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LicenseKeyFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LongestSubUniqueChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MulStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NextPerm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumOfDistinctIslandsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/UniqueEmails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StoneGameVIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +105,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumOfDays">
+  <component name="RunManager" selected="Application.ContainerWithMostWater">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ContainerWithMostWater" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
       <module name="problem_solving_project" />
@@ -134,19 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.SubSets" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.Test" />
       <module name="problem_solving_project" />
@@ -163,17 +174,17 @@
     <list>
       <item itemvalue="Application.DivideIntegers" />
       <item itemvalue="Application.FillingRect" />
-      <item itemvalue="Application.SubSets" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.NumOfDays" />
+      <item itemvalue="Application.ContainerWithMostWater" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.NumOfDays" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FillingRect" />
         <item itemvalue="Application.DivideIntegers" />
-        <item itemvalue="Application.SubSets" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00294" summary="Adding solution of skip list.">
-      <created>1617368430360</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1617368430360</updated>
     </task>
     <task id="LOCAL-00295" summary="Adding solution of special binary string.">
       <created>1617451930239</created>
@@ -532,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622079410305</updated>
     </task>
-    <option name="localTasksCounter" value="343" />
+    <task id="LOCAL-00343" summary="Adding some solutions.">
+      <created>1622258868748</created>
+      <option name="number" value="00343" />
+      <option name="presentableId" value="LOCAL-00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1622258868749</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +566,6 @@
     <MESSAGE value="Adding the solution of XOR sum problem." />
     <MESSAGE value="Adding the solution of basic calculator IV." />
     <MESSAGE value="Adding some solutions" />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of cutting the apple pizza." />
     <MESSAGE value="Adding solution of bursting balloons." />
     <MESSAGE value="Adding solution of allocate mailboxes." />
@@ -573,7 +583,8 @@
     <MESSAGE value="Adding solution of XOR game." />
     <MESSAGE value="Adding solution of valid palindrome III." />
     <MESSAGE value="Adding solution of number of days." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of days." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,6 +668,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/SubSets.java</url>
           <line>41</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/ContainerWithMostWater.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
