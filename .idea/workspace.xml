@@ -23,8 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinWindowSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Read4II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Expressive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MaxDistToClosestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MergeSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MissedRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NxtClosestTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ReplaceInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TwoDistinctChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ValidPars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +100,7 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
+  <component name="RunManager" selected="Application.Expressive">
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ContainerWithMostWater" />
       <module name="problem_solving_project" />
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivideIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.DivideIntegers" />
+    <configuration name="Expressive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.Expressive" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="PATTERN" value="leetcode.companies.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DivideIntegers" />
       <item itemvalue="Application.FillingRect" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.NumOfDays" />
       <item itemvalue="Application.ContainerWithMostWater" />
+      <item itemvalue="Application.Expressive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Expressive" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.NumOfDays" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FillingRect" />
-        <item itemvalue="Application.DivideIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +194,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00298" summary="Adding solution of max num of ones in a square.">
-      <created>1617711898314</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1617711898314</updated>
     </task>
     <task id="LOCAL-00299" summary="Adding solution of stone game III.">
       <created>1617800242195</created>
@@ -532,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622684228080</updated>
     </task>
-    <option name="localTasksCounter" value="347" />
+    <task id="LOCAL-00347" summary="Adding some solutions.">
+      <created>1622862285017</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1622862285017</updated>
+    </task>
+    <option name="localTasksCounter" value="348" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
