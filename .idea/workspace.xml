@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Expressive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MaxDistToClosestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MergeSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MissedRanges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NxtClosestTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ReplaceInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TwoDistinctChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ValidPars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BackspaceCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/HireWorkers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TrapRainWater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +97,20 @@
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Expressive">
+  <component name="RunManager" selected="Application.BackspaceCompare">
+    <configuration name="BackspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BackspaceCompare" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ContainerWithMostWater" />
       <module name="problem_solving_project" />
@@ -120,19 +130,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FillingRect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FillingRect" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FillingRect" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.NumOfDays" />
+      <item itemvalue="Application.BackspaceCompare" />
       <item itemvalue="Application.ContainerWithMostWater" />
       <item itemvalue="Application.Expressive" />
+      <item itemvalue="Application.NumOfDays" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BackspaceCompare" />
         <item itemvalue="Application.Expressive" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.NumOfDays" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.FillingRect" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00299" summary="Adding solution of stone game III.">
-      <created>1617800242195</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1617800242196</updated>
     </task>
     <task id="LOCAL-00300" summary="Adding solution of min one bit operations to make integers zero.">
       <created>1617937466049</created>
@@ -538,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622862285017</updated>
     </task>
-    <option name="localTasksCounter" value="348" />
+    <task id="LOCAL-00348" summary="Adding some solutions.">
+      <created>1622948292713</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1622948292713</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -668,6 +665,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/google/ContainerWithMostWater.java</url>
           <line>46</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/BackspaceCompare.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
