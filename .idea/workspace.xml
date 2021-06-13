@@ -22,9 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MatrixLongestIncreasingPath.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTDiameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CountCompleteTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CourseScheduleII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/DecodeStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/EvaluationDecision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SquareWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem_solving_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/companies/google/RobotRoomCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/RobotRoomCleaner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,29 +82,29 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/hackerrank" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="leetcode.companies.bloomberg" />
-      <recent name="leetcode.companies.facebook" />
-      <recent name="leetcode.companies" />
-      <recent name="leetcode.medium" />
-      <recent name="mixed" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hackerrank" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\m_vah\IdeaProjects\leet_code_project\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode.companies.google" />
+      <recent name="leetcode.companies.bloomberg" />
+      <recent name="leetcode.companies.facebook" />
+      <recent name="leetcode.companies" />
+      <recent name="leetcode.medium" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BackspaceCompare">
-    <configuration name="BackspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BackspaceCompare" />
+  <component name="RunManager" selected="Application.EvaluationDecision">
+    <configuration name="CountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.CountCompleteTreeNodes" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ContainerWithMostWater" />
+    <configuration name="DecodeStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.DecodeStr" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Expressive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.Expressive" />
+    <configuration name="EvaluationDecision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.EvaluationDecision" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.NumOfDays" />
+    <configuration name="RemoveNthNodeFromEndList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.RemoveNthNodeFromEndList" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,33 +155,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.Test" />
+    <configuration name="All in problem_solving_project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BackspaceCompare" />
-      <item itemvalue="Application.ContainerWithMostWater" />
-      <item itemvalue="Application.Expressive" />
-      <item itemvalue="Application.NumOfDays" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.RemoveNthNodeFromEndList" />
+      <item itemvalue="JUnit.All in problem_solving_project" />
+      <item itemvalue="Application.CountCompleteTreeNodes" />
+      <item itemvalue="Application.DecodeStr" />
+      <item itemvalue="Application.EvaluationDecision" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BackspaceCompare" />
-        <item itemvalue="Application.Expressive" />
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.NumOfDays" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.EvaluationDecision" />
+        <item itemvalue="Application.DecodeStr" />
+        <item itemvalue="Application.CountCompleteTreeNodes" />
+        <item itemvalue="JUnit.All in problem_solving_project" />
+        <item itemvalue="Application.RemoveNthNodeFromEndList" />
       </list>
     </recent_temporary>
   </component>
@@ -187,27 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00302" summary="Adding some solutions.">
-      <created>1618082188181</created>
-      <option name="number" value="00302" />
-      <option name="presentableId" value="LOCAL-00302" />
-      <option name="project" value="LOCAL" />
-      <updated>1618082188181</updated>
-    </task>
-    <task id="LOCAL-00303" summary="Adding some solutions.">
-      <created>1618152042748</created>
-      <option name="number" value="00303" />
-      <option name="presentableId" value="LOCAL-00303" />
-      <option name="project" value="LOCAL" />
-      <updated>1618152042749</updated>
-    </task>
-    <task id="LOCAL-00304" summary="Adding solution of min cost to make at least one valid path.">
-      <created>1618273224431</created>
-      <option name="number" value="00304" />
-      <option name="presentableId" value="LOCAL-00304" />
-      <option name="project" value="LOCAL" />
-      <updated>1618273224431</updated>
     </task>
     <task id="LOCAL-00305" summary="Adding solution of count all possible routes.">
       <created>1618329681474</created>
@@ -531,7 +514,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623240526579</updated>
     </task>
-    <option name="localTasksCounter" value="351" />
+    <task id="LOCAL-00351" summary="Adding some solutions.">
+      <created>1623323939490</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1623323939490</updated>
+    </task>
+    <task id="LOCAL-00352" summary="Adding some solutions.">
+      <created>1623520635564</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1623520635565</updated>
+    </task>
+    <task id="LOCAL-00353" summary="Adding some solutions.">
+      <created>1623551494656</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1623551494656</updated>
+    </task>
+    <option name="localTasksCounter" value="354" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -667,6 +671,11 @@
           <line>40</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/EvaluationDecision.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -676,6 +685,13 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="graph.get(a).children.entrySet()" language="JAVA" />
+        <watch expression="graph" language="JAVA" />
+        <watch expression="visited.contains(nei)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
