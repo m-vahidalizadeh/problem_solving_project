@@ -22,18 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTDiameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CountCompleteTreeNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CourseScheduleII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/DecodeStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/EvaluationDecision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SquareWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/FindWordsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/FlipEquivalent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/RemoveStonesSameRowOrColumn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem_solving_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problem_solving_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/companies/google/RobotRoomCleaner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/companies/google/RobotRoomCleaner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,10 +159,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.RemoveNthNodeFromEndList" />
-      <item itemvalue="JUnit.All in problem_solving_project" />
       <item itemvalue="Application.CountCompleteTreeNodes" />
       <item itemvalue="Application.DecodeStr" />
       <item itemvalue="Application.EvaluationDecision" />
+      <item itemvalue="JUnit.All in problem_solving_project" />
     </list>
     <recent_temporary>
       <list>
@@ -191,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00305" summary="Adding solution of count all possible routes.">
-      <created>1618329681474</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1618329681474</updated>
     </task>
     <task id="LOCAL-00306" summary="Adding solution of schedule jobs.">
       <created>1618451884524</created>
@@ -535,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623551494656</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="Adding some solutions.">
+      <created>1623626380876</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1623626380876</updated>
+    </task>
+    <option name="localTasksCounter" value="355" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
