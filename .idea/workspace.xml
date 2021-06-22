@@ -22,15 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/FindFirstLastSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LetterCombPhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinCostToFlipEval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ParenthesesGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SplitArrayIntoK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/UnlockPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/BuildingBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CarFleetII.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/DistinctEchoSubs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IntervalInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IntervalsMerge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvaluationDecision">
+  <component name="RunManager" selected="Application.IntervalInsert">
     <configuration name="CountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.CountCompleteTreeNodes" />
       <module name="problem_solving_project" />
@@ -140,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEndList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.RemoveNthNodeFromEndList" />
+    <configuration name="IntervalInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.IntervalInsert" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -162,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveNthNodeFromEndList" />
       <item itemvalue="Application.CountCompleteTreeNodes" />
       <item itemvalue="Application.DecodeStr" />
       <item itemvalue="Application.EvaluationDecision" />
       <item itemvalue="JUnit.All in problem_solving_project" />
+      <item itemvalue="Application.IntervalInsert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntervalInsert" />
         <item itemvalue="Application.EvaluationDecision" />
         <item itemvalue="Application.DecodeStr" />
         <item itemvalue="Application.CountCompleteTreeNodes" />
         <item itemvalue="JUnit.All in problem_solving_project" />
-        <item itemvalue="Application.RemoveNthNodeFromEndList" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00308" summary="Adding solution of check if it is a good array.">
-      <created>1618599862095</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1618599862096</updated>
     </task>
     <task id="LOCAL-00309" summary="Adding adding some solutions.">
       <created>1618676511552</created>
@@ -533,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623895078101</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <task id="LOCAL-00357" summary="Adding some solutions.">
+      <created>1624198975491</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1624198975492</updated>
+    </task>
+    <option name="localTasksCounter" value="358" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -674,6 +669,11 @@
           <line>83</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/IntervalInsert.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -683,13 +683,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="graph.get(a).children.entrySet()" language="JAVA" />
-        <watch expression="graph" language="JAVA" />
-        <watch expression="visited.contains(nei)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
