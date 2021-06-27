@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/AttendEventsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RectAreaII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumOfSpecialEvenlySpacedElementsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/PalindromeLongestSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SubMaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/EarliestAndLatest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00311" summary="Adding solution of pickup delivery.">
-      <created>1618834746089</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1618834746089</updated>
     </task>
     <task id="LOCAL-00312" summary="Adding solution of couples holding hands.">
       <created>1618946240021</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624411300551</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="Adding some solutions.">
+      <created>1624719628300</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1624719628300</updated>
+    </task>
+    <option name="localTasksCounter" value="361" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
