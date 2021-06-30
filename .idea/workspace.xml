@@ -23,13 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BuySellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CacheLRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ChangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SubProductSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/AutocompletePrefixSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LogRateLimiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SetWithRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BTSerialization">
+  <component name="RunManager" selected="Application.SetWithRandom">
     <configuration name="AttendEventsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.AttendEventsII" />
       <module name="problem_solving_project" />
@@ -115,19 +111,6 @@
     </configuration>
     <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTSerialization" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvaluationDecision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.EvaluationDecision" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -165,20 +148,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.SetWithRandom" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EvaluationDecision" />
       <item itemvalue="Application.IntervalInsert" />
       <item itemvalue="Application.AttendEventsII" />
       <item itemvalue="Application.RectAreaII" />
       <item itemvalue="Application.BTSerialization" />
+      <item itemvalue="Application.SetWithRandom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetWithRandom" />
         <item itemvalue="Application.BTSerialization" />
         <item itemvalue="Application.RectAreaII" />
         <item itemvalue="Application.AttendEventsII" />
         <item itemvalue="Application.IntervalInsert" />
-        <item itemvalue="Application.EvaluationDecision" />
       </list>
     </recent_temporary>
   </component>
@@ -193,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00313" summary="Adding solution of most similar path in a graph.">
-      <created>1619033375420</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1619033375421</updated>
     </task>
     <task id="LOCAL-00314" summary="Adding solution of smallest range.">
       <created>1619136654951</created>
@@ -537,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624762898283</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="Adding some solutions.">
+      <created>1624881098419</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1624881098420</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -682,6 +678,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/google/IntervalInsert.java</url>
           <line>62</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/SetWithRandom.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/SetWithRandom.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
