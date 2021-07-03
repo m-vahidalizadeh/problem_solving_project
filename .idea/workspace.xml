@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BullsCows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CandyDistribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IntegerReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IsStrobogrammatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Matrix2DSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/StringsIsomorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GuessWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MyCalendarII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -98,13 +95,13 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringsIsomorphic">
-    <configuration name="AttendEventsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.AttendEventsII" />
+  <component name="RunManager" selected="Application.MyCalendarII">
+    <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTSerialization" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTSerialization" />
+    <configuration name="MyCalendarII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MyCalendarII" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -165,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AttendEventsII" />
       <item itemvalue="Application.RectAreaII" />
       <item itemvalue="Application.BTSerialization" />
       <item itemvalue="Application.SetWithRandom" />
       <item itemvalue="Application.StringsIsomorphic" />
+      <item itemvalue="Application.MyCalendarII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCalendarII" />
         <item itemvalue="Application.StringsIsomorphic" />
         <item itemvalue="Application.SetWithRandom" />
         <item itemvalue="Application.BTSerialization" />
         <item itemvalue="Application.RectAreaII" />
-        <item itemvalue="Application.AttendEventsII" />
       </list>
     </recent_temporary>
   </component>
@@ -192,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00315" summary="Adding solution of poor pigs.">
-      <created>1619183070337</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1619183070338</updated>
     </task>
     <task id="LOCAL-00316" summary="Adding some solutions.">
       <created>1619277657441</created>
@@ -536,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625021479350</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="Adding some solutions.">
+      <created>1625192817812</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1625192817812</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
