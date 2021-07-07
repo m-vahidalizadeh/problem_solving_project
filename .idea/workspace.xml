@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GuessWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MyCalendarII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinRectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SwapLR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/JobScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StonesAndJewels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/WaysToExpandAntColony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/WaysToMakeArrayWithProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +98,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyCalendarII">
+  <component name="RunManager" selected="Application.WaysToExpandAntColony">
     <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTSerialization" />
       <module name="problem_solving_project" />
@@ -115,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectAreaII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.RectAreaII" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,20 +151,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaysToExpandAntColony" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.WaysToExpandAntColony" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RectAreaII" />
       <item itemvalue="Application.BTSerialization" />
       <item itemvalue="Application.SetWithRandom" />
       <item itemvalue="Application.StringsIsomorphic" />
       <item itemvalue="Application.MyCalendarII" />
+      <item itemvalue="Application.WaysToExpandAntColony" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaysToExpandAntColony" />
         <item itemvalue="Application.MyCalendarII" />
         <item itemvalue="Application.StringsIsomorphic" />
         <item itemvalue="Application.SetWithRandom" />
         <item itemvalue="Application.BTSerialization" />
-        <item itemvalue="Application.RectAreaII" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00316" summary="Adding some solutions.">
-      <created>1619277657441</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1619277657442</updated>
     </task>
     <task id="LOCAL-00317" summary="Adding some solutions.">
       <created>1619371621681</created>
@@ -533,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625192817812</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="Adding some solutions.">
+      <created>1625281469713</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1625281469713</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,6 +701,11 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Math.pow(fact[i], MOD - 2)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
