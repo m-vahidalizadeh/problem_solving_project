@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxScoreGoodSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTapsWaterGarden.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinSnakeMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumDistancesTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,13 +95,13 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaysToExpandAntColony">
-    <configuration name="BTSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTSerialization" />
+  <component name="RunManager" selected="Application.FileSystem">
+    <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FileSystem" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BTSerialization" />
       <item itemvalue="Application.SetWithRandom" />
       <item itemvalue="Application.StringsIsomorphic" />
       <item itemvalue="Application.MyCalendarII" />
       <item itemvalue="Application.WaysToExpandAntColony" />
+      <item itemvalue="Application.FileSystem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.WaysToExpandAntColony" />
         <item itemvalue="Application.MyCalendarII" />
         <item itemvalue="Application.StringsIsomorphic" />
         <item itemvalue="Application.SetWithRandom" />
-        <item itemvalue="Application.BTSerialization" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00319" summary="Adding the solution of basic calculator IV.">
-      <created>1619536616751</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1619536616752</updated>
     </task>
     <task id="LOCAL-00320" summary="Adding some solutions.">
       <created>1619575694457</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625708313053</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="Adding some solutions.">
+      <created>1625794892499</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1625794892499</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -700,7 +700,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="Math.pow(fact[i], MOD - 2)" language="JAVA" />
+        <watch expression="root" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
