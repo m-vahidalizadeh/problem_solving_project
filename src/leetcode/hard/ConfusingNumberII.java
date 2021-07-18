@@ -44,8 +44,7 @@ public class ConfusingNumberII {
         if (num > n || num < 0) return 0; // num should be between 1 and n
         int count = num != rotatedNum && num != 0 ? 1 : 0; // Check if the current num is valid
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if ((num == 0 && entry.getKey() == 0) || num > 100_000_000)
-                continue; // if by adding even one 0 the num becomes greater than 10 pow 9 or num is zero and we try to add digit 0 to it
+            if ((num == 0 && entry.getKey() == 0) || num > 100_000_000) continue; // if by adding even one 0 the num becomes greater than 10 pow 9 or num is zero and we try to add digit 0 to it
             count += rec(map, num * 10 + entry.getKey(), entry.getValue() * base + rotatedNum, base * 10, n);
         }
         return count;
