@@ -185,13 +185,6 @@
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
     </task>
-    <task id="LOCAL-00335" summary="Adding solution of rearrange sticks with k visible.">
-      <created>1621429249208</created>
-      <option name="number" value="00335" />
-      <option name="presentableId" value="LOCAL-00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1621429249209</updated>
-    </task>
     <task id="LOCAL-00336" summary="Adding solution of critical and pseudo critical in MST.">
       <created>1621475528629</created>
       <option name="number" value="00336" />
@@ -528,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627909738425</updated>
     </task>
-    <option name="localTasksCounter" value="384" />
+    <task id="LOCAL-00384" summary="Adding solution of tree of co-primes.">
+      <created>1628038777283</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1628038777284</updated>
+    </task>
+    <option name="localTasksCounter" value="385" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of most similar path in a graph." />
     <MESSAGE value="Adding solution of smallest range." />
     <MESSAGE value="Adding solution of poor pigs." />
     <MESSAGE value="Adding the solution of XOR sum problem." />
@@ -569,7 +568,8 @@
     <MESSAGE value="Adding solution of number of days." />
     <MESSAGE value="Adding solution of max performance of a team." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of tree of co-primes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of tree of co-primes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
