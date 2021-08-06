@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindSkyline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00337" summary="Adding solution of critical connections.">
-      <created>1621650583460</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1621650583460</updated>
     </task>
     <task id="LOCAL-00338" summary="Adding solution of N-Queens.">
       <created>1621740099968</created>
@@ -530,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628128672829</updated>
     </task>
-    <option name="localTasksCounter" value="386" />
+    <task id="LOCAL-00386" summary="Adding solution of sorted array through instructions.">
+      <created>1628215868999</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1628215869000</updated>
+    </task>
+    <option name="localTasksCounter" value="387" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of poor pigs." />
     <MESSAGE value="Adding the solution of XOR sum problem." />
     <MESSAGE value="Adding the solution of basic calculator IV." />
     <MESSAGE value="Adding some solutions" />
@@ -571,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of tree of co-primes." />
     <MESSAGE value="Adding solution of max number of non-overlapping subs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max number of non-overlapping subs." />
+    <MESSAGE value="Adding solution of sorted array through instructions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of sorted array through instructions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
