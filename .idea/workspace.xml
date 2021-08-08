@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/KInversePairsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfWaysToFormTargetGivenDict.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00339" summary="Adding solution of counting atoms.">
-      <created>1621861425185</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1621861425185</updated>
     </task>
     <task id="LOCAL-00340" summary="Adding solution of XOR game.">
       <created>1621992537819</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628254579286</updated>
     </task>
-    <option name="localTasksCounter" value="388" />
+    <task id="LOCAL-00388" summary="Adding solution of k inverse pairs array.">
+      <created>1628355670194</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1628355670195</updated>
+    </task>
+    <option name="localTasksCounter" value="389" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the solution of basic calculator IV." />
     <MESSAGE value="Adding some solutions" />
     <MESSAGE value="Adding solution of cutting the apple pizza." />
     <MESSAGE value="Adding solution of bursting balloons." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of max number of non-overlapping subs." />
     <MESSAGE value="Adding solution of sorted array through instructions." />
     <MESSAGE value="Adding solution of finding the skyline." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of finding the skyline." />
+    <MESSAGE value="Adding solution of k inverse pairs array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of k inverse pairs array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
