@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfWaysToFormTargetGivenDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StoneGameV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,20 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00340" summary="Adding solution of XOR game.">
-      <created>1621992537819</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1621992537819</updated>
-    </task>
-    <task id="LOCAL-00341" summary="Adding solution of valid palindrome III.">
-      <created>1622034075088</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1622034075088</updated>
     </task>
     <task id="LOCAL-00342" summary="Adding solution of number of days.">
       <created>1622079410305</created>
@@ -531,7 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628355670195</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="Adding solution of number of ways to form a target given a dictionary.">
+      <created>1628440782417</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1628440782417</updated>
+    </task>
+    <task id="LOCAL-00390" summary="Adding solution of three equal parts.">
+      <created>1628514237771</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1628514237771</updated>
+    </task>
+    <option name="localTasksCounter" value="391" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,8 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding some solutions" />
-    <MESSAGE value="Adding solution of cutting the apple pizza." />
     <MESSAGE value="Adding solution of bursting balloons." />
     <MESSAGE value="Adding solution of allocate mailboxes." />
     <MESSAGE value="Adding solution of divide chocolate." />
@@ -572,7 +570,9 @@
     <MESSAGE value="Adding solution of sorted array through instructions." />
     <MESSAGE value="Adding solution of finding the skyline." />
     <MESSAGE value="Adding solution of k inverse pairs array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of k inverse pairs array." />
+    <MESSAGE value="Adding solution of number of ways to form a target given a dictionary." />
+    <MESSAGE value="Adding solution of three equal parts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of three equal parts." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
