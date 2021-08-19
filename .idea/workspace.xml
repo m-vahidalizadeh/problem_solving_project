@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinCostToReachDestInTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DecodeWaysII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00348" summary="Adding some solutions.">
-      <created>1622948292713</created>
-      <option name="number" value="00348" />
-      <option name="presentableId" value="LOCAL-00348" />
-      <option name="project" value="LOCAL" />
-      <updated>1622948292713</updated>
     </task>
     <task id="LOCAL-00349" summary="Adding some solutions.">
       <created>1623108414882</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629121173546</updated>
     </task>
-    <option name="localTasksCounter" value="397" />
+    <task id="LOCAL-00397" summary="Adding solution of min cost to reach destination in time.">
+      <created>1629248724042</created>
+      <option name="number" value="00397" />
+      <option name="presentableId" value="LOCAL-00397" />
+      <option name="project" value="LOCAL" />
+      <updated>1629248724043</updated>
+    </task>
+    <option name="localTasksCounter" value="398" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of filling the rect with min squares." />
     <MESSAGE value="Adding solution of min cost to cut a stick." />
     <MESSAGE value="Adding solution of smallest rectangle enclosing black pixels." />
     <MESSAGE value="Adding solution of rearrange sticks with k visible." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of non-negative integers without consecutive ones." />
     <MESSAGE value="Adding solution of maximum genetic difference query." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of maximum genetic difference query." />
+    <MESSAGE value="Adding solution of min cost to reach destination in time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min cost to reach destination in time." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
