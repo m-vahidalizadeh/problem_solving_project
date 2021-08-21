@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinSpaceWastedForPackaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CanConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IsSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MaximalSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileSystem">
+  <component name="RunManager" selected="Application.MaximalSquare">
     <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.FileSystem" />
       <module name="problem_solving_project" />
@@ -107,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCalendarII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MyCalendarII" />
+    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MaximalSquare" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetWithRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.SetWithRandom" />
+    <configuration name="MyCalendarII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MyCalendarII" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SetWithRandom" />
       <item itemvalue="Application.StringsIsomorphic" />
       <item itemvalue="Application.MyCalendarII" />
       <item itemvalue="Application.WaysToExpandAntColony" />
       <item itemvalue="Application.FileSystem" />
+      <item itemvalue="Application.MaximalSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximalSquare" />
         <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.WaysToExpandAntColony" />
         <item itemvalue="Application.MyCalendarII" />
         <item itemvalue="Application.StringsIsomorphic" />
-        <item itemvalue="Application.SetWithRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00350" summary="Adding some solutions.">
-      <created>1623240526579</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1623240526579</updated>
     </task>
     <task id="LOCAL-00351" summary="Adding some solutions.">
       <created>1623323939490</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629338316453</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="Adding solution of min space wasted for packaging.">
+      <created>1629428297929</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1629428297929</updated>
+    </task>
+    <option name="localTasksCounter" value="400" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of smallest rectangle enclosing black pixels." />
     <MESSAGE value="Adding solution of rearrange sticks with k visible." />
     <MESSAGE value="Adding solution of critical and pseudo critical in MST." />
     <MESSAGE value="Adding solution of critical connections." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of maximum genetic difference query." />
     <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of decode ways II." />
+    <MESSAGE value="Adding solution of min space wasted for packaging." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min space wasted for packaging." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,11 +698,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="root" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
