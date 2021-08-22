@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CanConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IsSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MaximalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CountIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/GroupStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/WordTyping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaximalSquare">
+  <component name="RunManager" selected="Application.WordTyping">
     <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.FileSystem" />
       <module name="problem_solving_project" />
@@ -135,19 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.StringsIsomorphic" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WaysToExpandAntColony" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.WaysToExpandAntColony" />
       <module name="problem_solving_project" />
@@ -161,20 +148,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.WordTyping" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.StringsIsomorphic" />
       <item itemvalue="Application.MyCalendarII" />
       <item itemvalue="Application.WaysToExpandAntColony" />
       <item itemvalue="Application.FileSystem" />
       <item itemvalue="Application.MaximalSquare" />
+      <item itemvalue="Application.WordTyping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordTyping" />
         <item itemvalue="Application.MaximalSquare" />
         <item itemvalue="Application.FileSystem" />
         <item itemvalue="Application.WaysToExpandAntColony" />
         <item itemvalue="Application.MyCalendarII" />
-        <item itemvalue="Application.StringsIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00351" summary="Adding some solutions.">
-      <created>1623323939490</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1623323939490</updated>
     </task>
     <task id="LOCAL-00352" summary="Adding some solutions.">
       <created>1623520635564</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629428297929</updated>
     </task>
-    <option name="localTasksCounter" value="400" />
+    <task id="LOCAL-00400" summary="Adding some solutions.">
+      <created>1629578580836</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1629578580836</updated>
+    </task>
+    <option name="localTasksCounter" value="401" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,13 +568,13 @@
     <MESSAGE value="Adding solution of stone game v." />
     <MESSAGE value="Adding solution of the longest valid obstacle course." />
     <MESSAGE value="Adding solution of palindrome partitioning II." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of non-negative integers without consecutive ones." />
     <MESSAGE value="Adding solution of maximum genetic difference query." />
     <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
     <MESSAGE value="Adding solution of min space wasted for packaging." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min space wasted for packaging." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
