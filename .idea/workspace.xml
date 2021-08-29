@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTGameWinningMove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/CampusBikesII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumSquares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ConfusingNumberII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ReorderSpaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CampusBikesII">
+  <component name="RunManager" selected="Application.ConfusingNumberII">
     <configuration name="CampusBikesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.CampusBikesII" />
       <module name="problem_solving_project" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FileSystem" />
+    <configuration name="ConfusingNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ConfusingNumberII" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MaximalSquare" />
+    <configuration name="MinSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MinSwap" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.WordTyping" />
+    <configuration name="ReorderSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ReorderSpaces" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -162,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileSystem" />
-      <item itemvalue="Application.MaximalSquare" />
-      <item itemvalue="Application.WordTyping" />
       <item itemvalue="Application.NumSquares" />
       <item itemvalue="Application.CampusBikesII" />
+      <item itemvalue="Application.ReorderSpaces" />
+      <item itemvalue="Application.MinSwap" />
+      <item itemvalue="Application.ConfusingNumberII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConfusingNumberII" />
+        <item itemvalue="Application.MinSwap" />
+        <item itemvalue="Application.ReorderSpaces" />
         <item itemvalue="Application.CampusBikesII" />
         <item itemvalue="Application.NumSquares" />
-        <item itemvalue="Application.WordTyping" />
-        <item itemvalue="Application.MaximalSquare" />
-        <item itemvalue="Application.FileSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00359" summary="Adding some solutions.">
-      <created>1624411300551</created>
-      <option name="number" value="00359" />
-      <option name="presentableId" value="LOCAL-00359" />
-      <option name="project" value="LOCAL" />
-      <updated>1624411300551</updated>
     </task>
     <task id="LOCAL-00360" summary="Adding some solutions.">
       <created>1624719628300</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630071402990</updated>
     </task>
-    <option name="localTasksCounter" value="408" />
+    <task id="LOCAL-00408" summary="Adding some solutions.">
+      <created>1630186339453</created>
+      <option name="number" value="00408" />
+      <option name="presentableId" value="LOCAL-00408" />
+      <option name="project" value="LOCAL" />
+      <updated>1630186339454</updated>
+    </task>
+    <option name="localTasksCounter" value="409" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,13 +568,13 @@
     <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
     <MESSAGE value="Adding solution of min space wasted for packaging." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of super washing machines." />
     <MESSAGE value="Adding solution of kth permutation." />
     <MESSAGE value="Adding solution of super palindromes." />
     <MESSAGE value="Adding solution of first missing positive." />
     <MESSAGE value="Adding solution of min degree of a connected trio." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min degree of a connected trio." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,6 +698,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/google/CampusBikesII.java</url>
           <line>53</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/ReorderSpaces.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
