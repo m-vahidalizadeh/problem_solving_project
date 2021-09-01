@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FrogPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LongestCommonSubpath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00361" summary="Adding some solutions.">
-      <created>1624762898283</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1624762898283</updated>
     </task>
     <task id="LOCAL-00362" summary="Adding some solutions.">
       <created>1624881098419</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630277040780</updated>
     </task>
-    <option name="localTasksCounter" value="410" />
+    <task id="LOCAL-00410" summary="Adding solution of frog position.">
+      <created>1630331390254</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1630331390254</updated>
+    </task>
+    <option name="localTasksCounter" value="411" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of XOR game." />
     <MESSAGE value="Adding solution of valid palindrome III." />
     <MESSAGE value="Adding solution of number of days." />
     <MESSAGE value="Adding solution of max performance of a team." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of first missing positive." />
     <MESSAGE value="Adding solution of min degree of a connected trio." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of frog position." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of frog position." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
