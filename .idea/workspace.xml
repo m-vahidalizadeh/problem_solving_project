@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StrobogrammaticNumberIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BoardPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ExamRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/IsIsomorphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ShortestDistanceColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SlidingPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/StringDecode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +98,9 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfusingNumberII">
-    <configuration name="CampusBikesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.CampusBikesII" />
+  <component name="RunManager" selected="Application.StringDecode">
+    <configuration name="ConfusingNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ConfusingNumberII" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfusingNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ConfusingNumberII" />
+    <configuration name="ExamRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ExamRoom" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.NumSquares" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReorderSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ReorderSpaces" />
       <module name="problem_solving_project" />
@@ -159,20 +151,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.StringDecode" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NumSquares" />
-      <item itemvalue="Application.CampusBikesII" />
       <item itemvalue="Application.ReorderSpaces" />
       <item itemvalue="Application.MinSwap" />
       <item itemvalue="Application.ConfusingNumberII" />
+      <item itemvalue="Application.ExamRoom" />
+      <item itemvalue="Application.StringDecode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringDecode" />
+        <item itemvalue="Application.ExamRoom" />
         <item itemvalue="Application.ConfusingNumberII" />
         <item itemvalue="Application.MinSwap" />
         <item itemvalue="Application.ReorderSpaces" />
-        <item itemvalue="Application.CampusBikesII" />
-        <item itemvalue="Application.NumSquares" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00365" summary="Adding some solutions.">
-      <created>1625281469713</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1625281469713</updated>
     </task>
     <task id="LOCAL-00366" summary="Adding some solutions.">
       <created>1625627763822</created>
@@ -531,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630588361963</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="Adding solution of strobogrammatic number III.">
+      <created>1630688867266</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1630688867266</updated>
+    </task>
+    <option name="localTasksCounter" value="415" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +552,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of tree of co-primes." />
     <MESSAGE value="Adding solution of max number of non-overlapping subs." />
     <MESSAGE value="Adding solution of sorted array through instructions." />
     <MESSAGE value="Adding solution of finding the skyline." />
@@ -572,7 +576,8 @@
     <MESSAGE value="Adding solution of the longest common sub-path." />
     <MESSAGE value="Adding solution of maximize palindrome length from subs." />
     <MESSAGE value="Adding solution of self crossing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of self crossing." />
+    <MESSAGE value="Adding solution of strobogrammatic number III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of strobogrammatic number III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,6 +706,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/google/ReorderSpaces.java</url>
           <line>60</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/StringDecode.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
