@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfUniqueGoodSubs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RearrangeStringKDistanceApart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,22 +93,9 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumOfUniqueGoodSubs">
+  <component name="RunManager" selected="Application.RearrangeStringKDistanceApart">
     <configuration name="AllPossibleFBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AllPossibleFBT" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfusingNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ConfusingNumberII" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -146,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RearrangeStringKDistanceApart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.RearrangeStringKDistanceApart" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.StringDecode" />
       <module name="problem_solving_project" />
@@ -160,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConfusingNumberII" />
       <item itemvalue="Application.ExamRoom" />
       <item itemvalue="Application.StringDecode" />
       <item itemvalue="Application.AllPossibleFBT" />
       <item itemvalue="Application.NumOfUniqueGoodSubs" />
+      <item itemvalue="Application.RearrangeStringKDistanceApart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RearrangeStringKDistanceApart" />
         <item itemvalue="Application.NumOfUniqueGoodSubs" />
         <item itemvalue="Application.AllPossibleFBT" />
         <item itemvalue="Application.StringDecode" />
         <item itemvalue="Application.ExamRoom" />
-        <item itemvalue="Application.ConfusingNumberII" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00368" summary="Adding some solutions.">
-      <created>1625794892499</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1625794892499</updated>
     </task>
     <task id="LOCAL-00369" summary="Adding some solutions.">
       <created>1626031273730</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630978626573</updated>
     </task>
-    <option name="localTasksCounter" value="417" />
+    <task id="LOCAL-00417" summary="Adding some solutions.">
+      <created>1631019239133</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1631019239133</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,6 +712,11 @@
           <line>52</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/RearrangeStringKDistanceApart.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -721,11 +726,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dp[i]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
