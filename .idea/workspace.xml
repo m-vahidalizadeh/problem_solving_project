@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ErectTheFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00370" summary="Adding some solutions.">
-      <created>1626141752205</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1626141752206</updated>
     </task>
     <task id="LOCAL-00371" summary="Adding some solutions.">
       <created>1626313418364</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631109537157</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <task id="LOCAL-00419" summary="Adding solution of erect the fence.">
+      <created>1631195654987</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1631195654987</updated>
+    </task>
+    <option name="localTasksCounter" value="420" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of sorted array through instructions." />
     <MESSAGE value="Adding solution of finding the skyline." />
     <MESSAGE value="Adding solution of k inverse pairs array." />
     <MESSAGE value="Adding solution of number of ways to form a target given a dictionary." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of strobogrammatic number III." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of rearrange string to k distance apart." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of rearrange string to k distance apart." />
+    <MESSAGE value="Adding solution of erect the fence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of erect the fence." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
