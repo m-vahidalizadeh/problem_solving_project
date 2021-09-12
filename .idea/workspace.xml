@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/MinDist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/RestoreMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TrimMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RearrangeStringKDistanceApart">
+  <component name="RunManager" selected="Application.MinDist">
     <configuration name="AllPossibleFBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AllPossibleFBT" />
       <module name="problem_solving_project" />
@@ -107,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.ExamRoom" />
+    <configuration name="MinDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MinDist" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.StringDecode" />
+    <configuration name="RestoreMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.RestoreMatrix" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExamRoom" />
-      <item itemvalue="Application.StringDecode" />
       <item itemvalue="Application.AllPossibleFBT" />
       <item itemvalue="Application.NumOfUniqueGoodSubs" />
       <item itemvalue="Application.RearrangeStringKDistanceApart" />
+      <item itemvalue="Application.RestoreMatrix" />
+      <item itemvalue="Application.MinDist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinDist" />
+        <item itemvalue="Application.RestoreMatrix" />
         <item itemvalue="Application.RearrangeStringKDistanceApart" />
         <item itemvalue="Application.NumOfUniqueGoodSubs" />
         <item itemvalue="Application.AllPossibleFBT" />
-        <item itemvalue="Application.StringDecode" />
-        <item itemvalue="Application.ExamRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00371" summary="Adding some solutions.">
-      <created>1626313418364</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1626313418365</updated>
     </task>
     <task id="LOCAL-00372" summary="Adding some solutions.">
       <created>1626403355838</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631195654987</updated>
     </task>
-    <option name="localTasksCounter" value="420" />
+    <task id="LOCAL-00420" summary="Adding solution of maximum gap.">
+      <created>1631282637170</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1631282637170</updated>
+    </task>
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of finding the skyline." />
     <MESSAGE value="Adding solution of k inverse pairs array." />
     <MESSAGE value="Adding solution of number of ways to form a target given a dictionary." />
     <MESSAGE value="Adding solution of three equal parts." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of rearrange string to k distance apart." />
     <MESSAGE value="Adding solution of erect the fence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of erect the fence." />
+    <MESSAGE value="Adding solution of maximum gap." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of maximum gap." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,11 +723,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Math.min(k, pq.size())" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
