@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CourseScheduleIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LogWithTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/PathsToDest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/WorkersAndBikes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,26 +95,13 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringDecoding">
+  <component name="RunManager" selected="Application.WorkersAndBikes">
     <configuration name="MinDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MinDist" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RearrangeStringKDistanceApart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.RearrangeStringKDistanceApart" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,20 +148,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorkersAndBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.WorkersAndBikes" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.RearrangeStringKDistanceApart" />
       <item itemvalue="Application.RestoreMatrix" />
       <item itemvalue="Application.MinDist" />
       <item itemvalue="Application.SitRoom" />
       <item itemvalue="Application.StringDecoding" />
+      <item itemvalue="Application.WorkersAndBikes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorkersAndBikes" />
         <item itemvalue="Application.StringDecoding" />
         <item itemvalue="Application.SitRoom" />
         <item itemvalue="Application.MinDist" />
         <item itemvalue="Application.RestoreMatrix" />
-        <item itemvalue="Application.RearrangeStringKDistanceApart" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00377" summary="Adding some solutions.">
-      <created>1626922820612</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1626922820613</updated>
     </task>
     <task id="LOCAL-00378" summary="Adding some solutions.">
       <created>1626960341058</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631799809807</updated>
     </task>
-    <option name="localTasksCounter" value="426" />
+    <task id="LOCAL-00426" summary="Adding solution of course schedule III.">
+      <created>1631881927169</created>
+      <option name="number" value="00426" />
+      <option name="presentableId" value="LOCAL-00426" />
+      <option name="project" value="LOCAL" />
+      <updated>1631881927169</updated>
+    </task>
+    <option name="localTasksCounter" value="427" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of stone game v." />
     <MESSAGE value="Adding solution of the longest valid obstacle course." />
     <MESSAGE value="Adding solution of palindrome partitioning II." />
     <MESSAGE value="Adding solution of non-negative integers without consecutive ones." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of the largest color value in a directed graph." />
     <MESSAGE value="Adding solution of construct target arrays with multiple sums." />
     <MESSAGE value="Adding solution of min XOR sum of the two arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min XOR sum of the two arrays." />
+    <MESSAGE value="Adding solution of course schedule III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of course schedule III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
