@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumOfFlooredPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00383" summary="Adding some solutions.">
-      <created>1627909738425</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1627909738425</updated>
     </task>
     <task id="LOCAL-00384" summary="Adding solution of tree of co-primes.">
       <created>1628038777283</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632361304919</updated>
     </task>
-    <option name="localTasksCounter" value="432" />
+    <task id="LOCAL-00432" summary="Adding solution of sum of floored pairs.">
+      <created>1632451816960</created>
+      <option name="number" value="00432" />
+      <option name="presentableId" value="LOCAL-00432" />
+      <option name="project" value="LOCAL" />
+      <updated>1632451816960</updated>
+    </task>
+    <option name="localTasksCounter" value="433" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of maximum genetic difference query." />
     <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
     <MESSAGE value="Adding solution of min space wasted for packaging." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of distinct subsequences." />
     <MESSAGE value="Adding solution of min number of operations to make array continuous." />
     <MESSAGE value="Adding solution of arithmetic slice II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of arithmetic slice II." />
+    <MESSAGE value="Adding solution of sum of floored pairs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of sum of floored pairs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
