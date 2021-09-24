@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ArithmeticSliceII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumOfFlooredPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00382" summary="Adding some solutions.">
-      <created>1627783810123</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1627783810123</updated>
     </task>
     <task id="LOCAL-00383" summary="Adding some solutions.">
       <created>1627909738425</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632270178819</updated>
     </task>
-    <option name="localTasksCounter" value="431" />
+    <task id="LOCAL-00431" summary="Adding solution of arithmetic slice II.">
+      <created>1632361304919</created>
+      <option name="number" value="00431" />
+      <option name="presentableId" value="LOCAL-00431" />
+      <option name="project" value="LOCAL" />
+      <updated>1632361304919</updated>
+    </task>
+    <option name="localTasksCounter" value="432" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of non-negative integers without consecutive ones." />
     <MESSAGE value="Adding solution of maximum genetic difference query." />
     <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of distinct subsequences." />
     <MESSAGE value="Adding solution of min number of operations to make array continuous." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min number of operations to make array continuous." />
+    <MESSAGE value="Adding solution of arithmetic slice II." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of arithmetic slice II." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
