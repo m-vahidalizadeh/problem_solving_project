@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/AssignWorkersBikes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTreeWinGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LeastSquareSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +95,9 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkersAndBikes">
-    <configuration name="MinDist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.MinDist" />
+  <component name="RunManager" selected="Application.AssignWorkersBikes">
+    <configuration name="AssignWorkersBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AssignWorkersBikes" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestoreMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.RestoreMatrix" />
+    <configuration name="BTreeWinGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTreeWinGame" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SitRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.SitRoom" />
+    <configuration name="LeastSquareSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.LeastSquareSum" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RestoreMatrix" />
-      <item itemvalue="Application.MinDist" />
-      <item itemvalue="Application.SitRoom" />
       <item itemvalue="Application.StringDecoding" />
       <item itemvalue="Application.WorkersAndBikes" />
+      <item itemvalue="Application.LeastSquareSum" />
+      <item itemvalue="Application.BTreeWinGame" />
+      <item itemvalue="Application.AssignWorkersBikes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AssignWorkersBikes" />
+        <item itemvalue="Application.BTreeWinGame" />
+        <item itemvalue="Application.LeastSquareSum" />
         <item itemvalue="Application.WorkersAndBikes" />
         <item itemvalue="Application.StringDecoding" />
-        <item itemvalue="Application.SitRoom" />
-        <item itemvalue="Application.MinDist" />
-        <item itemvalue="Application.RestoreMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00384" summary="Adding solution of tree of co-primes.">
-      <created>1628038777283</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1628038777284</updated>
     </task>
     <task id="LOCAL-00385" summary="Adding solution of max number of non-overlapping subs.">
       <created>1628128672829</created>
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632451816960</updated>
     </task>
-    <option name="localTasksCounter" value="433" />
+    <task id="LOCAL-00433" summary="Adding solution of the closest rooms.">
+      <created>1632521887093</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1632521887093</updated>
+    </task>
+    <option name="localTasksCounter" value="434" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of min cost to reach destination in time." />
     <MESSAGE value="Adding solution of decode ways II." />
     <MESSAGE value="Adding solution of min space wasted for packaging." />
     <MESSAGE value="Adding solution of super washing machines." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of min number of operations to make array continuous." />
     <MESSAGE value="Adding solution of arithmetic slice II." />
     <MESSAGE value="Adding solution of sum of floored pairs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of sum of floored pairs." />
+    <MESSAGE value="Adding solution of the closest rooms." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the closest rooms." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,6 +723,11 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="getDist(workers[wI], bikes[i])" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
