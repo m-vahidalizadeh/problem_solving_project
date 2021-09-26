@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/AssignWorkersBikes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/BTreeWinGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/LeastSquareSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/ShortestIndexWithColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SlidingPuzzleSolving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TypeOnBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00385" summary="Adding solution of max number of non-overlapping subs.">
-      <created>1628128672829</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1628128672829</updated>
     </task>
     <task id="LOCAL-00386" summary="Adding solution of sorted array through instructions.">
       <created>1628215868999</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632521887093</updated>
     </task>
-    <option name="localTasksCounter" value="434" />
+    <task id="LOCAL-00434" summary="Adding some solutions.">
+      <created>1632595568191</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1632595568191</updated>
+    </task>
+    <option name="localTasksCounter" value="435" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,13 +568,13 @@
     <MESSAGE value="Adding solution of construct target arrays with multiple sums." />
     <MESSAGE value="Adding solution of min XOR sum of the two arrays." />
     <MESSAGE value="Adding solution of course schedule III." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of distinct subsequences." />
     <MESSAGE value="Adding solution of min number of operations to make array continuous." />
     <MESSAGE value="Adding solution of arithmetic slice II." />
     <MESSAGE value="Adding solution of sum of floored pairs." />
     <MESSAGE value="Adding solution of the closest rooms." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the closest rooms." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
