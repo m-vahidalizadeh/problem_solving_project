@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/PermutationsOfIntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxBuildingHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SequenceOfPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/FindNextPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +97,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssignWorkersBikes">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="AssignWorkersBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AssignWorkersBikes" />
       <module name="problem_solving_project" />
@@ -133,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDecoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.StringDecoding" />
+    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ValidPalindrome" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringDecoding" />
       <item itemvalue="Application.WorkersAndBikes" />
       <item itemvalue="Application.LeastSquareSum" />
       <item itemvalue="Application.BTreeWinGame" />
       <item itemvalue="Application.AssignWorkersBikes" />
+      <item itemvalue="Application.ValidPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.AssignWorkersBikes" />
         <item itemvalue="Application.BTreeWinGame" />
         <item itemvalue="Application.LeastSquareSum" />
         <item itemvalue="Application.WorkersAndBikes" />
-        <item itemvalue="Application.StringDecoding" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00387" summary="Adding solution of finding the skyline.">
-      <created>1628254579285</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1628254579286</updated>
     </task>
     <task id="LOCAL-00388" summary="Adding solution of k inverse pairs array.">
       <created>1628355670194</created>
@@ -531,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632654183904</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="Adding some solutions.">
+      <created>1632687987580</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1632687987580</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,6 +716,16 @@
           <line>52</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -721,11 +735,6 @@
         </breakpoints-dialog>
       </breakpoints-dialog>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="getDist(workers[wI], bikes[i])" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
