@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LargestPalindromeProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumGroupsGettingFreshDonuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestSubarrayWithSumAtLeastK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ScoreStudentsSolvingMathExp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00390" summary="Adding solution of three equal parts.">
-      <created>1628514237771</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1628514237771</updated>
     </task>
     <task id="LOCAL-00391" summary="Adding solution of stone game v.">
       <created>1628646113338</created>
@@ -534,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632801777676</updated>
     </task>
-    <option name="localTasksCounter" value="439" />
+    <task id="LOCAL-00439" summary="Adding some solutions.">
+      <created>1632972751998</created>
+      <option name="number" value="00439" />
+      <option name="presentableId" value="LOCAL-00439" />
+      <option name="project" value="LOCAL" />
+      <updated>1632972751998</updated>
+    </task>
+    <option name="localTasksCounter" value="440" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
