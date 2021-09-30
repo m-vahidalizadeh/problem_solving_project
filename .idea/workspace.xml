@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LargestPalindromeProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumGroupsGettingFreshDonuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ShortestSubarrayWithSumAtLeastK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +96,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
+  <component name="RunManager" selected="Application.ClosestPalindrome">
     <configuration name="AssignWorkersBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AssignWorkersBikes" />
       <module name="problem_solving_project" />
@@ -120,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeastSquareSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.LeastSquareSum" />
+    <configuration name="ClosestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ClosestPalindrome" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxNumGroupsGettingFreshDonuts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxNumGroupsGettingFreshDonuts" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,33 +162,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkersAndBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.WorkersAndBikes" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.WorkersAndBikes" />
-      <item itemvalue="Application.LeastSquareSum" />
       <item itemvalue="Application.BTreeWinGame" />
       <item itemvalue="Application.AssignWorkersBikes" />
       <item itemvalue="Application.ValidPalindrome" />
+      <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
+      <item itemvalue="Application.ClosestPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosestPalindrome" />
+        <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.AssignWorkersBikes" />
         <item itemvalue="Application.BTreeWinGame" />
-        <item itemvalue="Application.LeastSquareSum" />
-        <item itemvalue="Application.WorkersAndBikes" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00389" summary="Adding solution of number of ways to form a target given a dictionary.">
-      <created>1628440782417</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1628440782417</updated>
     </task>
     <task id="LOCAL-00390" summary="Adding solution of three equal parts.">
       <created>1628514237771</created>
@@ -531,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632749875650</updated>
     </task>
-    <option name="localTasksCounter" value="438" />
+    <task id="LOCAL-00438" summary="Adding some solutions.">
+      <created>1632801777675</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1632801777676</updated>
+    </task>
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
