@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ScoreStudentsSolvingMathExp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MovieRentingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PerfectRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,22 +94,9 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClosestPalindrome">
+  <component name="RunManager" selected="Application.PerfectRectangle">
     <configuration name="AssignWorkersBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AssignWorkersBikes" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BTreeWinGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.BTreeWinGame" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -146,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PerfectRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.PerfectRectangle" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.easy.ValidPalindrome" />
       <module name="problem_solving_project" />
@@ -160,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BTreeWinGame" />
       <item itemvalue="Application.AssignWorkersBikes" />
       <item itemvalue="Application.ValidPalindrome" />
       <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
       <item itemvalue="Application.ClosestPalindrome" />
+      <item itemvalue="Application.PerfectRectangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerfectRectangle" />
         <item itemvalue="Application.ClosestPalindrome" />
         <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.AssignWorkersBikes" />
-        <item itemvalue="Application.BTreeWinGame" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00391" summary="Adding solution of stone game v.">
-      <created>1628646113338</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1628646113339</updated>
     </task>
     <task id="LOCAL-00392" summary="Adding solution of the longest valid obstacle course.">
       <created>1628728988094</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632972751998</updated>
     </task>
-    <option name="localTasksCounter" value="440" />
+    <task id="LOCAL-00440" summary="Adding solution of score students solving math expressions.">
+      <created>1633003032868</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1633003032869</updated>
+    </task>
+    <option name="localTasksCounter" value="441" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of decode ways II." />
     <MESSAGE value="Adding solution of min space wasted for packaging." />
     <MESSAGE value="Adding solution of super washing machines." />
     <MESSAGE value="Adding solution of kth permutation." />
@@ -572,7 +572,8 @@
     <MESSAGE value="Adding solution of sum of floored pairs." />
     <MESSAGE value="Adding solution of the closest rooms." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of score students solving math expressions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of score students solving math expressions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,6 +722,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java</url>
           <line>39</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/PerfectRectangle.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
