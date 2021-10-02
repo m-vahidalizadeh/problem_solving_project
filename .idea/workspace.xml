@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MovieRentingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PerfectRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/AutocompleteSystemSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumberOfUnlockPatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SimilarSentences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SimilarSentences2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00392" summary="Adding solution of the longest valid obstacle course.">
-      <created>1628728988094</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1628728988094</updated>
     </task>
     <task id="LOCAL-00393" summary="Adding solution of palindrome partitioning II.">
       <created>1628824371832</created>
@@ -532,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633003032869</updated>
     </task>
-    <option name="localTasksCounter" value="441" />
+    <task id="LOCAL-00441" summary="Adding some solutions.">
+      <created>1633103638976</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1633103638977</updated>
+    </task>
+    <option name="localTasksCounter" value="442" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,9 +573,9 @@
     <MESSAGE value="Adding solution of arithmetic slice II." />
     <MESSAGE value="Adding solution of sum of floored pairs." />
     <MESSAGE value="Adding solution of the closest rooms." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of score students solving math expressions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of score students solving math expressions." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
