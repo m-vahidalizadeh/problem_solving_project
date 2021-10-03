@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/AutocompleteSystemSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/NumberOfUnlockPatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SimilarSentences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/SimilarSentences2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/RestoreMatrixFromSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TrimMean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/google/TypeWithTwoFingers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,20 +95,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerfectRectangle">
-    <configuration name="AssignWorkersBikes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.AssignWorkersBikes" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TypeWithTwoFingers">
     <configuration name="ClosestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.ClosestPalindrome" />
       <module name="problem_solving_project" />
@@ -149,12 +135,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ValidPalindrome" />
+    <configuration name="TrimMean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.TrimMean" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeWithTwoFingers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.TypeWithTwoFingers" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AssignWorkersBikes" />
-      <item itemvalue="Application.ValidPalindrome" />
       <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
       <item itemvalue="Application.ClosestPalindrome" />
       <item itemvalue="Application.PerfectRectangle" />
+      <item itemvalue="Application.TrimMean" />
+      <item itemvalue="Application.TypeWithTwoFingers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeWithTwoFingers" />
+        <item itemvalue="Application.TrimMean" />
         <item itemvalue="Application.PerfectRectangle" />
         <item itemvalue="Application.ClosestPalindrome" />
         <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.AssignWorkersBikes" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00393" summary="Adding solution of palindrome partitioning II.">
-      <created>1628824371832</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1628824371832</updated>
     </task>
     <task id="LOCAL-00394" summary="Adding some solutions.">
       <created>1628965833463</created>
@@ -534,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633103638977</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="Adding some solutions.">
+      <created>1633180375633</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1633180375634</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -729,6 +728,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/hard/PerfectRectangle.java</url>
           <line>56</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/google/TrimMean.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
