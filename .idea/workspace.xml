@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MKAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximizeNumberOfNiceDivisors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00396" summary="Adding solution of maximum genetic difference query.">
-      <created>1629121173546</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1629121173546</updated>
     </task>
     <task id="LOCAL-00397" summary="Adding solution of min cost to reach destination in time.">
       <created>1629248724042</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633487619847</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="Adding the solution of finding MK average.">
+      <created>1633567801311</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1633567801311</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of min space wasted for packaging." />
     <MESSAGE value="Adding solution of super washing machines." />
     <MESSAGE value="Adding solution of kth permutation." />
     <MESSAGE value="Adding solution of super palindromes." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of the closest rooms." />
     <MESSAGE value="Adding solution of score students solving math expressions." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding the solution of finding MK average." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of finding MK average." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
