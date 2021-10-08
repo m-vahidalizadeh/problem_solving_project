@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximizeNumberOfNiceDivisors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfDifferentSubsGCDs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00397" summary="Adding solution of min cost to reach destination in time.">
-      <created>1629248724042</created>
-      <option name="number" value="00397" />
-      <option name="presentableId" value="LOCAL-00397" />
-      <option name="project" value="LOCAL" />
-      <updated>1629248724043</updated>
     </task>
     <task id="LOCAL-00398" summary="Adding solution of decode ways II.">
       <created>1629338316453</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633567801311</updated>
     </task>
-    <option name="localTasksCounter" value="446" />
+    <task id="LOCAL-00446" summary="Adding the solution of maximize number of nice divisors.">
+      <created>1633616645375</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1633616645375</updated>
+    </task>
+    <option name="localTasksCounter" value="447" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of super washing machines." />
     <MESSAGE value="Adding solution of kth permutation." />
     <MESSAGE value="Adding solution of super palindromes." />
     <MESSAGE value="Adding solution of first missing positive." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of score students solving math expressions." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding the solution of finding MK average." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of finding MK average." />
+    <MESSAGE value="Adding the solution of maximize number of nice divisors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of maximize number of nice divisors." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
