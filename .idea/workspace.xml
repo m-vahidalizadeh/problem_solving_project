@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LatestDayToCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/GCDSortOfAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00403" summary="Adding solution of super washing machines.">
-      <created>1629729527355</created>
-      <option name="number" value="00403" />
-      <option name="presentableId" value="LOCAL-00403" />
-      <option name="project" value="LOCAL" />
-      <updated>1629729527355</updated>
     </task>
     <task id="LOCAL-00404" summary="Adding solution of kth permutation.">
       <created>1629856038517</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634693942943</updated>
     </task>
-    <option name="localTasksCounter" value="452" />
+    <task id="LOCAL-00452" summary="Adding solution of the last day, where you can still cross.">
+      <created>1634730006095</created>
+      <option name="number" value="00452" />
+      <option name="presentableId" value="LOCAL-00452" />
+      <option name="project" value="LOCAL" />
+      <updated>1634730006096</updated>
+    </task>
+    <option name="localTasksCounter" value="453" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of frog position." />
     <MESSAGE value="Adding solution of the longest common sub-path." />
     <MESSAGE value="Adding solution of maximize palindrome length from subs." />
     <MESSAGE value="Adding solution of self crossing." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of the longest sub repeated k times." />
     <MESSAGE value="Adding solution of the lest operators to express number." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the lest operators to express number." />
+    <MESSAGE value="Adding solution of the last day, where you can still cross." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the last day, where you can still cross." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
