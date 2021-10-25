@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MergeBSTsIntoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinSkipsToArriveMeetingOnTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00405" summary="Adding solution of super palindromes.">
-      <created>1629935637878</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1629935637878</updated>
     </task>
     <task id="LOCAL-00406" summary="Adding solution of first missing positive.">
       <created>1629985143877</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635009644345</updated>
     </task>
-    <option name="localTasksCounter" value="454" />
+    <task id="LOCAL-00454" summary="Adding solution of merge BSTs into one BST.">
+      <created>1635092250135</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1635092250135</updated>
+    </task>
+    <option name="localTasksCounter" value="455" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of the longest common sub-path." />
     <MESSAGE value="Adding solution of maximize palindrome length from subs." />
     <MESSAGE value="Adding solution of self crossing." />
     <MESSAGE value="Adding solution of strobogrammatic number III." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of the lest operators to express number." />
     <MESSAGE value="Adding solution of the last day, where you can still cross." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of merge BSTs into one BST." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of merge BSTs into one BST." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
