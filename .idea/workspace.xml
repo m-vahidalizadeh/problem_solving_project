@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinSkipsToArriveMeetingOnTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LongestValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeWithTwoFingers">
+  <component name="RunManager" selected="Application.LongestValidParentheses">
     <configuration name="ClosestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.ClosestPalindrome" />
       <module name="problem_solving_project" />
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumGroupsGettingFreshDonuts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MaxNumGroupsGettingFreshDonuts" />
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.LongestValidParentheses" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -161,18 +161,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ClosestPalindrome" />
-      <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
       <item itemvalue="Application.PerfectRectangle" />
       <item itemvalue="Application.TrimMean" />
       <item itemvalue="Application.TypeWithTwoFingers" />
+      <item itemvalue="Application.LongestValidParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.TypeWithTwoFingers" />
         <item itemvalue="Application.TrimMean" />
         <item itemvalue="Application.PerfectRectangle" />
         <item itemvalue="Application.ClosestPalindrome" />
-        <item itemvalue="Application.MaxNumGroupsGettingFreshDonuts" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00406" summary="Adding solution of first missing positive.">
-      <created>1629985143877</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1629985143877</updated>
     </task>
     <task id="LOCAL-00407" summary="Adding solution of min degree of a connected trio.">
       <created>1630071402990</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635092250135</updated>
     </task>
-    <option name="localTasksCounter" value="455" />
+    <task id="LOCAL-00455" summary="Adding solution of min skips to arrive at meeting on time.">
+      <created>1635163327627</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1635163327628</updated>
+    </task>
+    <option name="localTasksCounter" value="456" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of maximize palindrome length from subs." />
     <MESSAGE value="Adding solution of self crossing." />
     <MESSAGE value="Adding solution of strobogrammatic number III." />
     <MESSAGE value="Adding solution of rearrange string to k distance apart." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of the last day, where you can still cross." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of merge BSTs into one BST." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of merge BSTs into one BST." />
+    <MESSAGE value="Adding solution of min skips to arrive at meeting on time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min skips to arrive at meeting on time." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,6 +731,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/companies/google/TrimMean.java</url>
           <line>46</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/hard/LongestValidParentheses.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
