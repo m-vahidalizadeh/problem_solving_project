@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ParallelCoursesIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RangeModule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00410" summary="Adding solution of frog position.">
-      <created>1630331390254</created>
-      <option name="number" value="00410" />
-      <option name="presentableId" value="LOCAL-00410" />
-      <option name="project" value="LOCAL" />
-      <updated>1630331390254</updated>
     </task>
     <task id="LOCAL-00411" summary="Adding solution of the longest common sub-path.">
       <created>1630464750951</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635475201622</updated>
     </task>
-    <option name="localTasksCounter" value="459" />
+    <task id="LOCAL-00459" summary="Adding solution of parallel courses III.">
+      <created>1635516607183</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
+      <option name="project" value="LOCAL" />
+      <updated>1635516607184</updated>
+    </task>
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of erect the fence." />
     <MESSAGE value="Adding solution of maximum gap." />
     <MESSAGE value="Adding solution of the largest color value in a directed graph." />
     <MESSAGE value="Adding solution of construct target arrays with multiple sums." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of the longest valid parentheses." />
     <MESSAGE value="Adding solution of count pairs of nodes." />
     <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of make xor of all segments equal to zero." />
+    <MESSAGE value="Adding solution of parallel courses III." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of parallel courses III." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
