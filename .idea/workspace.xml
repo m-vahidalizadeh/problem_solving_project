@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTimeForKVirusToSpread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MajorityChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinCostToMergeStones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,10 +162,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.ClosestPalindrome" />
+      <item itemvalue="Application.LongestValidParentheses" />
       <item itemvalue="Application.PerfectRectangle" />
       <item itemvalue="Application.TrimMean" />
       <item itemvalue="Application.TypeWithTwoFingers" />
-      <item itemvalue="Application.LongestValidParentheses" />
     </list>
     <recent_temporary>
       <list>
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00412" summary="Adding solution of maximize palindrome length from subs.">
-      <created>1630505122707</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1630505122708</updated>
     </task>
     <task id="LOCAL-00413" summary="Adding solution of self crossing.">
       <created>1630588361963</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635614530345</updated>
     </task>
-    <option name="localTasksCounter" value="461" />
+    <task id="LOCAL-00461" summary="Adding solution of min time for k virus to spread.">
+      <created>1635690916042</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1635690916043</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of the largest color value in a directed graph." />
     <MESSAGE value="Adding solution of construct target arrays with multiple sums." />
     <MESSAGE value="Adding solution of min XOR sum of the two arrays." />
     <MESSAGE value="Adding solution of course schedule III." />
@@ -572,7 +572,8 @@
     <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
     <MESSAGE value="Adding solution of parallel courses III." />
     <MESSAGE value="Adding solution of range module." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of range module." />
+    <MESSAGE value="Adding solution of min time for k virus to spread." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min time for k virus to spread." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
