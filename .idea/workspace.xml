@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MajorityChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinCostToMergeStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfValidWordsForEachPuzzle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00413" summary="Adding solution of self crossing.">
-      <created>1630588361963</created>
-      <option name="number" value="00413" />
-      <option name="presentableId" value="LOCAL-00413" />
-      <option name="project" value="LOCAL" />
-      <updated>1630588361963</updated>
     </task>
     <task id="LOCAL-00414" summary="Adding solution of strobogrammatic number III.">
       <created>1630688867266</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635690916043</updated>
     </task>
-    <option name="localTasksCounter" value="462" />
+    <task id="LOCAL-00462" summary="Adding some solutions.">
+      <created>1635938695831</created>
+      <option name="number" value="00462" />
+      <option name="presentableId" value="LOCAL-00462" />
+      <option name="project" value="LOCAL" />
+      <updated>1635938695831</updated>
+    </task>
+    <option name="localTasksCounter" value="463" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +563,6 @@
     <MESSAGE value="Adding solution of the longest sub repeated k times." />
     <MESSAGE value="Adding solution of the lest operators to express number." />
     <MESSAGE value="Adding solution of the last day, where you can still cross." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of merge BSTs into one BST." />
     <MESSAGE value="Adding solution of min skips to arrive at meeting on time." />
     <MESSAGE value="Adding solution of the longest valid parentheses." />
@@ -573,7 +571,8 @@
     <MESSAGE value="Adding solution of parallel courses III." />
     <MESSAGE value="Adding solution of range module." />
     <MESSAGE value="Adding solution of min time for k virus to spread." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min time for k virus to spread." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
