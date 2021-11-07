@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxPathQualityOfAGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00416" summary="Adding some solutions.">
-      <created>1630978626573</created>
-      <option name="number" value="00416" />
-      <option name="presentableId" value="LOCAL-00416" />
-      <option name="project" value="LOCAL" />
-      <updated>1630978626573</updated>
     </task>
     <task id="LOCAL-00417" summary="Adding some solutions.">
       <created>1631019239133</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636123297924</updated>
     </task>
-    <option name="localTasksCounter" value="465" />
+    <task id="LOCAL-00465" summary="Adding solution of maximal rectangle.">
+      <created>1636202573703</created>
+      <option name="number" value="00465" />
+      <option name="presentableId" value="LOCAL-00465" />
+      <option name="project" value="LOCAL" />
+      <updated>1636202573703</updated>
+    </task>
+    <option name="localTasksCounter" value="466" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of course schedule III." />
     <MESSAGE value="Adding solution of distinct subsequences." />
     <MESSAGE value="Adding solution of min number of operations to make array continuous." />
     <MESSAGE value="Adding solution of arithmetic slice II." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of number of valid words for each puzzle." />
     <MESSAGE value="Adding solution of preimage size of factorial zeros function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of preimage size of factorial zeros function." />
+    <MESSAGE value="Adding solution of maximal rectangle." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of maximal rectangle." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
