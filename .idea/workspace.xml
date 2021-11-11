@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ProfitableSchemes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfWaysToReconstructATree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vcs.patch.path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RecentsManager">
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00419" summary="Adding solution of erect the fence.">
-      <created>1631195654987</created>
-      <option name="number" value="00419" />
-      <option name="presentableId" value="LOCAL-00419" />
-      <option name="project" value="LOCAL" />
-      <updated>1631195654987</updated>
     </task>
     <task id="LOCAL-00420" summary="Adding solution of maximum gap.">
       <created>1631282637170</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636378164866</updated>
     </task>
-    <option name="localTasksCounter" value="468" />
+    <task id="LOCAL-00468" summary="Adding some solutions.">
+      <created>1636555999936</created>
+      <option name="number" value="00468" />
+      <option name="presentableId" value="LOCAL-00468" />
+      <option name="project" value="LOCAL" />
+      <updated>1636555999936</updated>
+    </task>
+    <option name="localTasksCounter" value="469" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,13 +566,13 @@
     <MESSAGE value="Adding solution of parallel courses III." />
     <MESSAGE value="Adding solution of range module." />
     <MESSAGE value="Adding solution of min time for k virus to spread." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of number of valid words for each puzzle." />
     <MESSAGE value="Adding solution of preimage size of factorial zeros function." />
     <MESSAGE value="Adding solution of maximal rectangle." />
     <MESSAGE value="Adding solution of max path quality of the graph." />
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of ways to wear different hats." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
