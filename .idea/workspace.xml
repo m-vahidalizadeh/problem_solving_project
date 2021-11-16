@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MedianSlidingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ConsecutiveNumbersSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ProcessRestrictedFriendRequests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00421" summary="Adding some solutions.">
-      <created>1631411613448</created>
-      <option name="number" value="00421" />
-      <option name="presentableId" value="LOCAL-00421" />
-      <option name="project" value="LOCAL" />
-      <updated>1631411613449</updated>
     </task>
     <task id="LOCAL-00422" summary="Adding some solutions.">
       <created>1631543991767</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636637995190</updated>
     </task>
-    <option name="localTasksCounter" value="470" />
+    <task id="LOCAL-00470" summary="Adding solution of median sliding window.">
+      <created>1636728191544</created>
+      <option name="number" value="00470" />
+      <option name="presentableId" value="LOCAL-00470" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728191544</updated>
+    </task>
+    <option name="localTasksCounter" value="471" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of sum of floored pairs." />
     <MESSAGE value="Adding solution of the closest rooms." />
     <MESSAGE value="Adding solution of score students solving math expressions." />
     <MESSAGE value="Adding the solution of finding MK average." />
@@ -572,7 +572,8 @@
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
     <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of num of ways to reconstruct a tree." />
+    <MESSAGE value="Adding solution of median sliding window." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of median sliding window." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
