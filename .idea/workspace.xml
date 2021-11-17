@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ConsecutiveNumbersSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ProcessRestrictedFriendRequests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxSumOfRectangleNoLargerThanK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00422" summary="Adding some solutions.">
-      <created>1631543991767</created>
-      <option name="number" value="00422" />
-      <option name="presentableId" value="LOCAL-00422" />
-      <option name="project" value="LOCAL" />
-      <updated>1631543991767</updated>
     </task>
     <task id="LOCAL-00423" summary="Adding solution of the largest color value in a directed graph.">
       <created>1631669950657</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636728191544</updated>
     </task>
-    <option name="localTasksCounter" value="471" />
+    <task id="LOCAL-00471" summary="Adding some solutions.">
+      <created>1637072200622</created>
+      <option name="number" value="00471" />
+      <option name="presentableId" value="LOCAL-00471" />
+      <option name="project" value="LOCAL" />
+      <updated>1637072200623</updated>
+    </task>
+    <option name="localTasksCounter" value="472" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,10 +569,10 @@
     <MESSAGE value="Adding solution of maximal rectangle." />
     <MESSAGE value="Adding solution of max path quality of the graph." />
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
     <MESSAGE value="Adding solution of median sliding window." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of median sliding window." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
