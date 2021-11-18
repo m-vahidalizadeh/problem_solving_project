@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxSumOfRectangleNoLargerThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/VerticalOrderTraversalAfABinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00423" summary="Adding solution of the largest color value in a directed graph.">
-      <created>1631669950657</created>
-      <option name="number" value="00423" />
-      <option name="presentableId" value="LOCAL-00423" />
-      <option name="project" value="LOCAL" />
-      <updated>1631669950657</updated>
     </task>
     <task id="LOCAL-00424" summary="Adding solution of construct target arrays with multiple sums.">
       <created>1631711389319</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637072200623</updated>
     </task>
-    <option name="localTasksCounter" value="472" />
+    <task id="LOCAL-00472" summary="Adding solution of max sum of rectangle no larger than k.">
+      <created>1637159171121</created>
+      <option name="number" value="00472" />
+      <option name="presentableId" value="LOCAL-00472" />
+      <option name="project" value="LOCAL" />
+      <updated>1637159171122</updated>
+    </task>
+    <option name="localTasksCounter" value="473" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of the closest rooms." />
     <MESSAGE value="Adding solution of score students solving math expressions." />
     <MESSAGE value="Adding the solution of finding MK average." />
     <MESSAGE value="Adding the solution of maximize number of nice divisors." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
     <MESSAGE value="Adding solution of median sliding window." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of max sum of rectangle no larger than k." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max sum of rectangle no larger than k." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
