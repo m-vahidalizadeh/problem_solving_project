@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumTimeToBuildBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StudentAttendanceRecordII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00428" summary="Adding some solutions.">
-      <created>1632076838589</created>
-      <option name="number" value="00428" />
-      <option name="presentableId" value="LOCAL-00428" />
-      <option name="project" value="LOCAL" />
-      <updated>1632076838589</updated>
     </task>
     <task id="LOCAL-00429" summary="Adding solution of distinct subsequences.">
       <created>1632148078713</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637502506083</updated>
     </task>
-    <option name="localTasksCounter" value="477" />
+    <task id="LOCAL-00477" summary="Adding solution of min time to build blocks.">
+      <created>1637587342717</created>
+      <option name="number" value="00477" />
+      <option name="presentableId" value="LOCAL-00477" />
+      <option name="project" value="LOCAL" />
+      <updated>1637587342717</updated>
+    </task>
+    <option name="localTasksCounter" value="478" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the solution of expression add operators." />
     <MESSAGE value="Adding solution of the longest sub repeated k times." />
     <MESSAGE value="Adding solution of the lest operators to express number." />
     <MESSAGE value="Adding solution of the last day, where you can still cross." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of find the longest awesome substring." />
     <MESSAGE value="Adding solution of the tallest billboard." />
     <MESSAGE value="Adding solution of basic calculator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of basic calculator." />
+    <MESSAGE value="Adding solution of min time to build blocks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min time to build blocks." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
