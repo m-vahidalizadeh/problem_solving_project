@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RussianDollEnvelopes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PatchingArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00430" summary="Adding solution of min number of operations to make array continuous.">
-      <created>1632270178819</created>
-      <option name="number" value="00430" />
-      <option name="presentableId" value="LOCAL-00430" />
-      <option name="project" value="LOCAL" />
-      <updated>1632270178819</updated>
     </task>
     <task id="LOCAL-00431" summary="Adding solution of arithmetic slice II.">
       <created>1632361304919</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637673788455</updated>
     </task>
-    <option name="localTasksCounter" value="479" />
+    <task id="LOCAL-00479" summary="Adding some solutions.">
+      <created>1637858855576</created>
+      <option name="number" value="00479" />
+      <option name="presentableId" value="LOCAL-00479" />
+      <option name="project" value="LOCAL" />
+      <updated>1637858855577</updated>
+    </task>
+    <option name="localTasksCounter" value="480" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +564,6 @@
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
     <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
     <MESSAGE value="Adding solution of median sliding window." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of max sum of rectangle no larger than k." />
     <MESSAGE value="Adding solution of vertical order traversal of BT." />
     <MESSAGE value="Adding solution of find the longest awesome substring." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of basic calculator." />
     <MESSAGE value="Adding solution of min time to build blocks." />
     <MESSAGE value="Adding solution of student attendance record II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of student attendance record II." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
