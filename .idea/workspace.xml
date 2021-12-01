@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfPathsWithMaxScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestSubsequenceSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00434" summary="Adding some solutions.">
-      <created>1632595568191</created>
-      <option name="number" value="00434" />
-      <option name="presentableId" value="LOCAL-00434" />
-      <option name="project" value="LOCAL" />
-      <updated>1632595568191</updated>
     </task>
     <task id="LOCAL-00435" summary="Adding some solutions.">
       <created>1632654183904</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638193315206</updated>
     </task>
-    <option name="localTasksCounter" value="483" />
+    <task id="LOCAL-00483" summary="Adding solution of number of paths with max score.">
+      <created>1638282011851</created>
+      <option name="number" value="00483" />
+      <option name="presentableId" value="LOCAL-00483" />
+      <option name="project" value="LOCAL" />
+      <updated>1638282011852</updated>
+    </task>
+    <option name="localTasksCounter" value="484" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of min skips to arrive at meeting on time." />
     <MESSAGE value="Adding solution of the longest valid parentheses." />
     <MESSAGE value="Adding solution of count pairs of nodes." />
     <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
@@ -572,7 +571,8 @@
     <MESSAGE value="Adding solution of patching the array." />
     <MESSAGE value="Adding solution of get the max score." />
     <MESSAGE value="Adding solution of max number of the tasks you can assign." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max number of the tasks you can assign." />
+    <MESSAGE value="Adding solution of number of paths with max score." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of paths with max score." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
