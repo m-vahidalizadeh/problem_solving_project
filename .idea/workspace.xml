@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestSubsequenceSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReverseSubarrayToMaximizeArrayValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1UOJNLcNC1fXQycanzEyOUSD7aX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -187,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00435" summary="Adding some solutions.">
-      <created>1632654183904</created>
-      <option name="number" value="00435" />
-      <option name="presentableId" value="LOCAL-00435" />
-      <option name="project" value="LOCAL" />
-      <updated>1632654183904</updated>
     </task>
     <task id="LOCAL-00436" summary="Adding some solutions.">
       <created>1632687987580</created>
@@ -531,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638282011852</updated>
     </task>
-    <option name="localTasksCounter" value="484" />
+    <task id="LOCAL-00484" summary="Adding solution of the closest subsequence sum.">
+      <created>1638364620462</created>
+      <option name="number" value="00484" />
+      <option name="presentableId" value="LOCAL-00484" />
+      <option name="project" value="LOCAL" />
+      <updated>1638364620462</updated>
+    </task>
+    <option name="localTasksCounter" value="485" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,10 +547,8 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of the longest valid parentheses." />
     <MESSAGE value="Adding solution of count pairs of nodes." />
     <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
     <MESSAGE value="Adding solution of parallel courses III." />
@@ -572,7 +573,8 @@
     <MESSAGE value="Adding solution of get the max score." />
     <MESSAGE value="Adding solution of max number of the tasks you can assign." />
     <MESSAGE value="Adding solution of number of paths with max score." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of paths with max score." />
+    <MESSAGE value="Adding solution of the closest subsequence sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the closest subsequence sum." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -748,25 +750,25 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.hard.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/problem_solving_project$RotateImage.ic" NAME="RotateImage Coverage Results" MODIFIED="1602971237477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.amazon.*</FILTER>
+    <SUITE FILE_PATH="coverage/problem_solving_project$LargetsAreaHistogram.ic" NAME="LargetsAreaHistogram Coverage Results" MODIFIED="1593560058922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.bloomberg.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/problem_solving_project$ShipWithinDDays.ic" NAME="ShipWithinDDays Coverage Results" MODIFIED="1605387081422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.companies.adobe.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/problem_solving_project$OddEvenJumps.ic" NAME="OddEvenJumps Coverage Results" MODIFIED="1601224118724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.google.*</FILTER>
+    <SUITE FILE_PATH="coverage/problem_solving_project$RotateImage.ic" NAME="RotateImage Coverage Results" MODIFIED="1602971237477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.amazon.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/problem_solving_project$QueueReconstructionByHeight.ic" NAME="QueueReconstructionByHeight Coverage Results" MODIFIED="1591751361062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.medium.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.hard.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/leet_code_project$FindContestMatch.ic" NAME="FindContestMatch Coverage Results" MODIFIED="1585867916348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/leet_code_project$MSCompareVersions.ic" NAME="MSCompareVersions Coverage Results" MODIFIED="1575941791673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/problem_solving_project$LargetsAreaHistogram.ic" NAME="LargetsAreaHistogram Coverage Results" MODIFIED="1593560058922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.bloomberg.*</FILTER>
+    <SUITE FILE_PATH="coverage/problem_solving_project$OddEvenJumps.ic" NAME="OddEvenJumps Coverage Results" MODIFIED="1601224118724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.google.*</FILTER>
     </SUITE>
   </component>
 </project>
