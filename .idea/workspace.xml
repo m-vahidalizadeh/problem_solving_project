@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReverseSubarrayToMaximizeArrayValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountFertilePyramidsInALand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,9 +165,9 @@
     <list>
       <item itemvalue="Application.LongestValidParentheses" />
       <item itemvalue="Application.PerfectRectangle" />
+      <item itemvalue="Application.RussianDollEnvelopes" />
       <item itemvalue="Application.TrimMean" />
       <item itemvalue="Application.TypeWithTwoFingers" />
-      <item itemvalue="Application.RussianDollEnvelopes" />
     </list>
     <recent_temporary>
       <list>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00436" summary="Adding some solutions.">
-      <created>1632687987580</created>
-      <option name="number" value="00436" />
-      <option name="presentableId" value="LOCAL-00436" />
-      <option name="project" value="LOCAL" />
-      <updated>1632687987580</updated>
     </task>
     <task id="LOCAL-00437" summary="Adding some solutions.">
       <created>1632749875650</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638364620462</updated>
     </task>
-    <option name="localTasksCounter" value="485" />
+    <task id="LOCAL-00485" summary="Adding solution of reverse sub-array to maximize array value.">
+      <created>1638453022459</created>
+      <option name="number" value="00485" />
+      <option name="presentableId" value="LOCAL-00485" />
+      <option name="project" value="LOCAL" />
+      <updated>1638453022459</updated>
+    </task>
+    <option name="localTasksCounter" value="486" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of count pairs of nodes." />
     <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
     <MESSAGE value="Adding solution of parallel courses III." />
     <MESSAGE value="Adding solution of range module." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of max number of the tasks you can assign." />
     <MESSAGE value="Adding solution of number of paths with max score." />
     <MESSAGE value="Adding solution of the closest subsequence sum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the closest subsequence sum." />
+    <MESSAGE value="Adding solution of reverse sub-array to maximize array value." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of reverse sub-array to maximize array value." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
