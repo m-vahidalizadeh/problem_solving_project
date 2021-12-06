@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountFertilePyramidsInALand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReversePairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00437" summary="Adding some solutions.">
-      <created>1632749875650</created>
-      <option name="number" value="00437" />
-      <option name="presentableId" value="LOCAL-00437" />
-      <option name="project" value="LOCAL" />
-      <updated>1632749875650</updated>
     </task>
     <task id="LOCAL-00438" summary="Adding some solutions.">
       <created>1632801777675</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638453022459</updated>
     </task>
-    <option name="localTasksCounter" value="486" />
+    <task id="LOCAL-00486" summary="Adding solution of count fertile pyramids in a land.">
+      <created>1638713071505</created>
+      <option name="number" value="00486" />
+      <option name="presentableId" value="LOCAL-00486" />
+      <option name="project" value="LOCAL" />
+      <updated>1638713071505</updated>
+    </task>
+    <option name="localTasksCounter" value="487" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of make xor of all segments equal to zero." />
     <MESSAGE value="Adding solution of parallel courses III." />
     <MESSAGE value="Adding solution of range module." />
     <MESSAGE value="Adding solution of min time for k virus to spread." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of number of paths with max score." />
     <MESSAGE value="Adding solution of the closest subsequence sum." />
     <MESSAGE value="Adding solution of reverse sub-array to maximize array value." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of reverse sub-array to maximize array value." />
+    <MESSAGE value="Adding solution of count fertile pyramids in a land." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of count fertile pyramids in a land." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
