@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DeliveringBoxesFromStorageToPorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinIntegerAtMostKAdjacentSwaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +96,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RussianDollEnvelopes">
+  <component name="RunManager" selected="Application.MinIntegerAtMostKAdjacentSwaps">
     <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.LongestValidParentheses" />
       <module name="problem_solving_project" />
@@ -110,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.PerfectRectangle" />
+    <configuration name="MinIntegerAtMostKAdjacentSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinIntegerAtMostKAdjacentSwaps" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -164,18 +164,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LongestValidParentheses" />
-      <item itemvalue="Application.PerfectRectangle" />
       <item itemvalue="Application.RussianDollEnvelopes" />
       <item itemvalue="Application.TrimMean" />
       <item itemvalue="Application.TypeWithTwoFingers" />
+      <item itemvalue="Application.MinIntegerAtMostKAdjacentSwaps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinIntegerAtMostKAdjacentSwaps" />
         <item itemvalue="Application.RussianDollEnvelopes" />
         <item itemvalue="Application.LongestValidParentheses" />
         <item itemvalue="Application.TypeWithTwoFingers" />
         <item itemvalue="Application.TrimMean" />
-        <item itemvalue="Application.PerfectRectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00441" summary="Adding some solutions.">
-      <created>1633103638976</created>
-      <option name="number" value="00441" />
-      <option name="presentableId" value="LOCAL-00441" />
-      <option name="project" value="LOCAL" />
-      <updated>1633103638977</updated>
     </task>
     <task id="LOCAL-00442" summary="Adding some solutions.">
       <created>1633180375633</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638971354181</updated>
     </task>
-    <option name="localTasksCounter" value="490" />
+    <task id="LOCAL-00490" summary="Adding solution of delivering boxes from storage to ports.">
+      <created>1639058109591</created>
+      <option name="number" value="00490" />
+      <option name="presentableId" value="LOCAL-00490" />
+      <option name="project" value="LOCAL" />
+      <updated>1639058109591</updated>
+    </task>
+    <option name="localTasksCounter" value="491" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of number of valid words for each puzzle." />
     <MESSAGE value="Adding solution of preimage size of factorial zeros function." />
     <MESSAGE value="Adding solution of maximal rectangle." />
     <MESSAGE value="Adding solution of max path quality of the graph." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of reverse pairs." />
     <MESSAGE value="Adding solution of numbers with repeated digits." />
     <MESSAGE value="Adding solution of restore the array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of restore the array." />
+    <MESSAGE value="Adding solution of delivering boxes from storage to ports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of delivering boxes from storage to ports." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
