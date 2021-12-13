@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinIntegerAtMostKAdjacentSwaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StringCompressionII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00442" summary="Adding some solutions.">
-      <created>1633180375633</created>
-      <option name="number" value="00442" />
-      <option name="presentableId" value="LOCAL-00442" />
-      <option name="project" value="LOCAL" />
-      <updated>1633180375634</updated>
     </task>
     <task id="LOCAL-00443" summary="Adding some solutions.">
       <created>1633266544165</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639058109591</updated>
     </task>
-    <option name="localTasksCounter" value="491" />
+    <task id="LOCAL-00491" summary="Adding solution of min int with at most k adjacent swaps.">
+      <created>1639144082460</created>
+      <option name="number" value="00491" />
+      <option name="presentableId" value="LOCAL-00491" />
+      <option name="project" value="LOCAL" />
+      <updated>1639144082460</updated>
+    </task>
+    <option name="localTasksCounter" value="492" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of preimage size of factorial zeros function." />
     <MESSAGE value="Adding solution of maximal rectangle." />
     <MESSAGE value="Adding solution of max path quality of the graph." />
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of numbers with repeated digits." />
     <MESSAGE value="Adding solution of restore the array." />
     <MESSAGE value="Adding solution of delivering boxes from storage to ports." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of delivering boxes from storage to ports." />
+    <MESSAGE value="Adding solution of min int with at most k adjacent swaps." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min int with at most k adjacent swaps." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
