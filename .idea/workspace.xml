@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumNumberOfDaysToEatNOranges.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding solution of max fruits harvested after at most k steps.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxFruitsHarvestedAfterAtMostKSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00446" summary="Adding the solution of maximize number of nice divisors.">
-      <created>1633616645375</created>
-      <option name="number" value="00446" />
-      <option name="presentableId" value="LOCAL-00446" />
-      <option name="project" value="LOCAL" />
-      <updated>1633616645375</updated>
     </task>
     <task id="LOCAL-00447" summary="Adding the solution of number of non-empty subs GCDs.">
       <created>1633702722620</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639621604810</updated>
     </task>
-    <option name="localTasksCounter" value="495" />
+    <task id="LOCAL-00495" summary="Adding solution of min number of days to eat oranges.">
+      <created>1639623083839</created>
+      <option name="number" value="00495" />
+      <option name="presentableId" value="LOCAL-00495" />
+      <option name="project" value="LOCAL" />
+      <updated>1639623083839</updated>
+    </task>
+    <option name="localTasksCounter" value="496" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,8 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
-    <MESSAGE value="Adding solution of median sliding window." />
     <MESSAGE value="Adding solution of max sum of rectangle no larger than k." />
     <MESSAGE value="Adding solution of vertical order traversal of BT." />
     <MESSAGE value="Adding solution of find the longest awesome substring." />
@@ -574,7 +572,9 @@
     <MESSAGE value="Adding solution of string compression II." />
     <MESSAGE value="Adding solution of find all people with secret." />
     <MESSAGE value="Adding solution of unique path III." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of unique path III." />
+    <MESSAGE value="Adding solution of min number of days to eat oranges." />
+    <MESSAGE value="Adding solution of max fruits harvested after at most k steps." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max fruits harvested after at most k steps." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
