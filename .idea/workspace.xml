@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindAllPeopleWithSecret.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/UniquePathsIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00444" summary="Adding some solutions.">
-      <created>1633487619846</created>
-      <option name="number" value="00444" />
-      <option name="presentableId" value="LOCAL-00444" />
-      <option name="project" value="LOCAL" />
-      <updated>1633487619847</updated>
     </task>
     <task id="LOCAL-00445" summary="Adding the solution of finding MK average.">
       <created>1633567801311</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639367784345</updated>
     </task>
-    <option name="localTasksCounter" value="493" />
+    <task id="LOCAL-00493" summary="Adding solution of find all people with secret.">
+      <created>1639410833192</created>
+      <option name="number" value="00493" />
+      <option name="presentableId" value="LOCAL-00493" />
+      <option name="project" value="LOCAL" />
+      <updated>1639410833192</updated>
+    </task>
+    <option name="localTasksCounter" value="494" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of max path quality of the graph." />
     <MESSAGE value="Adding solution of number of ways to wear different hats." />
     <MESSAGE value="Adding solution of num of ways to reconstruct a tree." />
     <MESSAGE value="Adding solution of median sliding window." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of delivering boxes from storage to ports." />
     <MESSAGE value="Adding solution of min int with at most k adjacent swaps." />
     <MESSAGE value="Adding solution of string compression II." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of string compression II." />
+    <MESSAGE value="Adding solution of find all people with secret." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of find all people with secret." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
