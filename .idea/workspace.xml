@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/KEmptySlots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ValidArrangementOfPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumEqualFrequency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00449" summary="Adding some solutions.">
-      <created>1634480643894</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1634480643894</updated>
     </task>
     <task id="LOCAL-00450" summary="Adding solution of the longest sub repeated k times.">
       <created>1634613975625</created>
@@ -535,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639931284595</updated>
     </task>
-    <option name="localTasksCounter" value="498" />
+    <task id="LOCAL-00498" summary="Adding some solutions.">
+      <created>1640269600320</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1640269600320</updated>
+    </task>
+    <option name="localTasksCounter" value="499" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +555,6 @@
     <MESSAGE value="Adding solution of basic calculator." />
     <MESSAGE value="Adding solution of min time to build blocks." />
     <MESSAGE value="Adding solution of student attendance record II." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of patching the array." />
     <MESSAGE value="Adding solution of get the max score." />
     <MESSAGE value="Adding solution of max number of the tasks you can assign." />
@@ -575,7 +573,8 @@
     <MESSAGE value="Adding solution of min number of days to eat oranges." />
     <MESSAGE value="Adding solution of max fruits harvested after at most k steps." />
     <MESSAGE value="Adding solution of SOR Tracker." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of SOR Tracker." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
