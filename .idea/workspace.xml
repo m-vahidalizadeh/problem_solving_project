@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumEqualFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/KthSmallestInLexicographicalOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00450" summary="Adding solution of the longest sub repeated k times.">
-      <created>1634613975625</created>
-      <option name="number" value="00450" />
-      <option name="presentableId" value="LOCAL-00450" />
-      <option name="project" value="LOCAL" />
-      <updated>1634613975626</updated>
     </task>
     <task id="LOCAL-00451" summary="Adding solution of the lest operators to express number.">
       <created>1634693942942</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640269600320</updated>
     </task>
-    <option name="localTasksCounter" value="499" />
+    <task id="LOCAL-00499" summary="Adding solution of max equal frequency.">
+      <created>1640448712733</created>
+      <option name="number" value="00499" />
+      <option name="presentableId" value="LOCAL-00499" />
+      <option name="project" value="LOCAL" />
+      <updated>1640448712734</updated>
+    </task>
+    <option name="localTasksCounter" value="500" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of vertical order traversal of BT." />
     <MESSAGE value="Adding solution of find the longest awesome substring." />
     <MESSAGE value="Adding solution of the tallest billboard." />
     <MESSAGE value="Adding solution of basic calculator." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of max fruits harvested after at most k steps." />
     <MESSAGE value="Adding solution of SOR Tracker." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of max equal frequency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max equal frequency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
