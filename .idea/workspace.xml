@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RecoverTheOriginalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NthMagicalNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00454" summary="Adding solution of merge BSTs into one BST.">
-      <created>1635092250135</created>
-      <option name="number" value="00454" />
-      <option name="presentableId" value="LOCAL-00454" />
-      <option name="project" value="LOCAL" />
-      <updated>1635092250135</updated>
     </task>
     <task id="LOCAL-00455" summary="Adding solution of min skips to arrive at meeting on time.">
       <created>1635163327627</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641341979359</updated>
     </task>
-    <option name="localTasksCounter" value="503" />
+    <task id="LOCAL-00503" summary="Adding solution of recover the original array.">
+      <created>1641483358585</created>
+      <option name="number" value="00503" />
+      <option name="presentableId" value="LOCAL-00503" />
+      <option name="project" value="LOCAL" />
+      <updated>1641483358585</updated>
+    </task>
+    <option name="localTasksCounter" value="504" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of min time to build blocks." />
     <MESSAGE value="Adding solution of student attendance record II." />
     <MESSAGE value="Adding solution of patching the array." />
     <MESSAGE value="Adding solution of get the max score." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of kth smallest lexicographical order." />
     <MESSAGE value="Adding solution of reaching points." />
     <MESSAGE value="Adding solution of coin path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of coin path." />
+    <MESSAGE value="Adding solution of recover the original array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of recover the original array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
