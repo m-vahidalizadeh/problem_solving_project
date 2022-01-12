@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/GridIllumination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00457" summary="Adding solution of count pairs of nodes.">
-      <created>1635340045953</created>
-      <option name="number" value="00457" />
-      <option name="presentableId" value="LOCAL-00457" />
-      <option name="project" value="LOCAL" />
-      <updated>1635340045954</updated>
     </task>
     <task id="LOCAL-00458" summary="Adding solution of make xor of all segments equal to zero.">
       <created>1635475201622</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641828598905</updated>
     </task>
-    <option name="localTasksCounter" value="506" />
+    <task id="LOCAL-00506" summary="Adding solution of LFU cache.">
+      <created>1641911655824</created>
+      <option name="number" value="00506" />
+      <option name="presentableId" value="LOCAL-00506" />
+      <option name="project" value="LOCAL" />
+      <updated>1641911655824</updated>
+    </task>
+    <option name="localTasksCounter" value="507" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of get the max score." />
     <MESSAGE value="Adding solution of max number of the tasks you can assign." />
     <MESSAGE value="Adding solution of number of paths with max score." />
     <MESSAGE value="Adding solution of the closest subsequence sum." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of recover the original array." />
     <MESSAGE value="Adding solution of nth magical number." />
     <MESSAGE value="Adding solution of the earliest possible day of full bloom." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of the earliest possible day of full bloom." />
+    <MESSAGE value="Adding solution of LFU cache." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of LFU cache." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
