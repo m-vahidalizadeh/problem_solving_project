@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DungeonGame.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding solution of dungeon game.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LastSubstringInLexicographicalOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00459" summary="Adding solution of parallel courses III.">
-      <created>1635516607183</created>
-      <option name="number" value="00459" />
-      <option name="presentableId" value="LOCAL-00459" />
-      <option name="project" value="LOCAL" />
-      <updated>1635516607184</updated>
     </task>
     <task id="LOCAL-00460" summary="Adding solution of range module.">
       <created>1635614530345</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641998334524</updated>
     </task>
-    <option name="localTasksCounter" value="508" />
+    <task id="LOCAL-00508" summary="Adding solution of dungeon game.">
+      <created>1642376728447</created>
+      <option name="number" value="00508" />
+      <option name="presentableId" value="LOCAL-00508" />
+      <option name="project" value="LOCAL" />
+      <updated>1642376728447</updated>
+    </task>
+    <option name="localTasksCounter" value="509" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of number of paths with max score." />
     <MESSAGE value="Adding solution of the closest subsequence sum." />
     <MESSAGE value="Adding solution of reverse sub-array to maximize array value." />
     <MESSAGE value="Adding solution of count fertile pyramids in a land." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of the earliest possible day of full bloom." />
     <MESSAGE value="Adding solution of LFU cache." />
     <MESSAGE value="Adding solution of grid illumination." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of grid illumination." />
+    <MESSAGE value="Adding solution of dungeon game." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of dungeon game." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
