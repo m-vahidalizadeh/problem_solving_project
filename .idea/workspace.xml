@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfWaysToDivideALongCorridor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00461" summary="Adding solution of min time for k virus to spread.">
-      <created>1635690916042</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1635690916043</updated>
     </task>
     <task id="LOCAL-00462" summary="Adding some solutions.">
       <created>1635938695831</created>
@@ -534,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642787584928</updated>
     </task>
-    <option name="localTasksCounter" value="510" />
+    <task id="LOCAL-00510" summary="Adding solution of number of ways to divide.">
+      <created>1642957416437</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1642957416437</updated>
+    </task>
+    <option name="localTasksCounter" value="511" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of reverse sub-array to maximize array value." />
     <MESSAGE value="Adding solution of count fertile pyramids in a land." />
     <MESSAGE value="Adding solution of reverse pairs." />
     <MESSAGE value="Adding solution of numbers with repeated digits." />
@@ -574,7 +572,8 @@
     <MESSAGE value="Adding solution of grid illumination." />
     <MESSAGE value="Adding solution of dungeon game." />
     <MESSAGE value="Adding solution of last substring in lexicographical order." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of last substring in lexicographical order." />
+    <MESSAGE value="Adding solution of number of ways to divide." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of number of ways to divide." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
