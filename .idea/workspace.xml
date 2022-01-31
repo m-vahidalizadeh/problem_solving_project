@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumRunningTimeOfNComputers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StampingTheGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00463" summary="Adding solution of number of valid words for each puzzle.">
-      <created>1636038595503</created>
-      <option name="number" value="00463" />
-      <option name="presentableId" value="LOCAL-00463" />
-      <option name="project" value="LOCAL" />
-      <updated>1636038595503</updated>
     </task>
     <task id="LOCAL-00464" summary="Adding solution of preimage size of factorial zeros function.">
       <created>1636123297921</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643256436811</updated>
     </task>
-    <option name="localTasksCounter" value="512" />
+    <task id="LOCAL-00512" summary="Adding solution of max running time of n computers.">
+      <created>1643384788585</created>
+      <option name="number" value="00512" />
+      <option name="presentableId" value="LOCAL-00512" />
+      <option name="project" value="LOCAL" />
+      <updated>1643384788585</updated>
+    </task>
+    <option name="localTasksCounter" value="513" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of reverse pairs." />
     <MESSAGE value="Adding solution of numbers with repeated digits." />
     <MESSAGE value="Adding solution of restore the array." />
     <MESSAGE value="Adding solution of delivering boxes from storage to ports." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of last substring in lexicographical order." />
     <MESSAGE value="Adding solution of number of ways to divide." />
     <MESSAGE value="Adding solution of max good people based on statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max good people based on statements." />
+    <MESSAGE value="Adding solution of max running time of n computers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max running time of n computers." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
