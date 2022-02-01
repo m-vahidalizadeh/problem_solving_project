@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/StampingTheGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SuperEggDrop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00464" summary="Adding solution of preimage size of factorial zeros function.">
-      <created>1636123297921</created>
-      <option name="number" value="00464" />
-      <option name="presentableId" value="LOCAL-00464" />
-      <option name="project" value="LOCAL" />
-      <updated>1636123297924</updated>
     </task>
     <task id="LOCAL-00465" summary="Adding solution of maximal rectangle.">
       <created>1636202573703</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643384788585</updated>
     </task>
-    <option name="localTasksCounter" value="513" />
+    <task id="LOCAL-00513" summary="Adding solution of stamping the grid.">
+      <created>1643648625646</created>
+      <option name="number" value="00513" />
+      <option name="presentableId" value="LOCAL-00513" />
+      <option name="project" value="LOCAL" />
+      <updated>1643648625646</updated>
+    </task>
+    <option name="localTasksCounter" value="514" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of numbers with repeated digits." />
     <MESSAGE value="Adding solution of restore the array." />
     <MESSAGE value="Adding solution of delivering boxes from storage to ports." />
     <MESSAGE value="Adding solution of min int with at most k adjacent swaps." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of number of ways to divide." />
     <MESSAGE value="Adding solution of max good people based on statements." />
     <MESSAGE value="Adding solution of max running time of n computers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of max running time of n computers." />
+    <MESSAGE value="Adding solution of stamping the grid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of stamping the grid." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
