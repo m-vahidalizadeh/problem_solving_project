@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTimeToRemoveAllCarsContainingIllegalGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RandomPickWithBlacklist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00468" summary="Adding some solutions.">
-      <created>1636555999936</created>
-      <option name="number" value="00468" />
-      <option name="presentableId" value="LOCAL-00468" />
-      <option name="project" value="LOCAL" />
-      <updated>1636555999936</updated>
     </task>
     <task id="LOCAL-00469" summary="Adding solution of num of ways to reconstruct a tree.">
       <created>1636637995189</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644158406673</updated>
     </task>
-    <option name="localTasksCounter" value="517" />
+    <task id="LOCAL-00517" summary="Adding solution of min time to remove all cars containing illegal goods.">
+      <created>1644418467697</created>
+      <option name="number" value="00517" />
+      <option name="presentableId" value="LOCAL-00517" />
+      <option name="project" value="LOCAL" />
+      <updated>1644418467698</updated>
+    </task>
+    <option name="localTasksCounter" value="518" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of string compression II." />
     <MESSAGE value="Adding solution of find all people with secret." />
     <MESSAGE value="Adding solution of unique path III." />
     <MESSAGE value="Adding solution of min number of days to eat oranges." />
@@ -574,7 +573,8 @@
     <MESSAGE value="Adding solution of super egg drop." />
     <MESSAGE value="Adding solution of amount of new area painted each day." />
     <MESSAGE value="Adding solution of min diff in sums after removal of elements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min diff in sums after removal of elements." />
+    <MESSAGE value="Adding solution of min time to remove all cars containing illegal goods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of min time to remove all cars containing illegal goods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
