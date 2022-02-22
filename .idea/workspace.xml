@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountTheRepetitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaximumANDSumOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReconstructItinerary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinNumOfRefuelingStops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00470" summary="Adding solution of median sliding window.">
-      <created>1636728191544</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1636728191544</updated>
     </task>
     <task id="LOCAL-00471" summary="Adding some solutions.">
       <created>1637072200622</created>
@@ -536,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644588702479</updated>
     </task>
-    <option name="localTasksCounter" value="519" />
+    <task id="LOCAL-00519" summary="Adding some solutions.">
+      <created>1645293201169</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1645293201170</updated>
+    </task>
+    <option name="localTasksCounter" value="520" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,7 +553,6 @@
     <MESSAGE value="Adding solution of min number of days to eat oranges." />
     <MESSAGE value="Adding solution of max fruits harvested after at most k steps." />
     <MESSAGE value="Adding solution of SOR Tracker." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of max equal frequency." />
     <MESSAGE value="Adding solution of kth smallest lexicographical order." />
     <MESSAGE value="Adding solution of reaching points." />
@@ -576,7 +573,8 @@
     <MESSAGE value="Adding solution of min diff in sums after removal of elements." />
     <MESSAGE value="Adding solution of min time to remove all cars containing illegal goods." />
     <MESSAGE value="Adding solution of random pick with blacklist." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of random pick with blacklist." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
