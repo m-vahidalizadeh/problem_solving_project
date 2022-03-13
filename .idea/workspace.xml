@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountArrayPairsDivisibleByK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumOfDartsInsideOfACircularDartboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinNumOfMovesToMakePalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumOfKMirrorNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00474" summary="Adding solution of find the longest awesome substring.">
-      <created>1637327402830</created>
-      <option name="number" value="00474" />
-      <option name="presentableId" value="LOCAL-00474" />
-      <option name="project" value="LOCAL" />
-      <updated>1637327402830</updated>
     </task>
     <task id="LOCAL-00475" summary="Adding solution of the tallest billboard.">
       <created>1637446016214</created>
@@ -534,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646501787570</updated>
     </task>
-    <option name="localTasksCounter" value="523" />
+    <task id="LOCAL-00523" summary="Adding solution of count array pairs divisible by k.">
+      <created>1646707732292</created>
+      <option name="number" value="00523" />
+      <option name="presentableId" value="LOCAL-00523" />
+      <option name="project" value="LOCAL" />
+      <updated>1646707732292</updated>
+    </task>
+    <option name="localTasksCounter" value="524" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding solution of max fruits harvested after at most k steps." />
     <MESSAGE value="Adding solution of SOR Tracker." />
     <MESSAGE value="Adding solution of max equal frequency." />
     <MESSAGE value="Adding solution of kth smallest lexicographical order." />
@@ -574,7 +575,8 @@
     <MESSAGE value="Adding the solution of min number of refueling stops." />
     <MESSAGE value="Adding the solution of scramble string." />
     <MESSAGE value="Adding some solutions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
+    <MESSAGE value="Adding solution of count array pairs divisible by k." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of count array pairs divisible by k." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
