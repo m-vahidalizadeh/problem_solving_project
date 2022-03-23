@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinWhiteTilesAfterCoveringWithCarpets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindKSmallestPairDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ReplaceNonCoprimeNumbersInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/WildcardMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00478" summary="Adding solution of student attendance record II.">
-      <created>1637673788455</created>
-      <option name="number" value="00478" />
-      <option name="presentableId" value="LOCAL-00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1637673788455</updated>
     </task>
     <task id="LOCAL-00479" summary="Adding some solutions.">
       <created>1637858855576</created>
@@ -534,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647709133871</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="Adding some solutions.">
+      <created>1647792940968</created>
+      <option name="number" value="00527" />
+      <option name="presentableId" value="LOCAL-00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1647792940968</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
