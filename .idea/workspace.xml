@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LargestMultipleOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/Encrypter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00482" summary="Adding solution of max number of the tasks you can assign.">
-      <created>1638193315206</created>
-      <option name="number" value="00482" />
-      <option name="presentableId" value="LOCAL-00482" />
-      <option name="project" value="LOCAL" />
-      <updated>1638193315206</updated>
     </task>
     <task id="LOCAL-00483" summary="Adding solution of number of paths with max score.">
       <created>1638282011851</created>
@@ -534,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649211010847</updated>
     </task>
-    <option name="localTasksCounter" value="531" />
+    <task id="LOCAL-00531" summary="Adding some solutions.">
+      <created>1649429434272</created>
+      <option name="number" value="00531" />
+      <option name="presentableId" value="LOCAL-00531" />
+      <option name="project" value="LOCAL" />
+      <updated>1649429434273</updated>
+    </task>
+    <option name="localTasksCounter" value="532" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
