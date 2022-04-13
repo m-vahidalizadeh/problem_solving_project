@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumberOfVisiblePoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxValueOfKCoinsFromPiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SplitArrayWithSameAverage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00484" summary="Adding solution of the closest subsequence sum.">
-      <created>1638364620462</created>
-      <option name="number" value="00484" />
-      <option name="presentableId" value="LOCAL-00484" />
-      <option name="project" value="LOCAL" />
-      <updated>1638364620462</updated>
     </task>
     <task id="LOCAL-00485" summary="Adding solution of reverse sub-array to maximize array value.">
       <created>1638453022459</created>
@@ -535,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649607473049</updated>
     </task>
-    <option name="localTasksCounter" value="533" />
+    <task id="LOCAL-00533" summary="Adding some solutions.">
+      <created>1649735066642</created>
+      <option name="number" value="00533" />
+      <option name="presentableId" value="LOCAL-00533" />
+      <option name="project" value="LOCAL" />
+      <updated>1649735066642</updated>
+    </task>
+    <option name="localTasksCounter" value="534" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,9 +572,9 @@
     <MESSAGE value="Adding the solution of min number of refueling stops." />
     <MESSAGE value="Adding the solution of scramble string." />
     <MESSAGE value="Adding solution of count array pairs divisible by k." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding the solution of encrypt/decrypt string." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the solution of encrypt/decrypt string." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
