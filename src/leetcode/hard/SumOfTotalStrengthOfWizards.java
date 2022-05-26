@@ -1,0 +1,78 @@
+package leetcode.hard;
+
+import java.util.Stack;
+
+/**
+ * 2281. Sum of Total Strength of Wizards
+ * As the ruler of a kingdom, you have an army of wizards at your command.
+ *
+ * You are given a 0-indexed integer array strength, where strength[i] denotes the strength of the ith wizard. For a contiguous group of wizards (i.e. the wizards' strengths form a subarray of strength), the total strength is defined as the product of the following two values:
+ *
+ * The strength of the weakest wizard in the group.
+ * The total of all the individual strengths of the wizards in the group.
+ * Return the sum of the total strengths of all contiguous groups of wizards. Since the answer may be very large, return it modulo 109 + 7.
+ *
+ * A subarray is a contiguous non-empty sequence of elements within an array.
+ *
+ * Example 1:
+ *
+ * Input: strength = [1,3,1,2]
+ * Output: 44
+ * Explanation: The following are all the contiguous groups of wizards:
+ * - [1] from [1,3,1,2] has a total strength of min([1]) * sum([1]) = 1 * 1 = 1
+ * - [3] from [1,3,1,2] has a total strength of min([3]) * sum([3]) = 3 * 3 = 9
+ * - [1] from [1,3,1,2] has a total strength of min([1]) * sum([1]) = 1 * 1 = 1
+ * - [2] from [1,3,1,2] has a total strength of min([2]) * sum([2]) = 2 * 2 = 4
+ * - [1,3] from [1,3,1,2] has a total strength of min([1,3]) * sum([1,3]) = 1 * 4 = 4
+ * - [3,1] from [1,3,1,2] has a total strength of min([3,1]) * sum([3,1]) = 1 * 4 = 4
+ * - [1,2] from [1,3,1,2] has a total strength of min([1,2]) * sum([1,2]) = 1 * 3 = 3
+ * - [1,3,1] from [1,3,1,2] has a total strength of min([1,3,1]) * sum([1,3,1]) = 1 * 5 = 5
+ * - [3,1,2] from [1,3,1,2] has a total strength of min([3,1,2]) * sum([3,1,2]) = 1 * 6 = 6
+ * - [1,3,1,2] from [1,3,1,2] has a total strength of min([1,3,1,2]) * sum([1,3,1,2]) = 1 * 7 = 7
+ * The sum of all the total strengths is 1 + 9 + 1 + 4 + 4 + 4 + 3 + 5 + 6 + 7 = 44.
+ * Example 2:
+ *
+ * Input: strength = [5,4,6]
+ * Output: 213
+ * Explanation: The following are all the contiguous groups of wizards:
+ * - [5] from [5,4,6] has a total strength of min([5]) * sum([5]) = 5 * 5 = 25
+ * - [4] from [5,4,6] has a total strength of min([4]) * sum([4]) = 4 * 4 = 16
+ * - [6] from [5,4,6] has a total strength of min([6]) * sum([6]) = 6 * 6 = 36
+ * - [5,4] from [5,4,6] has a total strength of min([5,4]) * sum([5,4]) = 4 * 9 = 36
+ * - [4,6] from [5,4,6] has a total strength of min([4,6]) * sum([4,6]) = 4 * 10 = 40
+ * - [5,4,6] from [5,4,6] has a total strength of min([5,4,6]) * sum([5,4,6]) = 4 * 15 = 60
+ * The sum of all the total strengths is 25 + 16 + 36 + 36 + 40 + 60 = 213.
+ *
+ * Constraints:
+ *
+ * 1 <= strength.length <= 105
+ * 1 <= strength[i] <= 109
+ */
+public class SumOfTotalStrengthOfWizards {
+
+    public int totalStrength(int[] A) {
+        int res = 0;
+        int ac = 0;
+        int mod = (int) 1e9 + 7;
+        int n = A.length;
+        Stack<Integer> stack = new Stack<>();
+        int[] acc = new int[n + 2];
+        for (int r = 0; r <= n; r++) {
+            int a = r < n ? A[r] : 0;
+            ac = (ac + a) % mod;
+            acc[r + 1] = (ac + acc[r]) % mod;
+            while (!stack.isEmpty() && A[stack.peek()] > a) {
+                int i = stack.pop();
+                int l = stack.isEmpty() ? -1 : stack.peek();
+                long lacc = l < 0 ? acc[i] : acc[i] - acc[l];
+                long racc = acc[r] - acc[i];
+                int ln = i - l;
+                int rn = r - i;
+                res = (int) (res + (racc * ln - lacc * rn) % mod * A[i] % mod) % mod;
+            }
+            stack.push(r);
+        }
+        return (res + mod) % mod;
+    }
+
+}
