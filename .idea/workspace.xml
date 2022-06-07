@@ -23,7 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SumOfTotalStrengthOfWizards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestNodeToPathInTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumObstacleRemovalToReachCorner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RandomizedCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SubstringWithLargestVariance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,21 +156,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.KEmptySlots" />
       <item itemvalue="Application.LongestValidParentheses" />
       <item itemvalue="Application.MinIntegerAtMostKAdjacentSwaps" />
       <item itemvalue="Application.RussianDollEnvelopes" />
       <item itemvalue="Application.ValidArrangementOfPairs" />
-      <item itemvalue="Application.KEmptySlots" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.KEmptySlots" />
-        <item itemvalue="Application.ValidArrangementOfPairs" />
-        <item itemvalue="Application.MinIntegerAtMostKAdjacentSwaps" />
-        <item itemvalue="Application.RussianDollEnvelopes" />
-        <item itemvalue="Application.LongestValidParentheses" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -179,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00493" summary="Adding solution of find all people with secret.">
-      <created>1639410833192</created>
-      <option name="number" value="00493" />
-      <option name="presentableId" value="LOCAL-00493" />
-      <option name="project" value="LOCAL" />
-      <updated>1639410833192</updated>
     </task>
     <task id="LOCAL-00494" summary="Adding solution of unique path III.">
       <created>1639621604810</created>
@@ -523,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653014331337</updated>
     </task>
-    <option name="localTasksCounter" value="542" />
+    <task id="LOCAL-00542" summary="Adding some solutions.">
+      <created>1653532025247</created>
+      <option name="number" value="00542" />
+      <option name="presentableId" value="LOCAL-00542" />
+      <option name="project" value="LOCAL" />
+      <updated>1653532025248</updated>
+    </task>
+    <option name="localTasksCounter" value="543" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
