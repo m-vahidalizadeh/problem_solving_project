@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ClosestNodeToPathInTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinimumObstacleRemovalToReachCorner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RandomizedCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SubstringWithLargestVariance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DistanceToACycleInUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/TextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +86,8 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KEmptySlots">
-    <configuration name="KEmptySlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.leetcode.hard.KEmptySlots">
+    <configuration name="leetcode.hard.KEmptySlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.KEmptySlots" />
       <module name="problem_solving_project" />
       <extension name="coverage">
@@ -103,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.hard.LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.LongestValidParentheses" />
       <module name="problem_solving_project" />
       <extension name="coverage">
@@ -116,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinIntegerAtMostKAdjacentSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.hard.MinIntegerAtMostKAdjacentSwaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinIntegerAtMostKAdjacentSwaps" />
       <module name="problem_solving_project" />
       <extension name="coverage">
@@ -129,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RussianDollEnvelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.hard.RussianDollEnvelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.RussianDollEnvelopes" />
       <module name="problem_solving_project" />
       <extension name="coverage">
@@ -142,7 +139,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidArrangementOfPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="leetcode.hard.ValidArrangementOfPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.ValidArrangementOfPairs" />
       <module name="problem_solving_project" />
       <extension name="coverage">
@@ -156,11 +153,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KEmptySlots" />
-      <item itemvalue="Application.LongestValidParentheses" />
-      <item itemvalue="Application.MinIntegerAtMostKAdjacentSwaps" />
-      <item itemvalue="Application.RussianDollEnvelopes" />
-      <item itemvalue="Application.ValidArrangementOfPairs" />
+      <item itemvalue="Application.leetcode.hard.KEmptySlots" />
+      <item itemvalue="Application.leetcode.hard.LongestValidParentheses" />
+      <item itemvalue="Application.leetcode.hard.MinIntegerAtMostKAdjacentSwaps" />
+      <item itemvalue="Application.leetcode.hard.RussianDollEnvelopes" />
+      <item itemvalue="Application.leetcode.hard.ValidArrangementOfPairs" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -174,13 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00494" summary="Adding solution of unique path III.">
-      <created>1639621604810</created>
-      <option name="number" value="00494" />
-      <option name="presentableId" value="LOCAL-00494" />
-      <option name="project" value="LOCAL" />
-      <updated>1639621604810</updated>
     </task>
     <task id="LOCAL-00495" summary="Adding solution of min number of days to eat oranges.">
       <created>1639623083839</created>
@@ -518,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653532025248</updated>
     </task>
-    <option name="localTasksCounter" value="543" />
+    <task id="LOCAL-00543" summary="Adding some solutions.">
+      <created>1654567375339</created>
+      <option name="number" value="00543" />
+      <option name="presentableId" value="LOCAL-00543" />
+      <option name="project" value="LOCAL" />
+      <updated>1654567375340</updated>
+    </task>
+    <option name="localTasksCounter" value="544" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
