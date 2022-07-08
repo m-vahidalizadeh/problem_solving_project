@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinFlipsInBinaryTreeToGetResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfIncreasingPathsInAGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfDistinctRollSequences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00497" summary="Adding solution of SOR Tracker.">
-      <created>1639931284595</created>
-      <option name="number" value="00497" />
-      <option name="presentableId" value="LOCAL-00497" />
-      <option name="project" value="LOCAL" />
-      <updated>1639931284595</updated>
     </task>
     <task id="LOCAL-00498" summary="Adding some solutions.">
       <created>1640269600320</created>
@@ -515,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656640572805</updated>
     </task>
-    <option name="localTasksCounter" value="546" />
+    <task id="LOCAL-00546" summary="Adding some solutions.">
+      <created>1657161007291</created>
+      <option name="number" value="00546" />
+      <option name="presentableId" value="LOCAL-00546" />
+      <option name="project" value="LOCAL" />
+      <updated>1657161007292</updated>
+    </task>
+    <option name="localTasksCounter" value="547" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
