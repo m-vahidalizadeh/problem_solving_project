@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumOfDistinctRollSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FancySequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SubarrayWithElementsGreaterThanVaryingThreshold.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/hard/ReverseSubarrayToMaximizeArrayValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/hard/ReverseSubarrayToMaximizeArrayValue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -85,9 +88,9 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.leetcode.hard.KEmptySlots">
-    <configuration name="leetcode.hard.KEmptySlots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.KEmptySlots" />
+  <component name="RunManager" selected="Application.FancySequence">
+    <configuration name="FancySequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FancySequence" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -152,12 +155,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.leetcode.hard.KEmptySlots" />
+      <item itemvalue="Application.FancySequence" />
       <item itemvalue="Application.leetcode.hard.LongestValidParentheses" />
       <item itemvalue="Application.leetcode.hard.MinIntegerAtMostKAdjacentSwaps" />
       <item itemvalue="Application.leetcode.hard.RussianDollEnvelopes" />
       <item itemvalue="Application.leetcode.hard.ValidArrangementOfPairs" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FancySequence" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -170,13 +178,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00498" summary="Adding some solutions.">
-      <created>1640269600320</created>
-      <option name="number" value="00498" />
-      <option name="presentableId" value="LOCAL-00498" />
-      <option name="project" value="LOCAL" />
-      <updated>1640269600320</updated>
     </task>
     <task id="LOCAL-00499" summary="Adding solution of max equal frequency.">
       <created>1640448712733</created>
@@ -514,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657161007292</updated>
     </task>
-    <option name="localTasksCounter" value="547" />
+    <task id="LOCAL-00547" summary="Adding some solutions.">
+      <created>1657244054110</created>
+      <option name="number" value="00547" />
+      <option name="presentableId" value="LOCAL-00547" />
+      <option name="project" value="LOCAL" />
+      <updated>1657244054111</updated>
+    </task>
+    <option name="localTasksCounter" value="548" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -26,11 +26,7 @@ package leetcode.hard;
 public class ReverseSubarrayToMaximizeArrayValue {
 
     public int maxValueAfterReverse(int[] nums) {
-        int valWithoutReverse = 0;
-        int improvementByReversing = 0;
-        int secondMin = Integer.MAX_VALUE;
-        int secondMax = Integer.MIN_VALUE;
-        int n = nums.length;
+        int valWithoutReverse = 0, improvementByReversing = 0, secondMin = Integer.MAX_VALUE, secondMax = Integer.MIN_VALUE, n = nums.length;
         for (int i = 0; i < n - 1; i++) {
             int currDiff = Math.abs(nums[i] - nums[i + 1]);
             valWithoutReverse += currDiff;
