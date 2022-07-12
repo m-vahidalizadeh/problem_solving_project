@@ -38,11 +38,7 @@ public class IntersectionSizeTwo {
         res.add(intervals[0][1] - 1); // Add one before end
         res.add(intervals[0][1]); // Add end
         for (int i = 1; i < n; i++) { // O(n)
-            int start = intervals[i][0];
-            int end = intervals[i][1];
-            int size = res.size();
-            int last = res.get(size - 1);
-            int secondLast = res.get(size - 2);
+            int start = intervals[i][0], end = intervals[i][1], size = res.size(), last = res.get(size - 1), secondLast = res.get(size - 2);
             if (start > last) { // We need to add two fresh points
                 res.add(end - 1);
                 res.add(end);
