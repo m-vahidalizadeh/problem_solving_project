@@ -1,5 +1,7 @@
 package leetcode.hard;
 
+import javafx.util.Pair;
+
 import java.util.*;
 
 /**
@@ -43,66 +45,32 @@ import java.util.*;
 public class CheckForContradictionsInEquations {
 
     public boolean checkContradictions(List<List<String>> equations, double[] values) {
-        Map<String, Set<String>> map = new HashMap<>();
-        Map<Pair, Double> weights = new HashMap<>();
-        for (int i = 0; i < equations.size(); i++) {
+        Map<String, Set<String>> graph = new HashMap<>(); // a map from one node to its neighbors
+        Map<Pair<String, String>, Double> weights = new HashMap<>(); // a map from an edge to its cost
+        for (int i = 0; i < equations.size(); i++) { // Iterate over the equations
             List<String> l = equations.get(i);
-            String first = l.get(0);
-            String second = l.get(1);
-            Double value = dfs(first, second, map, weights, new HashSet<>(), 1d);
-            if (value != null) {
-                if (!dEquals(value, values[i])) return true;
-            }
-            map.putIfAbsent(first, new HashSet<>());
-            map.get(first).add(second);
-            map.putIfAbsent(second, new HashSet<>());
-            map.get(second).add(first);
-            weights.put(new Pair(second, first), 1 / values[i]);
-            weights.put(new Pair(first, second), values[i]);
+            String u = l.get(0);
+            String v = l.get(1);
+            Double value = dfs(u, v, graph, weights, new HashSet<>(), 1d);
+            if (value != null && Math.abs(value - values[i]) > Math.pow(10, -5)) return true; // We found contradiction
+            graph.computeIfAbsent(u, x -> new HashSet<>()).add(v); // Update u neighbors
+            weights.put(new Pair<>(u, v), values[i]); // cost from u to v is values[i]
+            graph.computeIfAbsent(v, x -> new HashSet<>()).add(u); // Update v neighbors
+            weights.put(new Pair<>(v, u), 1 / values[i]); // cost from v to u is 1/values[i]
         }
-        return false;
+        return false; // We couldn't fina any contradiction
     }
 
-    private Double dfs(String curr, String end, Map<String, Set<String>> map,
-                       Map<Pair, Double> weights, Set<String> visited, Double val) {
-        if (visited.contains(curr)) return null;
-        visited.add(curr);
-        if (curr.equals(end)) return val;
-        for (String next : map.getOrDefault(curr, new HashSet<>())) {
-            Double ret = dfs(next, end, map, weights, visited, val * weights.get(new Pair(curr, next)));
-            if (ret != null) return ret;
+    private Double dfs(String curr, String end, Map<String, Set<String>> graph,
+                       Map<Pair<String, String>, Double> weights, Set<String> visited, Double val) {
+        if (visited.contains(curr)) return null; // It is already visited
+        visited.add(curr); // mark it visited
+        if (curr.equals(end)) return val; // if we are in the final node, no more traverse
+        for (String next : graph.getOrDefault(curr, new HashSet<>())) { // iterate over curr neighbors
+            Double ret = dfs(next, end, graph, weights, visited, val * weights.get(new Pair<>(curr, next))); // for each branch, the weight of the edge will be multiplied to the current val
+            if (ret != null) return ret; // if we found the end in this branch, don't continue
         }
-        return null;
-    }
-
-    private boolean dEquals(Double a, Double b) {
-        return Math.abs(a - b) <= Math.pow(10, -5);
-    }
-
-    public class Pair {
-        String first;
-        String second;
-
-        public Pair(String first, String second) {
-            this.first = first;
-            this.second = second;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(first, second);
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            Pair p = (Pair) o;
-            return p.first.equals(this.first) && p.second.equals(this.second);
-        }
-
-        @Override
-        public String toString() {
-            return first + " " + second;
-        }
+        return null; // We couldn't find the end in this branch
     }
 
 }
