@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/HeightOfBinaryTreeAfterSubtreeRemovalQueries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00518" summary="Adding solution of random pick with blacklist.">
-      <created>1644588702478</created>
-      <option name="number" value="00518" />
-      <option name="presentableId" value="LOCAL-00518" />
-      <option name="project" value="LOCAL" />
-      <updated>1644588702479</updated>
     </task>
     <task id="LOCAL-00519" summary="Adding some solutions.">
       <created>1645293201169</created>
@@ -519,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667481488903</updated>
     </task>
-    <option name="localTasksCounter" value="567" />
+    <task id="LOCAL-00567" summary="Adding some solutions.">
+      <created>1667874014757</created>
+      <option name="number" value="00567" />
+      <option name="presentableId" value="LOCAL-00567" />
+      <option name="project" value="LOCAL" />
+      <updated>1667874014758</updated>
+    </task>
+    <option name="localTasksCounter" value="568" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
