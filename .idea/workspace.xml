@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumberOfNonOverlappingPalindromeSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxSegmentSumAfterRemovals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfValidMoveCombinationsOnChessboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SplitMessageBasedOnLimit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,13 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00520" summary="Adding the solution of min number of refueling stops.">
-      <created>1645498042751</created>
-      <option name="number" value="00520" />
-      <option name="presentableId" value="LOCAL-00520" />
-      <option name="project" value="LOCAL" />
-      <updated>1645498042751</updated>
     </task>
     <task id="LOCAL-00521" summary="Adding the solution of scramble string.">
       <created>1645989753921</created>
@@ -522,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668042826251</updated>
     </task>
-    <option name="localTasksCounter" value="569" />
+    <task id="LOCAL-00569" summary="Adding some solutions.">
+      <created>1668476600338</created>
+      <option name="number" value="00569" />
+      <option name="presentableId" value="LOCAL-00569" />
+      <option name="project" value="LOCAL" />
+      <updated>1668476600338</updated>
+    </task>
+    <option name="localTasksCounter" value="570" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
