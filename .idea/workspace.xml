@@ -23,6 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfBeautifulPartitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SortArrayByMovingItemsToEmptySpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,13 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00522" summary="Adding some solutions.">
-      <created>1646501787570</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1646501787570</updated>
     </task>
     <task id="LOCAL-00523" summary="Adding solution of count array pairs divisible by k.">
       <created>1646707732292</created>
@@ -519,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668570960113</updated>
     </task>
-    <option name="localTasksCounter" value="571" />
+    <task id="LOCAL-00571" summary="Adding some solutions.">
+      <created>1668648809479</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1668648809479</updated>
+    </task>
+    <option name="localTasksCounter" value="572" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
