@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/Base7Representation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/ConvertToGreaterTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/DeepCopyBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/ValidParenthesesString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindTheStringWithLCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTimeToCompleteAllTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinTimeToVisitACellInAGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SubsequenceWithTheMinScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/FrequencySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/bloomberg/Leaderboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CountIncreasingQuadruplets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/PutMarblesInBags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/RearrangingFruits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,15 +75,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "/Users/mohammad/IdeaProjects/problem_solving_project",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mohammad/IdeaProjects/problem_solving_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hackerrank" />
@@ -191,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00529" summary="Adding some solutions.">
-      <created>1648217162794</created>
-      <option name="number" value="00529" />
-      <option name="presentableId" value="LOCAL-00529" />
-      <option name="project" value="LOCAL" />
-      <updated>1648217162795</updated>
     </task>
     <task id="LOCAL-00530" summary="Adding some solutions.">
       <created>1649211010846</created>
@@ -535,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679141579391</updated>
     </task>
-    <option name="localTasksCounter" value="578" />
+    <task id="LOCAL-00578" summary="Adding some solutions.">
+      <created>1679233979951</created>
+      <option name="number" value="00578" />
+      <option name="presentableId" value="LOCAL-00578" />
+      <option name="project" value="LOCAL" />
+      <updated>1679233979951</updated>
+    </task>
+    <option name="localTasksCounter" value="579" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
