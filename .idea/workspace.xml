@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxNumberOfPointsFromGridQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/HandlingSumQueriesAfterUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/SplitTheArrayToMakeCoprimeProducts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00533" summary="Adding some solutions.">
-      <created>1649735066642</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1649735066642</updated>
     </task>
     <task id="LOCAL-00534" summary="Adding some solutions.">
       <created>1649813929820</created>
@@ -528,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679566410372</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="Adding some solutions.">
+      <created>1679852782740</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1679852782741</updated>
+    </task>
+    <option name="localTasksCounter" value="583" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
