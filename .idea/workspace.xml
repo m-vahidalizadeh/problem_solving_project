@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinOperationsToRemoveAdjacentOnesInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfGoodPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00541" summary="Adding some solutions.">
-      <created>1653014331336</created>
-      <option name="number" value="00541" />
-      <option name="presentableId" value="LOCAL-00541" />
-      <option name="project" value="LOCAL" />
-      <updated>1653014331337</updated>
     </task>
     <task id="LOCAL-00542" summary="Adding some solutions.">
       <created>1653532025247</created>
@@ -529,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681249300605</updated>
     </task>
-    <option name="localTasksCounter" value="590" />
+    <task id="LOCAL-00590" summary="Adding some solutions.">
+      <created>1681297437211</created>
+      <option name="number" value="00590" />
+      <option name="presentableId" value="LOCAL-00590" />
+      <option name="project" value="LOCAL" />
+      <updated>1681297437211</updated>
+    </task>
+    <option name="localTasksCounter" value="591" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
