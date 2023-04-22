@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/NumberOfGoodPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/MineSweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/uber/SettleDebt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/AddEdgesToMakeDegreesOfAllNodesEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/CollectCoinsInATree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/DesignGraphWithShortestPathCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,13 +190,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575221667397</updated>
-    </task>
-    <task id="LOCAL-00542" summary="Adding some solutions.">
-      <created>1653532025247</created>
-      <option name="number" value="00542" />
-      <option name="presentableId" value="LOCAL-00542" />
-      <option name="project" value="LOCAL" />
-      <updated>1653532025248</updated>
     </task>
     <task id="LOCAL-00543" summary="Adding some solutions.">
       <created>1654567375339</created>
@@ -529,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681297437211</updated>
     </task>
-    <option name="localTasksCounter" value="591" />
+    <task id="LOCAL-00591" summary="Adding some solutions.">
+      <created>1681440548870</created>
+      <option name="number" value="00591" />
+      <option name="presentableId" value="LOCAL-00591" />
+      <option name="project" value="LOCAL" />
+      <updated>1681440548872</updated>
+    </task>
+    <option name="localTasksCounter" value="592" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
