@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding solution of escape the spreading fire.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/BookMyShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/LengthOfTheLongestValidSubstring.java" afterDir="false" />
+    <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ErectTheFenceII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -536,7 +535,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687107153434</updated>
     </task>
-    <option name="localTasksCounter" value="626" />
+    <option name="localTasksCounter" value="627" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,9 +573,9 @@
     <MESSAGE value="Adding the solution of scramble string." />
     <MESSAGE value="Adding solution of count array pairs divisible by k." />
     <MESSAGE value="Adding the solution of encrypt/decrypt string." />
-    <MESSAGE value="Adding some solutions." />
     <MESSAGE value="Adding solution of escape the spreading fire." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding solution of escape the spreading fire." />
+    <MESSAGE value="Adding some solutions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some solutions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
