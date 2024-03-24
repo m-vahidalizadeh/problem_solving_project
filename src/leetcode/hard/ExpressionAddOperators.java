@@ -41,7 +41,7 @@ import java.util.List;
  *
  * 1 <= num.length <= 10
  * num consists of only digits.
- * -231 <= target <= 231 - 1
+ * -2^31 <= target <= 2^31 - 1
  */
 public class ExpressionAddOperators {
 
