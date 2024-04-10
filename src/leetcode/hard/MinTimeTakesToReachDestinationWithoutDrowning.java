@@ -59,9 +59,7 @@ public class MinTimeTakesToReachDestinationWithoutDrowning {
 
     public int minimumSeconds(List<List<String>> land) {
         Pair<Integer, Integer> source = null, dest = null;
-        int n = land.size();
-        int m = land.get(0).size();
-        int[][] l = new int[n][land.get(0).size()], f = new int[n][m];
+        int n = land.size(), m = land.get(0).size(), t = 0, l[][] = new int[n][land.get(0).size()], f[][] = new int[n][m];
         boolean[][] visited = new boolean[n][m];
         for (int i = 0; i < n; i++) Arrays.fill(f[i], Integer.MAX_VALUE);
         Deque<Pair<Integer, Integer>> q = new ArrayDeque<>();
@@ -77,14 +75,12 @@ public class MinTimeTakesToReachDestinationWithoutDrowning {
                 }
             }
         }
-        int t = 0;
         while (!q.isEmpty()) {
             Deque<Pair<Integer, Integer>> next = new ArrayDeque<>();
             int size = q.size();
             for (int a = 0; a < size; a++) {
                 Pair<Integer, Integer> curr = q.pollFirst();
-                int i = curr.getKey();
-                int j = curr.getValue();
+                int i = curr.getKey(), j = curr.getValue();
                 f[i][j] = t;
                 for (int x = -1; x <= 1; x++) {
                     for (int y = -1; y <= 1; y++) {
@@ -110,8 +106,7 @@ public class MinTimeTakesToReachDestinationWithoutDrowning {
             int size = q.size();
             for (int a = 0; a < size; a++) {
                 Pair<Integer, Integer> curr = q.pollFirst();
-                int i = curr.getKey();
-                int j = curr.getValue();
+                int i = curr.getKey(), j = curr.getValue();
                 l[i][j] = -1;
                 if (curr.getKey() == dest.getKey() && curr.getValue() == dest.getValue()) return t;
                 for (int x = -1; x <= 1; x++) {
