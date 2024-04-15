@@ -23,7 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/ErectTheFenceII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/MaxUnits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/amazon/SwapNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/CountStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/InsertINtoBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MapRepOpt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/MinSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/NumWaterBottles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/companies/microsoft/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinEdgeReversals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MinRelativeLosses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +56,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "m-vahidalizadeh"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -54,16 +70,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/m-vahidalizadeh/problem_solving_project.git",
+    "accountId": "12600c91-b80f-4f8f-883b-c957d0a4fa08"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="1UOJNLcNC1fXQycanzEyOUSD7aX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,19 +90,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mohammad/IdeaProjects/problem_solving_project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayStringsAreEqualConcatenated.executor": "Run",
+    "Application.AtMostKDistinctChars.executor": "Run",
+    "Application.BulbSwitchToggle.executor": "Run",
+    "Application.CanAliceWin.executor": "Run",
+    "Application.CountTheNubmerOfInfectionSequences.executor": "Debug",
+    "Application.FractionToDecimalString.executor": "Debug",
+    "Application.LongestCommonSuffixQueries (1).executor": "Debug",
+    "Application.LongestCommonSuffixQueries.executor": "Run",
+    "Application.MapRepOpt1.executor": "Run",
+    "Application.MinTimeTakesToReachDestinationWithoutDrowning.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mohammad/IdeaProjects/problem_solving_project",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/hackerrank" />
@@ -99,13 +128,13 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DecompressString">
-    <configuration name="DecompressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.google.DecompressString" />
+  <component name="RunManager" selected="Application.MapRepOpt1">
+    <configuration name="AtMostKDistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.AtMostKDistinctChars" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.google.*" />
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,21 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FancySequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.FancySequence" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RussianDollEnvelopes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.RussianDollEnvelopes" />
+    <configuration name="CanAliceWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.CanAliceWin" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -139,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.base.Test" />
+    <configuration name="CountTheNumberOfInfectionSequences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.CountTheNumberOfInfectionSequences" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.base.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +168,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidArrangementOfPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.ValidArrangementOfPairs" />
+    <configuration name="LongestCommonSuffixQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.LongestCommonSuffixQueries" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapRepOpt1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.MapRepOpt1" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.microsoft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinTimeTakesToReachDestinationWithoutDrowning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinTimeTakesToReachDestinationWithoutDrowning" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
@@ -166,17 +208,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RussianDollEnvelopes" />
-      <item itemvalue="Application.ValidArrangementOfPairs" />
-      <item itemvalue="Application.DecompressString" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.FancySequence" />
+      <item itemvalue="Application.MapRepOpt1" />
+      <item itemvalue="Application.CanAliceWin" />
+      <item itemvalue="Application.MinTimeTakesToReachDestinationWithoutDrowning" />
+      <item itemvalue="Application.AtMostKDistinctChars" />
+      <item itemvalue="Application.CountTheNumberOfInfectionSequences" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DecompressString" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.FancySequence" />
+        <item itemvalue="Application.MapRepOpt1" />
+        <item itemvalue="Application.CanAliceWin" />
+        <item itemvalue="Application.MinTimeTakesToReachDestinationWithoutDrowning" />
+        <item itemvalue="Application.AtMostKDistinctChars" />
+        <item itemvalue="Application.CountTheNumberOfInfectionSequences" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +579,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687107153434</updated>
     </task>
-    <option name="localTasksCounter" value="627" />
+    <option name="localTasksCounter" value="651" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -740,6 +784,11 @@
           <line>34</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/companies/facebook/BulbSwitchToggle.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog>
@@ -751,25 +800,25 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/problem_solving_project$RotateImage.ic" NAME="RotateImage Coverage Results" MODIFIED="1602971237477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.amazon.*</FILTER>
+    <SUITE FILE_PATH="coverage/leet_code_project$MSCompareVersions.ic" NAME="MSCompareVersions Coverage Results" MODIFIED="1575941791673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/leet_code_project$FindContestMatch.ic" NAME="FindContestMatch Coverage Results" MODIFIED="1585867916348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/problem_solving_project$LargetsAreaHistogram.ic" NAME="LargetsAreaHistogram Coverage Results" MODIFIED="1593560058922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.bloomberg.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.hard.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/problem_solving_project$OddEvenJumps.ic" NAME="OddEvenJumps Coverage Results" MODIFIED="1601224118724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.google.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/problem_solving_project$ShipWithinDDays.ic" NAME="ShipWithinDDays Coverage Results" MODIFIED="1605387081422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.companies.adobe.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/problem_solving_project$LargetsAreaHistogram.ic" NAME="LargetsAreaHistogram Coverage Results" MODIFIED="1593560058922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.bloomberg.*</FILTER>
+    <SUITE FILE_PATH="coverage/problem_solving_project$RotateImage.ic" NAME="RotateImage Coverage Results" MODIFIED="1602971237477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.companies.amazon.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leet_code_project$MSCompareVersions.ic" NAME="MSCompareVersions Coverage Results" MODIFIED="1575941791673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/problem_solving_project$CheckIfStringIsTransformable.ic" NAME="CheckIfStringIsTransformable Coverage Results" MODIFIED="1606349695272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.hard.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leet_code_project$FindContestMatch.ic" NAME="FindContestMatch Coverage Results" MODIFIED="1585867916348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/problem_solving_project$QueueReconstructionByHeight.ic" NAME="QueueReconstructionByHeight Coverage Results" MODIFIED="1591751361062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.medium.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/problem_solving_project$OddEvenJumps.ic" NAME="OddEvenJumps Coverage Results" MODIFIED="1601224118724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>leetcode.companies.google.*</FILTER>
     </SUITE>
   </component>
 </project>
