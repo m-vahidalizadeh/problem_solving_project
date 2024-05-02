@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e99c8e7a-ae82-4fce-817f-2826888b0de1" name="Default Changelist" comment="Adding some solutions.">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/FindEdgesInShortestPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/hard/MaxElementSumOfACompleteSubsetIndices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,11 @@
     "Application.LongestCommonSuffixQueries (1).executor": "Debug",
     "Application.LongestCommonSuffixQueries.executor": "Run",
     "Application.MapRepOpt1.executor": "Run",
+    "Application.MatrixKthSmallestSum.executor": "Run",
+    "Application.MinCostToSupplyWater.executor": "Run",
     "Application.MinTimeTakesToReachDestinationWithoutDrowning.executor": "Debug",
+    "Application.ShortestDistance.executor": "Run",
+    "Application.TreeToDoublyList.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -119,33 +123,7 @@
       <recent name="leetcode.medium" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountPalindromePaths">
-    <configuration name="AtMostKDistinctChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.AtMostKDistinctChars" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.companies.facebook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CanAliceWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.CanAliceWin" />
-      <module name="problem_solving_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MatrixKthSmallestSum">
     <configuration name="CountPalindromePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.hard.CountPalindromePaths" />
       <module name="problem_solving_project" />
@@ -159,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapRepOpt1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.companies.microsoft.MapRepOpt1" />
+    <configuration name="MatrixKthSmallestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MatrixKthSmallestSum" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.companies.microsoft.*" />
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +150,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinTimeTakesToReachDestinationWithoutDrowning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.hard.MinTimeTakesToReachDestinationWithoutDrowning" />
+    <configuration name="MinCostToSupplyWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.MinCostToSupplyWater" />
       <module name="problem_solving_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.hard.*" />
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShortestDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.ShortestDistance" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeToDoublyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.companies.facebook.TreeToDoublyList" />
+      <module name="problem_solving_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.companies.facebook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,19 +190,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MatrixKthSmallestSum" />
+      <item itemvalue="Application.MinCostToSupplyWater" />
+      <item itemvalue="Application.ShortestDistance" />
+      <item itemvalue="Application.TreeToDoublyList" />
       <item itemvalue="Application.CountPalindromePaths" />
-      <item itemvalue="Application.MapRepOpt1" />
-      <item itemvalue="Application.CanAliceWin" />
-      <item itemvalue="Application.MinTimeTakesToReachDestinationWithoutDrowning" />
-      <item itemvalue="Application.AtMostKDistinctChars" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixKthSmallestSum" />
+        <item itemvalue="Application.MinCostToSupplyWater" />
+        <item itemvalue="Application.ShortestDistance" />
+        <item itemvalue="Application.TreeToDoublyList" />
         <item itemvalue="Application.CountPalindromePaths" />
-        <item itemvalue="Application.MapRepOpt1" />
-        <item itemvalue="Application.CanAliceWin" />
-        <item itemvalue="Application.MinTimeTakesToReachDestinationWithoutDrowning" />
-        <item itemvalue="Application.AtMostKDistinctChars" />
       </list>
     </recent_temporary>
   </component>
@@ -557,7 +561,7 @@
       <option name="project" value="LOCAL" />
       <updated>1687107153434</updated>
     </task>
-    <option name="localTasksCounter" value="654" />
+    <option name="localTasksCounter" value="658" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
